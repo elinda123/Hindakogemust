@@ -9,7 +9,7 @@
 
     function stateConfig($stateProvider) {
         $stateProvider.state('jhi-metrics', {
-            parent: 'admin',
+            parent: 'admin2',
             url: '/metrics',
             data: {
                 authorities: ['ROLE_ADMIN'],

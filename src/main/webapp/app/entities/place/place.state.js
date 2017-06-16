@@ -9,9 +9,9 @@
 
     function stateConfig($stateProvider) {
         $stateProvider
-        .state('place', {
+        .state('admin', {
             parent: 'entity',
-            url: '/place?page&sort&search',
+            url: '/admin?page&sort&search',
             data: {
                 authorities: ['ROLE_USER'],
                 pageTitle: 'hindakogemustApp.place.home.title'
