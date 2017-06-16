@@ -4,6 +4,6 @@
     angular
         .module('hindakogemustApp')
         .constant('paginationConstants', {
-            'itemsPerPage': 20
+            'itemsPerPage': 10
         });
 })();
