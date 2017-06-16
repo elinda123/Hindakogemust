@@ -1,0 +1,10 @@
+{
+    "hindakogemustApp": {
+        "PlaceType" : {
+            "null": "",
+            "CAFE": "Kohvik",
+            "RESTAURANT": "Restoran",
+            "PUB": "Pubi"
+        }
+    }
+}

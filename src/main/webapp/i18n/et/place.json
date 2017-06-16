@@ -1,0 +1,24 @@
+{
+    "hindakogemustApp": {
+        "place" : {
+            "home": {
+                "title": "Valige asutus, mida hinnata",
+                "createLabel": "Lisa asutus",
+                "createOrEditLabel": "Lisa või muuda asutus",
+                "search": "Otsi"
+            },
+            "created": "Uus asutus on edukalt salvestatud",
+            "updated": "Asutus on muudetud",
+            "deleted": "Asutus '{{ param }}' on kustutatud",
+            "delete": {
+                "question": "Kas olete kindel, et soovite kustutada asutust '{{ name }}'?"
+            },
+            "detail": {
+                "title": "Asutus"
+            },
+            "name": "Nimi",
+            "address": "Aadress",
+            "type": "Tüüp"
+        }
+    }
+}
