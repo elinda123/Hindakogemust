@@ -49,7 +49,7 @@
                     <td>{{place.address}}</td>
                     <td data-translate="{{'hindakogemustApp.PlaceType.' + place.type}}">{{place.type}}</td>
                     <td class="text-right">
-                        <div class="btn-group flex-btn-group-container">
+                        <div ng-if="vm.isAuthenticated()" class="btn-group flex-btn-group-container">
                             <button type="submit"
                                     ui-sref="place-detail({id:place.id})"
                                     class="btn btn-info btn-sm">

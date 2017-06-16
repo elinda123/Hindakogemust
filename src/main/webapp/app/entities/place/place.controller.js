@@ -5,9 +5,9 @@
         .module('hindakogemustApp')
         .controller('PlaceController', PlaceController);
 
-    PlaceController.$inject = ['$state', 'Place', 'PlaceSearch', 'ParseLinks', 'AlertService', 'paginationConstants', 'pagingParams'];
+    PlaceController.$inject = ['$state', 'Place', 'PlaceSearch', 'ParseLinks', 'AlertService', 'paginationConstants', 'pagingParams', 'Principal'];
 
-    function PlaceController($state, Place, PlaceSearch, ParseLinks, AlertService, paginationConstants, pagingParams) {
+    function PlaceController($state, Place, PlaceSearch, ParseLinks, AlertService, paginationConstants, pagingParams, Principal) {
 
         var vm = this;
 
@@ -21,6 +21,7 @@
         vm.loadAll = loadAll;
         vm.searchQuery = pagingParams.search;
         vm.currentSearch = pagingParams.search;
+        vm.isAuthenticated = Principal.isAuthenticated;
 
         loadAll();
 
