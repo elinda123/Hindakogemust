@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "me.elinda.hindakogemust",
+      "nativeLanguage": "et"
+    },
+    "jhipsterVersion": "4.5.3",
+    "baseName": "Hindakogemust",
+    "packageName": "me.elinda.hindakogemust",
+    "packageFolder": "me/elinda/hindakogemust",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "hibernateCache": "no",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "jwtSecretKey": "8426183086e48b2beea3b5e895210b3ff2c898ff",
+    "clientFramework": "angular1",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "applicationType": "monolith",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "et",
+    "languages": [
+      "et"
+    ]
+  }
+}
