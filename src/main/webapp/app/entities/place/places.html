@@ -1,5 +1,6 @@
-<div>
-    <h2 data-translate="hindakogemustApp.place.home.title">Places</h2>
+<div ng-switch="vm.isAuthenticated()">
+    <h2 ng-switch-when="false" data-translate="hindakogemustApp.place.home.title">Places</h2>
+    <h2 ng-switch-when="true" data-translate="global.menu.admin.main">Places</h2>
     <jhi-alert></jhi-alert>
     <div class="container-fluid">
         <div class="row">
@@ -35,7 +36,6 @@
         <table class="jh-table table table-striped">
             <thead>
                 <tr jh-sort="vm.predicate" ascending="vm.reverse" callback="vm.transition()">
-                    <th jh-sort-by="id"><span data-translate="global.field.id">ID</span> <span class="glyphicon glyphicon-sort"></span></th>
                     <th jh-sort-by="name"><span data-translate="hindakogemustApp.place.name">Name</span> <span class="glyphicon glyphicon-sort"></span></th>
                     <th jh-sort-by="address"><span data-translate="hindakogemustApp.place.address">Address</span> <span class="glyphicon glyphicon-sort"></span></th>
                     <th jh-sort-by="type"><span data-translate="hindakogemustApp.place.type">Type</span> <span class="glyphicon glyphicon-sort"></span></th>
@@ -44,7 +44,6 @@
             </thead>
             <tbody>
                 <tr ng-repeat="place in vm.places track by place.id">
-                    <td><a ui-sref="place-detail({id:place.id})">{{place.id}}</a></td>
                     <td>{{place.name}}</td>
                     <td>{{place.address}}</td>
                     <td data-translate="{{'hindakogemustApp.PlaceType.' + place.type}}">{{place.type}}</td>
