@@ -1,0 +1,31 @@
+
+<div>
+    <h2><span data-translate="hindakogemustApp.place.detail.title">Place</span> {{vm.place.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="dl-horizontal jh-entity-details">
+        <dt><span data-translate="hindakogemustApp.place.name">Name</span></dt>
+        <dd>
+            <span>{{vm.place.name}}</span>
+        </dd>
+        <dt><span data-translate="hindakogemustApp.place.address">Address</span></dt>
+        <dd>
+            <span>{{vm.place.address}}</span>
+        </dd>
+        <dt><span data-translate="hindakogemustApp.place.type">Type</span></dt>
+        <dd>
+            <span data-translate="{{'hindakogemustApp.PlaceType.' + vm.place.type}}">{{vm.place.type}}</span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            ui-sref="{{ vm.previousState }}"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span data-translate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button" ui-sref="place-detail.edit({id:vm.place.id})" class="btn btn-primary">
+        <span class="glyphicon glyphicon-pencil"></span>
+        <span class="hidden-sm-down" data-translate="entity.action.edit"> Edit</span>
+    </button>
+</div>
