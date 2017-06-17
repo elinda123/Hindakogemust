@@ -118,6 +118,39 @@
                 });
             }]
         })
+        .state('feedback-add', {
+            parent: 'place',
+            url: '/{id}/add',
+            data: {
+                authorities: []
+            },
+            onEnter: ['$stateParams', '$state', '$uibModal', function($stateParams, $state, $uibModal) {
+                $uibModal.open({
+                    templateUrl: 'app/entities/feedback/feedback-dialog.html',
+                    controller: 'FeedbackDialogController',
+                    controllerAs: 'vm',
+                    backdrop: 'static',
+                    size: 'lg',
+                    resolve: {
+                        entity: function () {
+                            return {
+                                name: null,
+                                comment: null,
+                                rating: null,
+                                id: null,
+                                place: {
+                                    id: $stateParams.id
+                                }
+                            };
+                        }
+                    }
+                }).result.then(function () {
+                    $state.go('^', null, {reload: false});
+                }, function () {
+                    $state.go('^');
+                });
+            }]
+        })
         .state('feedback.edit', {
             parent: 'feedback',
             url: '/{id}/edit',

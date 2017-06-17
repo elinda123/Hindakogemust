@@ -5,11 +5,13 @@ import me.elinda.hindakogemust.domain.Feedback;
 
 import me.elinda.hindakogemust.repository.FeedbackRepository;
 import me.elinda.hindakogemust.repository.search.FeedbackSearchRepository;
+import me.elinda.hindakogemust.security.AuthoritiesConstants;
 import me.elinda.hindakogemust.web.rest.util.HeaderUtil;
 import io.github.jhipster.web.util.ResponseUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.annotation.Secured;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -75,6 +77,7 @@ public class FeedbackResource {
      */
     @PutMapping("/feedbacks")
     @Timed
+    @Secured({AuthoritiesConstants.USER, AuthoritiesConstants.ADMIN})
     public ResponseEntity<Feedback> updateFeedback(@Valid @RequestBody Feedback feedback) throws URISyntaxException {
         log.debug("REST request to update Feedback : {}", feedback);
         if (feedback.getId() == null) {
@@ -121,6 +124,7 @@ public class FeedbackResource {
      */
     @DeleteMapping("/feedbacks/{id}")
     @Timed
+    @Secured({AuthoritiesConstants.USER, AuthoritiesConstants.ADMIN})
     public ResponseEntity<Void> deleteFeedback(@PathVariable Long id) {
         log.debug("REST request to delete Feedback : {}", id);
         feedbackRepository.delete(id);

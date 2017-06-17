@@ -16,6 +16,7 @@
         vm.openFile = DataUtils.openFile;
         vm.save = save;
         vm.places = Place.query();
+        vm.place =  Place.get({id : entity.place.id});
 
         $timeout(function (){
             angular.element('.form-group:eq(1)>input').focus();

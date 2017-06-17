@@ -11,9 +11,9 @@
         $stateProvider
         .state('place', {
             parent: 'entity',
-            url: '/admin?page&sort&search',
+            url: '/place?page&sort&search',
             data: {
-                authorities: ['ROLE_USER'],
+                authorities: [],
                 pageTitle: 'hindakogemustApp.place.home.title'
             },
             views: {
@@ -48,6 +48,7 @@
                     $translatePartialLoader.addPart('place');
                     $translatePartialLoader.addPart('placeType');
                     $translatePartialLoader.addPart('global');
+                    $translatePartialLoader.addPart('feedback');
                     return $translate.refresh();
                 }]
             }

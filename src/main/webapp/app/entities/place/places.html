@@ -43,10 +43,10 @@
                 </tr>
             </thead>
             <tbody>
-                <tr ui-sref="place-detail({id:place.id})" ng-repeat="place in vm.places track by place.id">
-                    <td>{{place.name}}</td>
-                    <td>{{place.address}}</td>
-                    <td data-translate="{{'hindakogemustApp.PlaceType.' + place.type}}">{{place.type}}</td>
+                <tr ng-repeat="place in vm.places track by place.id">
+                    <td ui-sref="feedback-add({id:place.id})">{{place.name}}</td>
+                    <td ui-sref="feedback-add({id:place.id})">{{place.address}}</td>
+                    <td ui-sref="feedback-add({id:place.id})" data-translate="{{'hindakogemustApp.PlaceType.' + place.type}}">{{place.type}}</td>
                     <td class="text-right">
                         <div ng-if="vm.isAuthenticated()" class="btn-group flex-btn-group-container">
                             <button type="submit"

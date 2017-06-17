@@ -5,6 +5,7 @@ import me.elinda.hindakogemust.domain.Place;
 
 import me.elinda.hindakogemust.repository.PlaceRepository;
 import me.elinda.hindakogemust.repository.search.PlaceSearchRepository;
+import me.elinda.hindakogemust.security.AuthoritiesConstants;
 import me.elinda.hindakogemust.web.rest.util.HeaderUtil;
 import me.elinda.hindakogemust.web.rest.util.PaginationUtil;
 import io.swagger.annotations.ApiParam;
@@ -16,6 +17,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.annotation.Secured;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -58,6 +60,7 @@ public class PlaceResource {
      */
     @PostMapping("/places")
     @Timed
+    @Secured({AuthoritiesConstants.USER, AuthoritiesConstants.ADMIN})
     public ResponseEntity<Place> createPlace(@Valid @RequestBody Place place) throws URISyntaxException {
         log.debug("REST request to save Place : {}", place);
         if (place.getId() != null) {
@@ -81,6 +84,7 @@ public class PlaceResource {
      */
     @PutMapping("/places")
     @Timed
+    @Secured({AuthoritiesConstants.USER, AuthoritiesConstants.ADMIN})
     public ResponseEntity<Place> updatePlace(@Valid @RequestBody Place place) throws URISyntaxException {
         log.debug("REST request to update Place : {}", place);
         if (place.getId() == null) {
@@ -130,6 +134,7 @@ public class PlaceResource {
      */
     @DeleteMapping("/places/{id}")
     @Timed
+    @Secured({AuthoritiesConstants.USER, AuthoritiesConstants.ADMIN})
     public ResponseEntity<Void> deletePlace(@PathVariable Long id) {
         log.debug("REST request to delete Place : {}", id);
         placeRepository.delete(id);
