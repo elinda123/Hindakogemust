@@ -38,7 +38,6 @@
                 <tr jh-sort="vm.predicate" ascending="vm.reverse" callback="vm.transition()">
                     <th jh-sort-by="name"><span data-translate="hindakogemustApp.place.name">Name</span> <span class="glyphicon glyphicon-sort"></span></th>
                     <th jh-sort-by="address"><span data-translate="hindakogemustApp.place.address">Address</span> <span class="glyphicon glyphicon-sort"></span></th>
-                    <th jh-sort-by="type"><span data-translate="hindakogemustApp.place.type">Type</span> <span class="glyphicon glyphicon-sort"></span></th>
                     <th></th>
                 </tr>
             </thead>
@@ -46,15 +45,8 @@
                 <tr ng-repeat="place in vm.places track by place.id">
                     <td ui-sref="feedback-add({id:place.id})">{{place.name}}</td>
                     <td ui-sref="feedback-add({id:place.id})">{{place.address}}</td>
-                    <td ui-sref="feedback-add({id:place.id})" data-translate="{{'hindakogemustApp.PlaceType.' + place.type}}">{{place.type}}</td>
                     <td class="text-right">
                         <div ng-if="vm.isAuthenticated()" class="btn-group flex-btn-group-container">
-                            <button type="submit"
-                                    ui-sref="place-detail({id:place.id})"
-                                    class="btn btn-info btn-sm">
-                                <span class="glyphicon glyphicon-eye-open"></span>
-                                <span class="hidden-sm-down" data-translate="entity.action.view"></span>
-                            </button>
                             <button type="submit"
                                     ui-sref="place.edit({id:place.id})"
                                     class="btn btn-primary btn-sm">
