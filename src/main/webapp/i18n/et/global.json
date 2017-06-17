@@ -91,7 +91,8 @@
             "edit": "Muuda",
             "open": "Ava",
             "save": "Salvesta",
-            "view": "Vaata"
+            "view": "Vaata",
+            "send": "Saada"
         },
         "detail": {
             "field": "Väli",

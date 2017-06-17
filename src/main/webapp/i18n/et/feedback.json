@@ -2,24 +2,24 @@
     "hindakogemustApp": {
         "feedback" : {
             "home": {
-                "title": "Feedbacks",
-                "createLabel": "Lisa uus Feedback",
-                "createOrEditLabel": "Lisa või muuda Feedback",
-                "search": "Otsi Feedback"
+                "title": "Hinnangud",
+                "createLabel": "Lisa hinnang",
+                "createOrEditLabel": "Hinda kohta",
+                "search": "Otsi"
             },
-            "created": "Uus Feedback on loodud identifikaatoriga {{ param }}",
-            "updated": "Feedback identifikaatoriga {{ param }} on muudetud",
-            "deleted": "Feedback identifikaatoriga {{ param }} on kustutatud",
+            "created": "Hinnang on edukalt saadetud",
+            "updated": "Hinnang on muudetud",
+            "deleted": "Hinnang on kustutatud",
             "delete": {
                 "question": "Kas olete kindel, et soovite kustutada Feedback {{ id }}?"
             },
             "detail": {
-                "title": "Feedback"
+                "title": "Hinnang"
             },
-            "name": "Name",
-            "comment": "Comment",
-            "rating": "Rating",
-            "place": "Place"
+            "name": "Nimi",
+            "comment": "Kommentaar",
+            "rating": "Hinnang",
+            "place": "Asutus"
         }
     }
 }
