@@ -5822,3 +5822,6 @@ button.close {
 tbody tr:hover {
   background-color: #e7e7e7 !important;
   cursor: pointer; }
+
+form div.modal-body ul li i {
+  outline: none; }

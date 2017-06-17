@@ -41,26 +41,13 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="control-label" data-translate="hindakogemustApp.feedback.rating" for="field_rating">Rating</label>
-            <input type="number" class="form-control" name="rating" id="field_rating"
-                    ng-model="vm.feedback.rating"
-                    required min="1" max="10"/>
-            <div ng-show="editForm.rating.$invalid">
-                <p class="help-block"
-                    ng-show="editForm.rating.$error.required" data-translate="entity.validation.required">
+            <label class="control-label" data-translate="hindakogemustApp.feedback.rating">Rating</label>
+            <p></p>
+            <input-stars max="10" ng-model="vm.feedback.rating"></input-stars>
+            &nbsp;<strong>({{vm.feedback.rating ? vm.feedback.rating : 0}} / 10)</strong>
+            <div ng-show="!vm.feedback.rating">
+                <p class="help-block" data-translate="entity.validation.required">
                     This field is required.
-                </p>
-                <p class="help-block"
-                    ng-show="editForm.rating.$error.min" data-translate="entity.validation.min" translate-value-min="1">
-                    This field should be at least 1.
-                </p>
-                <p class="help-block"
-                    ng-show="editForm.rating.$error.max" data-translate="entity.validation.max" translate-value-max="10">
-                    This field cannot be more than 10.
-                </p>
-                <p class="help-block"
-                    ng-show="editForm.rating.$error.number" data-translate="entity.validation.number">
-                    This field should be a number.
                 </p>
             </div>
         </div>
@@ -69,7 +56,7 @@
         <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="vm.clear()">
             <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span data-translate="entity.action.back">Back</span>
         </button>
-        <button type="submit" ng-disabled="editForm.$invalid || vm.isSaving" class="btn btn-primary">
+        <button type="submit" ng-disabled="editForm.$invalid || vm.isSaving || !vm.feedback.rating" class="btn btn-primary">
             <span class="glyphicon glyphicon-send"></span>&nbsp;<span data-translate="entity.action.send">Send</span>
         </button>
     </div>
