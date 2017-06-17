@@ -50,31 +50,31 @@
                 }]
             }
         })
-            .state('admin-login', {
-                parent: 'home',
-                url: 'admin/login',
-                data: {
-                    authorities: [],
-                    pageTitle: ''
-                },
-                onEnter: ['$stateParams', '$state', '$uibModal', function ($stateParams, $state, $uibModal) {
-                    $uibModal.open({
-                        animation: true,
-                        templateUrl: 'app/components/login/login.html',
-                        controller: 'LoginController',
-                        controllerAs: 'vm',
-                        resolve: {
-                            mainTranslatePartialLoader: ['$translate', '$translatePartialLoader', function ($translate, $translatePartialLoader) {
-                                $translatePartialLoader.addPart('login');
-                                return $translate.refresh();
-                            }]
-                        }
-                    }).result.then(function () {
-                        $state.go('place', null, {reload: false});
-                    }, function () {
-                        $state.go('^');
-                    });
-                }]
-            })
+        .state('admin-login', {
+            parent: 'home',
+            url: 'admin/login',
+            data: {
+                authorities: [],
+                pageTitle: ''
+            },
+            onEnter: ['$stateParams', '$state', '$uibModal', function ($stateParams, $state, $uibModal) {
+                $uibModal.open({
+                    animation: true,
+                    templateUrl: 'app/components/login/login.html',
+                    controller: 'LoginController',
+                    controllerAs: 'vm',
+                    resolve: {
+                        mainTranslatePartialLoader: ['$translate', '$translatePartialLoader', function ($translate, $translatePartialLoader) {
+                            $translatePartialLoader.addPart('login');
+                            return $translate.refresh();
+                        }]
+                    }
+                }).result.then(function () {
+                    $state.go('place', null, {reload: false});
+                }, function () {
+                    $state.go('^');
+                });
+            }]
+        });
     }
 })();
