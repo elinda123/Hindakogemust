@@ -1,0 +1,25 @@
+{
+    "hindakogemustApp": {
+        "feedback" : {
+            "home": {
+                "title": "Feedbacks",
+                "createLabel": "Lisa uus Feedback",
+                "createOrEditLabel": "Lisa või muuda Feedback",
+                "search": "Otsi Feedback"
+            },
+            "created": "Uus Feedback on loodud identifikaatoriga {{ param }}",
+            "updated": "Feedback identifikaatoriga {{ param }} on muudetud",
+            "deleted": "Feedback identifikaatoriga {{ param }} on kustutatud",
+            "delete": {
+                "question": "Kas olete kindel, et soovite kustutada Feedback {{ id }}?"
+            },
+            "detail": {
+                "title": "Feedback"
+            },
+            "name": "Name",
+            "comment": "Comment",
+            "rating": "Rating",
+            "place": "Place"
+        }
+    }
+}
