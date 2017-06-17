@@ -6,3 +6,7 @@ $icon-font-path: "../fonts/";
 /* endinject */
 /* bower:sass */
 /* endinject */
+tbody tr:hover {
+    background-color: #e7e7e7 !important;
+    cursor: pointer;
+}

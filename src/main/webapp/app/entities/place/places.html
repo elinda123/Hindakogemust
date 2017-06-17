@@ -43,7 +43,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr ng-repeat="place in vm.places track by place.id">
+                <tr ui-sref="place-detail({id:place.id})" ng-repeat="place in vm.places track by place.id">
                     <td>{{place.name}}</td>
                     <td>{{place.address}}</td>
                     <td data-translate="{{'hindakogemustApp.PlaceType.' + place.type}}">{{place.type}}</td>
