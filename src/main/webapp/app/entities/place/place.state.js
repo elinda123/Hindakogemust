@@ -9,7 +9,7 @@
 
     function stateConfig($stateProvider) {
         $stateProvider
-        .state('admin', {
+        .state('place', {
             parent: 'entity',
             url: '/admin?page&sort&search',
             data: {
