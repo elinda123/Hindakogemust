@@ -1,7 +1,7 @@
 ######################
 # Project Specific
 ######################
-/src/main/webapp/content/css/main.css
+/src/main/webapp/content/css
 /src/main/webapp/bower_components
 /target/www/**
 /src/test/javascript/coverage/
