@@ -20,7 +20,9 @@
             "address": "Aadress",
             "type": "Tüüp",
             "average_rating": "Keskmine hinne",
-            "count_of_ratings": "Hinnatud (korda)"
+            "count_of_ratings": "Hinnatud (korda)",
+            "previousText" : "< Eelmised",
+            "nextText" : "Järgmised >"
         }
     }
 }
