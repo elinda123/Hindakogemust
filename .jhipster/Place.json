@@ -23,6 +23,14 @@
             "fieldValidateRules": [
                 "required"
             ]
+        },
+        {
+            "fieldName": "average_rating",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "count_of_ratings",
+            "fieldType": "Long"
         }
     ],
     "changelogDate": "20170616143217",

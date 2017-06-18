@@ -145,7 +145,7 @@
                         }
                     }
                 }).result.then(function () {
-                    $state.go('^', null, {reload: false});
+                    $state.go('^', null, {reload: true});
                 }, function () {
                     $state.go('^');
                 });

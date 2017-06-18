@@ -18,7 +18,9 @@
             },
             "name": "Nimi",
             "address": "Aadress",
-            "type": "Tüüp"
+            "type": "Tüüp",
+            "average_rating": "Keskmine hinne",
+            "count_of_ratings": "Hinnatud (korda)"
         }
     }
 }

@@ -36,6 +36,12 @@ public class Place implements Serializable {
     @Column(name = "jhi_type", nullable = false)
     private PlaceType type;
 
+    @Column(name = "average_rating")
+    private Double average_rating;
+
+    @Column(name = "count_of_ratings")
+    private Long count_of_ratings;
+
     public Long getId() {
         return id;
     }
@@ -83,6 +89,32 @@ public class Place implements Serializable {
         this.type = type;
     }
 
+    public Double getAverage_rating() {
+        return average_rating;
+    }
+
+    public Place average_rating(Double average_rating) {
+        this.average_rating = average_rating;
+        return this;
+    }
+
+    public void setAverage_rating(Double average_rating) {
+        this.average_rating = average_rating;
+    }
+
+    public Long getCount_of_ratings() {
+        return count_of_ratings;
+    }
+
+    public Place count_of_ratings(Long count_of_ratings) {
+        this.count_of_ratings = count_of_ratings;
+        return this;
+    }
+
+    public void setCount_of_ratings(Long count_of_ratings) {
+        this.count_of_ratings = count_of_ratings;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) {
@@ -110,6 +142,8 @@ public class Place implements Serializable {
             ", name='" + getName() + "'" +
             ", address='" + getAddress() + "'" +
             ", type='" + getType() + "'" +
+            ", average_rating='" + getAverage_rating() + "'" +
+            ", count_of_ratings='" + getCount_of_ratings() + "'" +
             "}";
     }
 }

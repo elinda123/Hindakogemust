@@ -48,6 +48,12 @@ public class PlaceResourceIntTest {
     private static final PlaceType DEFAULT_TYPE = PlaceType.CAFE;
     private static final PlaceType UPDATED_TYPE = PlaceType.RESTAURANT;
 
+    private static final Double DEFAULT_AVERAGE_RATING = 1D;
+    private static final Double UPDATED_AVERAGE_RATING = 2D;
+
+    private static final Long DEFAULT_COUNT_OF_RATINGS = 1L;
+    private static final Long UPDATED_COUNT_OF_RATINGS = 2L;
+
     @Autowired
     private PlaceRepository placeRepository;
 
@@ -90,7 +96,9 @@ public class PlaceResourceIntTest {
         Place place = new Place()
             .name(DEFAULT_NAME)
             .address(DEFAULT_ADDRESS)
-            .type(DEFAULT_TYPE);
+            .type(DEFAULT_TYPE)
+            .average_rating(DEFAULT_AVERAGE_RATING)
+            .count_of_ratings(DEFAULT_COUNT_OF_RATINGS);
         return place;
     }
 
@@ -118,6 +126,8 @@ public class PlaceResourceIntTest {
         assertThat(testPlace.getName()).isEqualTo(DEFAULT_NAME);
         assertThat(testPlace.getAddress()).isEqualTo(DEFAULT_ADDRESS);
         assertThat(testPlace.getType()).isEqualTo(DEFAULT_TYPE);
+        assertThat(testPlace.getAverage_rating()).isEqualTo(DEFAULT_AVERAGE_RATING);
+        assertThat(testPlace.getCount_of_ratings()).isEqualTo(DEFAULT_COUNT_OF_RATINGS);
 
         // Validate the Place in Elasticsearch
         Place placeEs = placeSearchRepository.findOne(testPlace.getId());
@@ -210,7 +220,9 @@ public class PlaceResourceIntTest {
             .andExpect(jsonPath("$.[*].id").value(hasItem(place.getId().intValue())))
             .andExpect(jsonPath("$.[*].name").value(hasItem(DEFAULT_NAME.toString())))
             .andExpect(jsonPath("$.[*].address").value(hasItem(DEFAULT_ADDRESS.toString())))
-            .andExpect(jsonPath("$.[*].type").value(hasItem(DEFAULT_TYPE.toString())));
+            .andExpect(jsonPath("$.[*].type").value(hasItem(DEFAULT_TYPE.toString())))
+            .andExpect(jsonPath("$.[*].average_rating").value(hasItem(DEFAULT_AVERAGE_RATING.doubleValue())))
+            .andExpect(jsonPath("$.[*].count_of_ratings").value(hasItem(DEFAULT_COUNT_OF_RATINGS.intValue())));
     }
 
     @Test
@@ -226,7 +238,9 @@ public class PlaceResourceIntTest {
             .andExpect(jsonPath("$.id").value(place.getId().intValue()))
             .andExpect(jsonPath("$.name").value(DEFAULT_NAME.toString()))
             .andExpect(jsonPath("$.address").value(DEFAULT_ADDRESS.toString()))
-            .andExpect(jsonPath("$.type").value(DEFAULT_TYPE.toString()));
+            .andExpect(jsonPath("$.type").value(DEFAULT_TYPE.toString()))
+            .andExpect(jsonPath("$.average_rating").value(DEFAULT_AVERAGE_RATING.doubleValue()))
+            .andExpect(jsonPath("$.count_of_ratings").value(DEFAULT_COUNT_OF_RATINGS.intValue()));
     }
 
     @Test
@@ -250,7 +264,9 @@ public class PlaceResourceIntTest {
         updatedPlace
             .name(UPDATED_NAME)
             .address(UPDATED_ADDRESS)
-            .type(UPDATED_TYPE);
+            .type(UPDATED_TYPE)
+            .average_rating(UPDATED_AVERAGE_RATING)
+            .count_of_ratings(UPDATED_COUNT_OF_RATINGS);
 
         restPlaceMockMvc.perform(put("/api/places")
             .contentType(TestUtil.APPLICATION_JSON_UTF8)
@@ -264,6 +280,8 @@ public class PlaceResourceIntTest {
         assertThat(testPlace.getName()).isEqualTo(UPDATED_NAME);
         assertThat(testPlace.getAddress()).isEqualTo(UPDATED_ADDRESS);
         assertThat(testPlace.getType()).isEqualTo(UPDATED_TYPE);
+        assertThat(testPlace.getAverage_rating()).isEqualTo(UPDATED_AVERAGE_RATING);
+        assertThat(testPlace.getCount_of_ratings()).isEqualTo(UPDATED_COUNT_OF_RATINGS);
 
         // Validate the Place in Elasticsearch
         Place placeEs = placeSearchRepository.findOne(testPlace.getId());
@@ -324,7 +342,9 @@ public class PlaceResourceIntTest {
             .andExpect(jsonPath("$.[*].id").value(hasItem(place.getId().intValue())))
             .andExpect(jsonPath("$.[*].name").value(hasItem(DEFAULT_NAME.toString())))
             .andExpect(jsonPath("$.[*].address").value(hasItem(DEFAULT_ADDRESS.toString())))
-            .andExpect(jsonPath("$.[*].type").value(hasItem(DEFAULT_TYPE.toString())));
+            .andExpect(jsonPath("$.[*].type").value(hasItem(DEFAULT_TYPE.toString())))
+            .andExpect(jsonPath("$.[*].average_rating").value(hasItem(DEFAULT_AVERAGE_RATING.doubleValue())))
+            .andExpect(jsonPath("$.[*].count_of_ratings").value(hasItem(DEFAULT_COUNT_OF_RATINGS.intValue())));
     }
 
     @Test

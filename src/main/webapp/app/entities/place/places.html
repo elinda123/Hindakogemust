@@ -38,6 +38,8 @@
                 <tr jh-sort="vm.predicate" ascending="vm.reverse" callback="vm.transition()">
                     <th jh-sort-by="name"><span data-translate="hindakogemustApp.place.name">Name</span> <span class="glyphicon glyphicon-sort"></span></th>
                     <th jh-sort-by="address"><span data-translate="hindakogemustApp.place.address">Address</span> <span class="glyphicon glyphicon-sort"></span></th>
+                    <th jh-sort-by="average_rating"><span data-translate="hindakogemustApp.place.average_rating">Average Rating</span> <span class="glyphicon glyphicon-sort"></span></th>
+                    <th jh-sort-by="count_of_ratings"><span data-translate="hindakogemustApp.place.count_of_ratings">Count of Ratings</span> <span class="glyphicon glyphicon-sort"></span></th>
                     <th></th>
                 </tr>
             </thead>
@@ -45,6 +47,8 @@
                 <tr ng-repeat="place in vm.places track by place.id">
                     <td ui-sref="feedback-add({id:place.id})">{{place.name}}</td>
                     <td ui-sref="feedback-add({id:place.id})">{{place.address}}</td>
+                    <td ui-sref="feedback-add({id:place.id})">{{place.average_rating ? place.average_rating : 0}}</td>
+                    <td ui-sref="feedback-add({id:place.id})">{{place.count_of_ratings}}</td>
                     <td class="text-right">
                         <div ng-if="vm.isAuthenticated()" class="btn-group flex-btn-group-container">
                             <button type="submit"
