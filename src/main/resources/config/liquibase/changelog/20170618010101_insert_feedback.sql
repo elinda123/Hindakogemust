@@ -1,501 +1,597 @@
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Elinda Tragel', 'Lorem Ipsum 1', 9, 1);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Frank Bolyard', 'Labore quaerat etincidunt adipisci labore dolorem.', 5, 5);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Barbara Miller', 'Ut dolore adipisci porro tempora eius aliquam aliquam.', 8, 18);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Frank Mcgee', 'Aliquam quiquia voluptatem dolor quaerat amet.', 3, 1);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Christopher Sanchez', 'Numquam modi consectetur velit non labore adipisci.', 2, 7);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Janice Shields', 'Numquam adipisci amet dolore.', 3, 20);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lucille Mcrae', 'Porro numquam sed ut voluptatem sed sed amet.', 8, 22);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('James Walls', 'Eius quaerat magnam dolore est dolor voluptatem.', 10, 16);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Ida Decaro', 'Adipisci magnam aliquam porro aliquam.', 4, 8);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Annie Whitting', 'Aliquam eius quiquia neque numquam modi.', 10, 8);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Milton Hsiao', 'Numquam quisquam quaerat velit numquam ipsum etincidunt.', 8, 9);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Elizabeth Trout', 'Tempora labore etincidunt amet.', 8, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jeffery Blount', 'Sit dolore adipisci labore est.', 10, 10);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Santiago Bladen', 'Quisquam ipsum quiquia sed dolorem tempora.', 1, 6);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Sergio Duncan', 'Quaerat quisquam quaerat ipsum porro aliquam dolor.', 4, 19);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Dexter Ford', 'Ipsum modi non sit non modi modi neque.', 5, 13);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Richard Kamal', 'Quaerat labore sit magnam quaerat eius.', 10, 13);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Paul Desjardins', 'Dolor velit amet est sed amet labore.', 4, 20);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Marcus Sparks', 'Aliquam consectetur adipisci sed dolor velit.', 4, 4);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Armand Smith', 'Numquam voluptatem consectetur ut neque neque.', 5, 14);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lucy Smith', 'Amet etincidunt eius sit dolor.', 3, 20);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Charles Nosek', 'Aliquam modi est est ipsum.', 6, 6);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Walter Gibson', 'Aliquam sed neque modi.', 7, 1);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Nora Kline', 'Aliquam aliquam ipsum dolor quisquam adipisci quiquia ipsum.', 6, 7);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Tyler Adair', 'Dolorem sed amet quiquia quisquam dolorem.', 7, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Edward Carmichael', 'Non sit magnam quisquam neque dolor quisquam.', 2, 8);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Adrian Freeman', 'Consectetur consectetur labore adipisci quisquam.', 7, 2);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Shandra Mckenzie', 'Aliquam dolore adipisci quiquia sit etincidunt.', 9, 9);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lydia Moore', 'Aliquam quaerat aliquam aliquam labore est est.', 7, 15);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Debra Dole', 'Voluptatem ut magnam magnam quisquam quiquia.', 5, 11);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Felecia Silva', 'Tempora tempora tempora labore dolorem.', 8, 16);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Mary Gillikin', 'Est aliquam consectetur labore adipisci ipsum eius ut.', 9, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Victor Klingbeil', 'Ipsum porro neque ut adipisci.', 5, 6);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Sarah Vidal', 'Dolorem eius ipsum ipsum aliquam tempora dolor.', 7, 23);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Denise White', 'Etincidunt porro modi eius dolore non tempora.', 8, 9);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Phillip Perryman', 'Ut ipsum dolor ipsum tempora sit porro quisquam.', 7, 7);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Renay Moreno', 'Voluptatem tempora dolor dolore.', 10, 19);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Shonta Holmes', 'Modi ipsum sed ut ut labore consectetur.', 3, 6);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Vesta Waters', 'Labore numquam porro quisquam velit quaerat quaerat sit.', 1, 14);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Cheryl Rice', 'Est quiquia ut consectetur labore.', 4, 6);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Kiera Laramore', 'Labore labore sit tempora dolore etincidunt neque.', 7, 17);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Rosemary Moore', 'Quiquia porro amet adipisci.', 2, 10);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lilly Schuler', 'Amet consectetur etincidunt non sit numquam magnam dolore.', 4, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Helen Jones', 'Consectetur eius amet magnam non quiquia magnam.', 1, 16);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Patrick Sexton', 'Ipsum consectetur adipisci consectetur aliquam dolor.', 10, 19);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Nidia Winfield', 'Numquam neque quisquam consectetur dolorem sit.', 4, 8);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Ora Kovar', 'Quiquia modi aliquam velit.', 2, 13);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Kenyetta Reynolds', 'Eius dolore magnam est modi.', 2, 22);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Tracey Berglund', 'Quisquam numquam ipsum dolor modi etincidunt.', 4, 5);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Hope Peterson', 'Adipisci quaerat voluptatem dolor consectetur ipsum sit dolore.', 6, 11);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Michael Hisaw', 'Modi quiquia non sit est.', 2, 7);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Warren Anglin', 'Sit dolorem modi tempora etincidunt sed.', 8, 23);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Donald Meece', 'Aliquam ipsum amet neque modi.', 10, 13);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Michael Pilla', 'Magnam porro magnam ut sed ipsum.', 1, 14);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lucy Walker', 'Dolor voluptatem sed ipsum.', 2, 7);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Terry Tibbs', 'Neque tempora est dolor neque ipsum numquam.', 5, 13);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('James Martinez', 'Amet non magnam quaerat adipisci eius.', 8, 14);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Bessie Darwin', 'Eius ut etincidunt aliquam.', 2, 5);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jerry Perkins', 'Consectetur dolore quiquia modi neque.', 6, 4);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Anna Reper', 'Adipisci amet velit ut ut adipisci adipisci velit.', 9, 14);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Brittany Roger', 'Magnam sed dolor non magnam.', 6, 15);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Martha Spradling', 'Consectetur dolor tempora dolorem ut etincidunt est dolor.', 8, 22);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Fatima Harmon', 'Dolorem dolorem labore dolorem.', 7, 18);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Gertrude Hudgens', 'Etincidunt non quiquia quisquam.', 7, 23);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Brendon Scofield', 'Adipisci labore ut quaerat dolore sed quiquia dolor.', 4, 19);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Maryanne Flowers', 'Aliquam modi quiquia consectetur aliquam tempora.', 2, 22);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Cesar Ryan', 'Sit sed quaerat voluptatem quiquia non ut dolorem.', 2, 7);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Marianna Wood', 'Amet non non dolorem sit.', 1, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('James Rios', 'Aliquam porro magnam tempora quiquia tempora.', 10, 4);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Gayle King', 'Porro adipisci non ipsum.', 5, 9);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Howard Woodall', 'Dolor consectetur voluptatem sed tempora labore tempora magnam.', 3, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Marc Scharmer', 'Ipsum quiquia neque aliquam velit.', 9, 7);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Corey Kowalik', 'Quaerat sed sit eius quiquia dolor numquam.', 7, 11);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Anna Stephens', 'Sit tempora consectetur porro quiquia consectetur ipsum.', 10, 16);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Ginger Collins', 'Neque consectetur est amet tempora adipisci non.', 1, 16);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jewel Bradshaw', 'Eius velit est quaerat sit amet.', 1, 4);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Christine Michael', 'Tempora adipisci etincidunt porro aliquam etincidunt.', 8, 11);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jamie Mccormick', 'Magnam dolorem voluptatem ut aliquam porro.', 2, 2);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('John Nuss', 'Consectetur labore dolore neque aliquam.', 6, 5);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Albert Swan', 'Magnam sit ut adipisci est.', 7, 16);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('David Marmo', 'Magnam voluptatem magnam dolore modi.', 9, 1);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Deborah Tusa', 'Eius quiquia porro ut.', 5, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Otis Betts', 'Est quisquam ut dolore.', 9, 15);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('William Willy', 'Non ipsum labore est velit eius quisquam.', 2, 2);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Bruce Nelson', 'Porro magnam magnam labore numquam.', 4, 15);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Charlotte Jones', 'Quiquia quaerat modi est dolore.', 9, 11);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Gerald Pichette', 'Amet aliquam amet quisquam quaerat aliquam.', 8, 19);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Geri Kuehnert', 'Ut ipsum dolore numquam aliquam.', 5, 2);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Victoria Marshall', 'Porro numquam consectetur ut neque velit sed.', 8, 16);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Sandra Johnson', 'Numquam ut voluptatem velit amet amet sit.', 8, 13);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Ronald Todd', 'Quisquam porro magnam dolor.', 5, 8);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Mary Murray', 'Sit amet modi dolore sed velit neque.', 8, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Regina Rhodes', 'Ipsum est tempora neque labore magnam est modi.', 2, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Charles Hildreth', 'Ut quaerat neque dolorem velit sed.', 3, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Herbert Smith', 'Sit labore ut modi consectetur dolore voluptatem.', 6, 23);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Megan Fernandez', 'Quaerat adipisci dolor porro aliquam.', 5, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Roberto Balling', 'Numquam labore porro voluptatem numquam ut sit adipisci.', 1, 17);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Linda Brown', 'Sit porro numquam non consectetur amet non labore.', 2, 4);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lester Arsenault', 'Dolorem velit porro modi.', 8, 20);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Sara Johnson', 'Dolor sed aliquam quiquia ut eius velit dolore.', 7, 6);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Vince Dulany', 'Quaerat ut porro dolorem.', 4, 10);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Julienne Wilczynski', 'Quisquam magnam dolorem quiquia dolore numquam.', 9, 23);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Dale Albright', 'Etincidunt ut est tempora.', 3, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Rebecca Rettig', 'Tempora quaerat modi velit labore numquam neque dolor.', 1, 2);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Andrew Niebuhr', 'Amet sed magnam adipisci.', 4, 23);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Clayton Fontaine', 'Tempora neque magnam amet.', 1, 13);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Brian Webb', 'Magnam labore sed tempora quiquia velit ipsum.', 7, 15);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Margaret Owens', 'Dolorem sit porro labore dolore sit.', 8, 18);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('George Moreno', 'Quaerat est est aliquam ipsum etincidunt.', 1, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Brenda Tucker', 'Adipisci amet voluptatem adipisci tempora eius etincidunt ut.', 8, 15);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Elisa Szymczak', 'Aliquam porro aliquam ipsum etincidunt.', 3, 6);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Pam Grimsley', 'Est quaerat ut numquam quiquia amet voluptatem tempora.', 6, 13);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Nanette Vaughn', 'Sit magnam neque etincidunt sed.', 9, 7);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Walter Henry', 'Adipisci porro quaerat etincidunt.', 5, 22);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Dorothy Jones', 'Velit sit magnam eius quaerat modi.', 9, 1);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Fred Wakefield', 'Ipsum ipsum dolor consectetur sed.', 5, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Sandra Stroupe', 'Dolorem etincidunt consectetur numquam sit voluptatem.', 2, 6);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Linda Sills', 'Quisquam adipisci ipsum consectetur quiquia quiquia velit etincidunt.', 6, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Sharon Kwon', 'Sit neque quiquia dolorem quiquia non.', 9, 11);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jess Hall', 'Dolorem quaerat voluptatem sit porro ut labore.', 3, 23);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Benjamin Yaiva', 'Neque labore ut etincidunt numquam amet.', 10, 8);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Melanie Tovey', 'Adipisci porro dolorem quaerat aliquam.', 10, 19);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Mary Trent', 'Velit tempora numquam consectetur ipsum modi porro porro.', 4, 15);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Amy Davis', 'Ut ut velit adipisci modi quisquam voluptatem.', 1, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('George Henry', 'Ipsum tempora dolor ipsum velit sit est.', 6, 3);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('George Dubill', 'Quaerat magnam modi ut.', 3, 18);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Joanne Stanfield', 'Quiquia etincidunt etincidunt est adipisci modi.', 4, 16);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Juanita Timmons', 'Sed est quiquia quaerat voluptatem ipsum.', 6, 8);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Robert Gladney', 'Voluptatem dolor non est consectetur dolor aliquam quiquia.', 9, 8);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Bethany Cole', 'Eius etincidunt non labore.', 4, 20);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('John Powers', 'Amet sit dolorem labore tempora non.', 6, 20);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Liza Brown', 'Eius dolor numquam est tempora numquam numquam.', 10, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Joan Reed', 'Adipisci aliquam labore amet est.', 4, 6);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Patricia Sweet', 'Quaerat quisquam sit numquam consectetur porro.', 3, 10);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Stephanie Montague', 'Consectetur sit amet modi sed numquam.', 1, 6);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lorraine Hillard', 'Velit amet voluptatem sit sit adipisci porro magnam.', 7, 8);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jamie Roberts', 'Aliquam magnam ipsum amet ipsum.', 6, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Dan Kelly', 'Dolore voluptatem consectetur numquam.', 6, 4);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Cherelle Young', 'Velit consectetur consectetur tempora.', 5, 4);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Bennett Bennett', 'Quaerat dolorem neque dolore non dolore.', 5, 4);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Debbie Cope', 'Adipisci amet dolor etincidunt aliquam adipisci.', 3, 20);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Gloria Hoffman', 'Consectetur neque etincidunt dolor quaerat.', 7, 20);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Nancy Green', 'Non ut sed voluptatem tempora quaerat voluptatem.', 10, 6);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Ramona Guarnieri', 'Magnam tempora aliquam sed sed ipsum numquam.', 1, 18);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Robert Minnick', 'Dolorem adipisci numquam magnam etincidunt dolor amet.', 3, 16);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lester Sansburn', 'Tempora numquam numquam quaerat amet quaerat est eius.', 9, 3);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('David Gibson', 'Dolor est sed amet.', 7, 1);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Doreen Chamberlain', 'Neque numquam adipisci numquam aliquam modi dolore.', 1, 5);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jaime Harrison', 'Numquam sit labore dolor magnam sed ut sed.', 10, 22);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('James Reed', 'Neque adipisci magnam porro quisquam.', 8, 6);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Allen Gresham', 'Magnam velit ipsum sit eius dolor.', 9, 9);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jessica Johnson', 'Magnam porro labore etincidunt quisquam tempora dolor est.', 6, 3);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Janis Atkins', 'Tempora adipisci aliquam ipsum labore sit dolorem.', 8, 2);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Valerie Stubbendeck', 'Consectetur voluptatem dolorem adipisci tempora voluptatem adipisci.', 4, 23);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('James Campbell', 'Dolor quiquia ut numquam.', 9, 22);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Richard Raap', 'Dolore magnam numquam dolor.', 6, 9);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Garrett Ulloa', 'Velit ut sed neque ut tempora eius quaerat.', 4, 8);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Karen Reynolds', 'Dolore ipsum quisquam labore dolor.', 9, 2);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Tom Wake', 'Etincidunt non dolorem consectetur.', 5, 9);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Joseph Nettles', 'Etincidunt dolore sit velit eius.', 4, 18);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Elizabeth Hernandez', 'Sit neque est quisquam.', 8, 18);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Linda Sherer', 'Quiquia labore labore quisquam neque voluptatem.', 6, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Joseph Knox', 'Dolorem magnam quisquam tempora dolorem.', 2, 10);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Adrian Stillwell', 'Est voluptatem quisquam non.', 4, 9);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Carmen Bahr', 'Ut quisquam numquam voluptatem.', 7, 11);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Clarence Landrum', 'Numquam consectetur tempora amet adipisci est tempora.', 10, 4);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Elsie Neller', 'Adipisci quiquia quaerat ipsum quisquam est voluptatem non.', 4, 16);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Janina Beasley', 'Consectetur quaerat adipisci quisquam ut dolor sit.', 1, 9);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Robin Fulton', 'Porro magnam non numquam.', 5, 3);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Laura Vance', 'Est non eius sit etincidunt magnam modi non.', 7, 19);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('James Wright', 'Dolorem sed amet porro sit dolore aliquam.', 6, 4);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Orpha Payne', 'Aliquam ipsum eius ipsum sed porro magnam.', 4, 2);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jeffery Epp', 'Modi dolore voluptatem aliquam tempora.', 9, 13);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Sarah Replogle', 'Non non tempora neque dolorem ut quiquia dolorem.', 2, 13);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Rita Murray', 'Ipsum velit tempora dolor numquam dolor eius.', 9, 2);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Joann Sanchez', 'Neque modi etincidunt ipsum amet.', 4, 10);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Michael Ramos', 'Modi tempora quisquam adipisci voluptatem amet.', 5, 20);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Philip Hayes', 'Est consectetur consectetur ipsum dolor porro etincidunt.', 2, 15);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Steve Reid', 'Tempora sit quiquia numquam.', 3, 16);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Ronald Ware', 'Velit neque tempora tempora.', 3, 1);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Arthur Bowlin', 'Neque voluptatem quisquam numquam numquam dolore velit dolor.', 2, 22);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Kathleen Stapleton', 'Magnam porro aliquam numquam magnam.', 2, 9);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Rosa Strapp', 'Est amet dolor aliquam tempora sed non.', 8, 23);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Dwayne Perkins', 'Est porro ipsum quiquia sit adipisci.', 4, 7);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Richard Mahoney', 'Non eius etincidunt dolorem.', 6, 23);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Tom Merrett', 'Etincidunt velit modi voluptatem dolore sed non.', 7, 11);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Charles Schneider', 'Velit labore quisquam magnam non consectetur sed.', 10, 23);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Harold Williamson', 'Est ut voluptatem quiquia.', 2, 22);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Eric Wilson', 'Magnam eius non quiquia eius numquam quisquam est.', 3, 16);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Anne Grubb', 'Dolore quisquam ipsum sed non.', 6, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Charles Haynes', 'Labore modi ut labore.', 10, 19);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Ruth Thurman', 'Quiquia modi est adipisci porro consectetur porro dolore.', 8, 11);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Robert Lajaunie', 'Est consectetur sed tempora etincidunt.', 4, 16);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Joel Murphy', 'Quaerat dolor neque magnam sed etincidunt.', 3, 2);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Angie Deharo', 'Sed tempora numquam sit etincidunt dolor quisquam.', 7, 3);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Ida Berringer', 'Ut porro dolor modi neque quiquia.', 10, 22);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Kathy Ryan', 'Velit quisquam sed quaerat voluptatem velit.', 2, 2);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Anne Senske', 'Quiquia non quisquam magnam.', 4, 8);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Michael Calvert', 'Dolorem tempora dolore adipisci sed eius aliquam.', 7, 20);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Thomas White', 'Numquam sed quisquam aliquam neque labore magnam.', 10, 17);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Michael Clark', 'Ut ut tempora dolore consectetur.', 2, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Leon Eckard', 'Voluptatem ut eius velit.', 3, 9);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Thomas Mcneil', 'Dolore aliquam ut quaerat quisquam.', 1, 10);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Leslie Donart', 'Sit tempora sit non consectetur.', 4, 11);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Phyllis Anglin', 'Magnam modi etincidunt modi dolor sed ipsum dolorem.', 9, 15);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Leonard Walker', 'Sit non quiquia velit.', 4, 15);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Fermina Legrand', 'Amet dolor tempora quiquia est.', 4, 20);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Esperanza Hawkins', 'Ut consectetur velit quaerat est quiquia numquam magnam.', 5, 10);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Patricia Vale', 'Est magnam quaerat eius voluptatem neque est labore.', 4, 11);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('James Pluemer', 'Dolor tempora sit tempora quaerat dolore.', 3, 1);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Michael Fulton', 'Amet labore tempora sed dolorem dolore etincidunt tempora.', 5, 17);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('John Monroe', 'Sit consectetur sed neque quaerat consectetur porro neque.', 4, 4);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Mike Jackson', 'Ipsum quaerat non voluptatem tempora neque.', 8, 10);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Dorothy Dunn', 'Est labore etincidunt sed dolorem est.', 6, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('David Bridges', 'Quisquam adipisci est amet labore.', 3, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Paulette Anderson', 'Neque quaerat consectetur modi numquam quisquam neque porro.', 7, 3);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Marie Bulloch', 'Tempora dolor quaerat ut quiquia consectetur quiquia.', 2, 2);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Michael Silago', 'Sed aliquam labore non sed dolor.', 5, 19);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Terry Simonson', 'Magnam magnam modi etincidunt amet ipsum neque.', 1, 13);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Julia Reinhardt', 'Eius ut labore aliquam non magnam non.', 2, 8);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Melissa Hepner', 'Dolor porro labore dolore.', 5, 4);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Beatrice Baxter', 'Dolore adipisci neque quisquam dolore.', 4, 2);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Rebecca Wingo', 'Ut dolorem consectetur etincidunt quisquam tempora labore.', 7, 16);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Amber Coviello', 'Eius aliquam sed tempora.', 10, 15);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Christopher Moreno', 'Modi etincidunt quiquia dolore.', 9, 7);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Timothy Wang', 'Eius quiquia quiquia velit velit.', 10, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Frank Roberts', 'Quisquam adipisci porro consectetur neque labore.', 8, 18);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Michael Becker', 'Sed ut non aliquam velit quaerat.', 7, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Janice Schafer', 'Magnam adipisci tempora dolore etincidunt modi numquam sed.', 3, 6);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Julia Reyes', 'Aliquam quisquam consectetur quaerat non.', 5, 4);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Leroy Gray', 'Eius magnam labore sed porro non voluptatem.', 7, 2);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Connie Michaels', 'Amet voluptatem aliquam porro tempora velit.', 4, 1);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Janice Collins', 'Eius consectetur aliquam adipisci.', 1, 15);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Ben Baker', 'Est neque amet eius amet adipisci.', 5, 20);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Raymond Sweney', 'Etincidunt quisquam eius consectetur voluptatem quisquam.', 4, 7);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Helen Bader', 'Sed sed dolore est sit consectetur voluptatem numquam.', 2, 17);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('James Whitlock', 'Quaerat dolor consectetur numquam neque labore.', 2, 17);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Douglas Greenman', 'Non etincidunt ut voluptatem non.', 5, 19);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Libby Gross', 'Modi est porro ut.', 2, 14);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Alex Mcdowell', 'Quiquia tempora non etincidunt quisquam.', 8, 22);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Julia Whitley', 'Porro quisquam quisquam modi ipsum.', 9, 19);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Frank Martin', 'Sit ut numquam non velit velit.', 9, 14);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Claudette Duncan', 'Non non consectetur modi.', 9, 18);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Julio Smith', 'Velit quaerat dolore consectetur porro modi neque.', 7, 13);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Steven Bell', 'Magnam amet voluptatem ut non est neque.', 4, 19);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Chad Knop', 'Tempora amet magnam adipisci quisquam voluptatem.', 4, 1);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('James Jines', 'Modi dolorem aliquam sit dolor ipsum eius magnam.', 9, 14);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Clifton Bayless', 'Etincidunt voluptatem quaerat consectetur quisquam adipisci.', 8, 22);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Kathleen Walker', 'Quaerat amet ipsum modi ipsum ut porro.', 1, 20);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Billy Holmes', 'Quaerat voluptatem amet consectetur sit adipisci amet ipsum.', 5, 8);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Joseph Rayborn', 'Non etincidunt quisquam magnam voluptatem non consectetur consectetur.', 3, 17);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Tiffany Earnest', 'Voluptatem eius velit dolore velit.', 2, 2);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Manuel Fritz', 'Magnam quiquia labore sed neque non.', 6, 11);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jeffrey Kneip', 'Ut sit amet non voluptatem numquam dolor ut.', 10, 13);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Carol Thompson', 'Porro velit etincidunt dolore numquam modi quisquam.', 1, 23);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Carrie Isley', 'Quisquam ut eius modi eius sed.', 2, 8);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Freda Howard', 'Porro voluptatem eius consectetur aliquam quisquam numquam amet.', 7, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Cecilia Roberts', 'Velit sed modi sed amet porro.', 10, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Danny Scott', 'Amet aliquam sit sed quaerat.', 4, 18);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Katherine Jackson', 'Modi aliquam numquam labore est magnam modi porro.', 6, 5);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Billy Spurlin', 'Sed dolor ipsum quiquia aliquam neque modi ut.', 10, 1);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Micah Boldt', 'Quisquam est quiquia est sed amet ut ut.', 8, 2);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Bernice Guy', 'Ipsum consectetur aliquam eius dolore est velit dolorem.', 6, 20);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Michael Stevens', 'Quisquam neque ut ipsum.', 1, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Mary Propst', 'Aliquam dolor voluptatem dolore magnam etincidunt sit non.', 8, 22);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Wendy Randolph', 'Non non adipisci consectetur neque quisquam dolore eius.', 3, 11);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Elaine Blach', 'Ipsum ut etincidunt eius velit.', 9, 3);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lee Saulsberry', 'Dolorem dolorem porro dolore.', 6, 6);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Denis Jackson', 'Adipisci sit quaerat amet modi dolor sed.', 4, 8);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Esther Davis', 'Labore sed non porro est neque etincidunt numquam.', 9, 13);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Garry Roberts', 'Dolor sit eius porro.', 8, 14);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Virginia Garza', 'Quaerat non adipisci porro modi.', 5, 20);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Darla Baggesen', 'Adipisci magnam voluptatem adipisci quaerat quisquam.', 3, 17);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Mary Zeigler', 'Eius tempora neque ipsum.', 3, 10);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Frances Falk', 'Quiquia etincidunt dolor sit labore dolorem consectetur.', 9, 22);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Vincent Hernandez', 'Voluptatem voluptatem non ut.', 8, 6);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Maria Bienfang', 'Voluptatem dolore aliquam porro tempora.', 8, 13);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Deborah Rutherford', 'Porro adipisci consectetur non dolore dolore.', 1, 14);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Marshall Prisco', 'Non modi dolore consectetur dolore tempora.', 8, 10);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jewell Khouri', 'Etincidunt eius quiquia dolorem.', 1, 6);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Leslie Cliff', 'Dolore quisquam aliquam labore sit sed tempora etincidunt.', 8, 7);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Carrie Russell', 'Porro modi quaerat sit tempora.', 5, 8);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Dorothy Hartly', 'Voluptatem quaerat non etincidunt labore non tempora quaerat.', 5, 3);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Rosemary Ross', 'Ipsum modi etincidunt eius neque dolore.', 2, 17);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Fred Henderson', 'Porro non etincidunt modi voluptatem.', 9, 16);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lisa Theriault', 'Quaerat ipsum etincidunt porro amet quaerat.', 8, 16);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Agatha Harland', 'Labore quisquam etincidunt quaerat est quisquam sit dolore.', 7, 18);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Dorothy Mchenry', 'Est numquam consectetur amet quaerat non adipisci etincidunt.', 7, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Janette Searcy', 'Amet ut amet quisquam aliquam neque.', 3, 16);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Christine Bearden', 'Ipsum non ut ipsum est ipsum.', 10, 7);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Mary Mohr', 'Modi quisquam est dolorem dolor.', 6, 20);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Paul Summers', 'Quisquam tempora est dolore magnam quaerat.', 9, 11);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Clare Hudnall', 'Quaerat adipisci eius non neque consectetur etincidunt.', 4, 20);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jewel Faulk', 'Etincidunt consectetur velit amet aliquam quiquia.', 7, 1);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Pearl Primm', 'Porro est ipsum eius neque.', 9, 5);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Barbara Mercer', 'Adipisci velit velit etincidunt modi labore modi.', 9, 20);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Robert Srinivasan', 'Consectetur ipsum quiquia neque dolorem quaerat modi quaerat.', 1, 10);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Valerie Boivin', 'Sed quiquia labore dolor dolore amet aliquam.', 6, 19);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Maria Martin', 'Etincidunt velit tempora quiquia modi.', 10, 1);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Susan Hernandez', 'Porro labore est velit neque aliquam.', 2, 4);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Melanie Johnson', 'Quiquia magnam eius numquam velit neque modi neque.', 9, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Eleanor Lanier', 'Neque aliquam modi quaerat.', 8, 7);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Bonnie Lamy', 'Eius non quisquam tempora est neque.', 4, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jeffrey Register', 'Velit sed labore eius.', 8, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Blanche Smalls', 'Sed ut velit non dolorem dolorem ut.', 4, 19);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('James Johnson', 'Eius amet quiquia etincidunt ut consectetur eius.', 10, 22);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jack Gonzales', 'Consectetur sit tempora quiquia voluptatem sed adipisci non.', 3, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Peter Canty', 'Quiquia neque quisquam aliquam modi sit.', 1, 8);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Diane Saenz', 'Velit consectetur numquam etincidunt voluptatem modi quiquia.', 6, 10);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Maria Perdue', 'Dolor aliquam neque dolore non aliquam eius.', 3, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Heather Shirk', 'Labore dolor dolor quaerat porro porro ipsum.', 7, 2);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Stacy Calvary', 'Voluptatem labore eius velit quisquam.', 6, 17);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('James Acosta', 'Ipsum magnam adipisci etincidunt eius quaerat labore voluptatem.', 2, 18);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Todd Little', 'Magnam sit ipsum adipisci numquam.', 2, 7);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Margie Angeles', 'Neque tempora non quaerat quisquam sed.', 2, 2);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Steve Sawyer', 'Etincidunt ut quaerat quisquam etincidunt voluptatem.', 4, 22);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Benjamin Albert', 'Magnam adipisci quaerat dolor.', 4, 7);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lana Munoz', 'Quiquia tempora neque consectetur ut.', 2, 3);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Maria Kyle', 'Non sit neque dolor quaerat dolorem sed.', 5, 18);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Bobby Sylvia', 'Porro quiquia amet magnam.', 3, 17);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Ofelia Girman', 'Quisquam quaerat labore adipisci ut est magnam.', 8, 10);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Melissa Dixon', 'Quaerat non dolore est magnam porro magnam eius.', 8, 1);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jesus Carriere', 'Porro non aliquam est etincidunt modi.', 2, 5);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Roberta Defir', 'Neque dolor eius consectetur.', 2, 15);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Robert Darling', 'Modi ipsum consectetur sed ipsum quisquam consectetur dolor.', 8, 23);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('David Numbers', 'Est eius labore numquam quaerat.', 5, 18);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Gary Chavira', 'Sed neque consectetur aliquam ipsum velit amet.', 2, 3);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Donald Dillingham', 'Quiquia sed ut dolore tempora quiquia.', 8, 1);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Luann Gibbs', 'Est adipisci porro ut.', 10, 3);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lewis Holm', 'Porro velit voluptatem dolore dolore adipisci quiquia.', 7, 13);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('John Becton', 'Dolor non quiquia modi adipisci neque est dolor.', 8, 14);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Dustin Bedward', 'Quisquam non amet etincidunt voluptatem non.', 4, 2);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Clinton Jackson', 'Amet non labore quiquia eius consectetur.', 10, 4);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Roscoe Davis', 'Voluptatem aliquam neque labore numquam ipsum.', 3, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Joshua Scott', 'Sit ut tempora numquam ipsum.', 7, 23);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Abigail Quezada', 'Eius labore numquam modi aliquam.', 3, 1);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Maria Monfort', 'Etincidunt ut voluptatem consectetur labore.', 5, 11);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Nicki Harvey', 'Sit modi magnam ut.', 9, 10);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Andrew Rodgers', 'Voluptatem eius aliquam voluptatem quiquia ipsum.', 6, 16);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Nancy Guillory', 'Sed non quaerat porro dolore.', 3, 22);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Richard Silvey', 'Dolor numquam modi modi quiquia tempora amet ipsum.', 5, 9);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Rachel Moore', 'Porro non ipsum non numquam numquam porro.', 3, 5);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Douglas Strickland', 'Adipisci amet porro dolor sed labore dolor labore.', 3, 18);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Pete Humphries', 'Etincidunt non amet ut ipsum voluptatem aliquam.', 5, 23);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Henrietta Hill', 'Ipsum numquam est eius.', 7, 11);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Cynthia Ring', 'Dolore sed neque neque.', 8, 8);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Marie Fisher', 'Labore quisquam neque consectetur ut.', 9, 10);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Linda Rone', 'Ipsum tempora voluptatem numquam velit amet.', 10, 4);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jane Hall', 'Consectetur ipsum etincidunt porro porro consectetur adipisci.', 2, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Faith Tippens', 'Porro sit aliquam consectetur modi eius.', 3, 22);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Dorothy Schuette', 'Etincidunt adipisci labore velit consectetur aliquam adipisci sed.', 5, 23);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lashanda Rios', 'Porro est adipisci dolor.', 10, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Gretchen Caldwell', 'Amet porro dolore ipsum.', 2, 13);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Johnny Burton', 'Voluptatem adipisci eius non dolorem dolore porro numquam.', 2, 9);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Maria Santiago', 'Numquam magnam quaerat tempora quiquia ipsum magnam velit.', 3, 10);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lynn Groce', 'Dolorem etincidunt ut sed.', 4, 17);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Douglas Jackson', 'Sit dolor consectetur aliquam.', 3, 17);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Mauro Mccalmont', 'Adipisci tempora aliquam eius sed est ipsum.', 10, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Walter Pridgen', 'Sed voluptatem sed sit porro adipisci.', 3, 10);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('William Vue', 'Quaerat labore numquam etincidunt eius amet velit.', 2, 22);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Gustavo Mcginnis', 'Consectetur ipsum magnam quaerat.', 7, 6);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jerry Isbrecht', 'Ipsum consectetur eius eius.', 7, 15);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Eric Sampieri', 'Etincidunt sit quisquam ut aliquam ipsum etincidunt tempora.', 5, 1);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lee Vereen', 'Dolor quisquam non dolore dolore dolorem numquam tempora.', 5, 8);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Rosemary Jaramillo', 'Dolore labore dolore sit sed sed etincidunt non.', 5, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Randall Pitts', 'Etincidunt ut dolore amet tempora sed.', 10, 6);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Kevin Bowers', 'Labore dolore velit quaerat porro amet.', 5, 16);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Claire Estrada', 'Adipisci amet dolor modi.', 3, 1);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Larry Washington', 'Quaerat sit voluptatem etincidunt consectetur.', 6, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Theresa Tuttle', 'Neque ipsum tempora porro velit numquam.', 7, 4);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Kathy Coughlin', 'Aliquam consectetur neque magnam quisquam non.', 7, 5);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Michael Gomez', 'Magnam consectetur ut dolore dolorem aliquam sed dolor.', 2, 3);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Arnold Blankenship', 'Voluptatem labore eius dolor sed quisquam sed.', 4, 4);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Ida Pullen', 'Quiquia est est ut voluptatem dolor ut.', 2, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lynne Roudabush', 'Tempora adipisci neque eius.', 3, 13);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Dorothy Howell', 'Neque adipisci velit numquam voluptatem.', 5, 19);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Alice Rollo', 'Non ipsum neque tempora ipsum ut neque.', 10, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Anthony Miller', 'Consectetur adipisci porro numquam voluptatem non ut ut.', 1, 4);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Terry Flatley', 'Consectetur aliquam ut consectetur dolorem.', 5, 11);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Martha Ruffin', 'Aliquam amet tempora aliquam dolorem sit velit.', 7, 17);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lewis Ewing', 'Tempora etincidunt sed labore.', 6, 17);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Klara Richards', 'Dolor velit est velit adipisci.', 9, 14);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jaclyn Garcia', 'Numquam dolor magnam ut ipsum dolore.', 4, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Sondra Orellana', 'Numquam adipisci est tempora.', 9, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Marsha Short', 'Porro labore adipisci etincidunt adipisci consectetur numquam.', 2, 20);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Maria Cranmer', 'Labore voluptatem est est etincidunt quisquam consectetur.', 4, 2);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('John Ruble', 'Ipsum modi dolorem amet magnam neque tempora amet.', 6, 22);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jenifer Lichtenberg', 'Dolore numquam neque adipisci.', 9, 16);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Timothy Oneill', 'Adipisci amet sit quiquia non.', 8, 7);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Julia Green', 'Quisquam aliquam est amet quiquia quiquia.', 2, 7);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Karen Rodriguez', 'Quaerat tempora modi velit.', 6, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Roxy Cothran', 'Ut non eius sed.', 7, 23);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Paul Smith', 'Consectetur labore aliquam dolor.', 5, 16);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Robert Pope', 'Voluptatem modi etincidunt etincidunt.', 5, 20);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Elizabeth Polson', 'Etincidunt neque ut sed.', 3, 4);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Basil Bryan', 'Amet neque sit modi porro dolor quaerat est.', 5, 13);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Michael Bien', 'Velit eius ut voluptatem non sit.', 1, 5);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('John Frazier', 'Labore consectetur tempora numquam amet.', 6, 15);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Reynaldo White', 'Etincidunt magnam numquam ipsum quaerat.', 6, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Brenda Cline', 'Aliquam adipisci velit sit sit.', 3, 22);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Ruth Montello', 'Velit quaerat aliquam aliquam numquam sit consectetur consectetur.', 4, 1);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Kathleen Douglass', 'Quaerat porro adipisci non tempora.', 8, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Dan Peters', 'Voluptatem dolore sed modi.', 6, 4);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Michael Sexton', 'Quisquam est amet amet.', 2, 16);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Nancy Heinemann', 'Labore consectetur amet adipisci.', 4, 11);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Mary Thompson', 'Sit velit consectetur magnam porro quisquam.', 6, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Nichole Robinson', 'Quiquia neque numquam quaerat neque.', 1, 10);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Sean Minton', 'Dolor tempora eius sed etincidunt.', 7, 13);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Levi Fenton', 'Voluptatem labore neque est dolor.', 6, 14);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Susan Little', 'Amet dolore amet quisquam.', 7, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Yvonne Giles', 'Porro quaerat eius sit aliquam.', 9, 20);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Curtis Gutierrez', 'Sit modi ut est dolore.', 5, 23);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Robert Blanco', 'Numquam labore sit labore modi neque.', 10, 10);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Hazel Woods', 'Dolore neque magnam non.', 4, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Steve Walquist', 'Sit eius dolor neque porro ipsum adipisci voluptatem.', 9, 2);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Craig Baker', 'Quisquam labore modi dolor consectetur aliquam adipisci dolorem.', 9, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Patrick Jackson', 'Amet porro ipsum velit aliquam tempora eius.', 9, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Ashley Murray', 'Ut sit consectetur ut aliquam est quiquia quiquia.', 4, 4);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jefferey Reed', 'Quiquia sed dolor eius porro dolorem ipsum.', 3, 3);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Robert Mccay', 'Ut amet dolor dolorem non modi.', 5, 16);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Tina Harding', 'Sed amet neque adipisci magnam dolore sed quaerat.', 1, 4);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Kendall Tucker', 'Numquam quaerat magnam quaerat eius etincidunt labore labore.', 3, 3);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jeanne Sampson', 'Etincidunt neque voluptatem tempora adipisci quiquia.', 3, 13);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('John Martin', 'Dolore non quisquam quisquam.', 9, 3);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jo Schneeman', 'Non non aliquam quaerat numquam voluptatem.', 8, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Bryan Bishop', 'Quiquia dolore sit dolor.', 9, 19);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Edgar Shotwell', 'Dolore non sed sed neque consectetur.', 9, 3);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Richard Acree', 'Eius quaerat dolorem quaerat amet magnam sed dolore.', 10, 23);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Kirk Hearnen', 'Amet porro amet amet.', 3, 13);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Erin Odaniel', 'Etincidunt modi velit amet quaerat.', 3, 14);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Bradley Mellish', 'Consectetur modi sed est dolorem.', 5, 10);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Carlos Mcdaniel', 'Quiquia est aliquam porro magnam etincidunt sed est.', 8, 6);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Mary Deyoung', 'Neque numquam neque quisquam.', 8, 10);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('David Tritz', 'Sed sed sed eius neque ipsum quiquia.', 7, 10);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('William Johnson', 'Modi consectetur dolor labore magnam.', 1, 10);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Steve Chaney', 'Quaerat sit eius dolor etincidunt voluptatem voluptatem dolorem.', 7, 22);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lucy Ungar', 'Tempora sit adipisci porro sed sed.', 3, 18);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Randall Riley', 'Neque neque porro non consectetur neque quiquia.', 5, 9);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('John Veilleux', 'Numquam ut tempora amet.', 7, 14);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Charlie Kasper', 'Dolore magnam eius tempora dolorem ipsum non porro.', 10, 9);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Derek Dumas', 'Porro est quisquam porro ut dolorem dolorem dolorem.', 2, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Raymond Weaver', 'Tempora tempora dolor numquam sit amet.', 6, 6);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Elizabeth Jablonski', 'Ipsum non numquam non quiquia quiquia voluptatem tempora.', 7, 10);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Gretta Hall', 'Consectetur non porro ut quiquia.', 6, 23);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Gene Maas', 'Sed voluptatem labore magnam dolore.', 2, 10);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Cynthia Gonzalez', 'Labore dolore modi quaerat magnam consectetur est.', 6, 4);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Paul Soto', 'Sed dolore dolor labore.', 5, 6);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Michael Williams', 'Magnam quisquam est aliquam dolorem.', 5, 23);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Fred Andrade', 'Numquam quisquam velit amet.', 9, 3);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Deborah Conner', 'Est tempora sit sed.', 2, 19);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Brenda Chacon', 'Amet adipisci numquam magnam sit etincidunt.', 5, 22);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Steven Demarais', 'Ut magnam quiquia sed.', 3, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Reva Stewart', 'Dolorem ut ipsum adipisci dolor ipsum.', 8, 23);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Mary Slowinski', 'Eius ut velit quaerat non quisquam quaerat dolor.', 2, 4);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Ashley Adams', 'Aliquam non modi velit amet.', 3, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jeanine Askew', 'Amet quiquia dolor quisquam sit modi.', 6, 11);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Eugene Goldberg', 'Voluptatem modi numquam dolore porro neque porro.', 4, 11);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jacqueline Blaise', 'Labore numquam magnam sit magnam.', 2, 12);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Tonya Rosario', 'Voluptatem tempora modi magnam tempora velit consectetur labore.', 1, 19);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Peter Shuster', 'Velit adipisci quaerat sed.', 3, 17);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Michael Tooms', 'Porro numquam labore ipsum etincidunt ut dolore.', 6, 2);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Mary Sanders', 'Etincidunt sed dolore porro.', 3, 2);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Kathleen Bullock', 'Ipsum numquam dolore ut.', 10, 13);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Ryan Jackman', 'Consectetur aliquam dolorem velit voluptatem.', 1, 15);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Carol Moton', 'Dolore tempora numquam non dolore consectetur.', 7, 14);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lelia Trammell', 'Numquam quisquam est numquam tempora.', 10, 9);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Michelle Martin', 'Dolore adipisci ipsum modi.', 10, 16);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Sheila Well', 'Neque aliquam voluptatem tempora amet magnam eius consectetur.', 8, 3);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Leslie Welty', 'Labore labore voluptatem voluptatem quisquam velit aliquam porro.', 4, 13);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Karen Williams', 'Etincidunt quaerat dolorem velit neque amet labore.', 6, 17);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Louis Pitts', 'Numquam ipsum dolore dolore consectetur quaerat ipsum dolor.', 4, 2);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('James Rivera', 'Etincidunt dolorem ipsum quaerat etincidunt ipsum non non.', 10, 4);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('David Burns', 'Ut voluptatem dolore amet magnam dolorem adipisci.', 1, 22);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jessica Moses', 'Aliquam sed labore voluptatem aliquam tempora.', 3, 16);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Neil Mclaughlin', 'Modi ipsum numquam amet amet dolor neque neque.', 8, 20);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Meredith Bowen', 'Quaerat quisquam neque velit amet ut non.', 5, 9);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Tiffany Dennis', 'Numquam consectetur ut sit.', 4, 22);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Virginia Davis', 'Ipsum dolor est amet quisquam labore adipisci.', 2, 1);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jacob Fong', 'Porro sit labore quiquia ut.', 2, 21);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Deidre Cockrell', 'Est modi porro non ut porro modi.', 8, 15);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Justin Corn', 'Sit labore voluptatem labore.', 6, 18);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Walter Sanders', 'Amet sit porro quiquia dolor non velit magnam.', 9, 20);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Horace Messler', 'Labore velit ut voluptatem porro neque voluptatem porro.', 4, 6);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Deneen Mcrae', 'Ut magnam velit sit sed.', 8, 7);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Christopher Washington', 'Porro etincidunt modi dolorem adipisci.', 8, 4);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Richard Moss', 'Etincidunt numquam dolore dolore dolor.', 7, 15);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Florence Tannehill', 'Quisquam quisquam porro non adipisci sed ut sed.', 6, 18);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Willie Hogan', 'Dolor sed aliquam adipisci ipsum dolorem.', 1, 8);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Pauline Lumpkins', 'Dolorem etincidunt aliquam ipsum porro modi eius.', 8, 4);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Samantha Kennedy', 'Numquam amet modi porro sed voluptatem numquam.', 1, 10);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Beth Carrillo', 'Dolor est non non dolore ut.', 9, 8);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Russell Surina', 'Consectetur sed non ut sed.', 9, 2);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Ted Green', 'Numquam eius dolore neque sit eius etincidunt magnam.', 5, 13);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('George Mcguigan', 'Dolore est non quiquia porro eius dolore.', 9, 17);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jonathan Bjorseth', 'Sed eius amet consectetur amet magnam consectetur voluptatem.', 1, 18);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Debra Roby', 'Dolor eius neque porro porro etincidunt dolore.', 6, 8);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Maureen Wampler', 'Aliquam modi dolorem ipsum consectetur dolor.', 4, 2);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Homer Sullivan', 'Labore amet est quisquam est.', 8, 14);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Robert Lawson', 'Quaerat ut modi aliquam neque quisquam neque aliquam.', 8, 20);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Michael Smithheart', 'Non etincidunt magnam etincidunt.', 8, 11);
-INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Thomas Shakir', 'Sit dolore voluptatem tempora.', 2, 16);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Elinda Tragel', 'Lorem Ipsum 1', 9, 1);INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Andy Nurse', 'Sit quisquam consectetur labore magnam sit modi. Tempora sit tempora velit amet eius. Adipisci tempora labore porro quaerat magnam. Ipsum etincidunt amet dolorem velit est magnam quaerat. Dolorem eius ut adipisci aliquam porro etincidunt. Porro labore labore velit ipsum. Adipisci amet dolorem etincidunt.
+
+Modi sed velit adipisci numquam neque. Voluptatem eius est dolor quisquam sed modi numquam. Velit sit quiquia amet dolore porro. Consectetur adipisci ut neque sed porro. Ut amet dolor amet non voluptatem tempora eius.
+
+Eius neque magnam porro dolorem adipisci. Ut tempora velit ut aliquam modi. Sit neque eius adipisci quisquam. Porro dolor ut numquam consectetur neque. Dolor sed dolore sit dolorem quisquam quaerat etincidunt.
+
+Consectetur neque quaerat etincidunt velit. Aliquam dolor porro dolore neque voluptatem ut quisquam. Numquam magnam neque velit quisquam. Dolorem ut aliquam sed dolore labore etincidunt amet. Dolorem sed est consectetur amet dolore quisquam modi. Ipsum etincidunt magnam velit tempora sit numquam modi.
+
+Aliquam adipisci dolor est dolore. Magnam modi amet quaerat. Dolorem eius aliquam sed sed etincidunt. Labore velit voluptatem porro amet. Dolor dolor aliquam quiquia dolorem. Modi dolore quaerat neque porro consectetur. Dolor voluptatem labore dolorem eius. Aliquam eius ut quiquia.
+
+Sed numquam voluptatem adipisci quisquam magnam velit adipisci. Voluptatem consectetur dolor dolor tempora quiquia. Neque velit dolor non quisquam est modi. Quaerat non consectetur voluptatem non quisquam modi. Neque sit ipsum amet ut porro labore. Sed dolore sed etincidunt quiquia quaerat. Numquam eius dolor ut etincidunt.', 5, 8);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('James Farrell', 'Est amet magnam quisquam quisquam numquam.', 3, 1);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Galen Grimaud', 'Dolorem tempora sit amet dolor quisquam.', 9, 15);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jennifer Jenkins', 'Aliquam tempora sed velit.', 5, 19);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('John Torres', 'Ipsum sed quisquam labore est magnam.', 6, 1);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Mary Robinson', 'Quiquia dolore voluptatem amet modi modi.', 5, 15);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Devona Bowman', 'Consectetur voluptatem est dolore. Ut aliquam porro numquam quiquia dolore. Ipsum consectetur tempora amet est labore. Sit dolore quiquia quisquam adipisci. Consectetur etincidunt tempora eius numquam. Consectetur amet porro non quiquia dolorem.', 5, 2);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Emery Mack', 'Etincidunt labore quaerat dolor modi. Eius magnam tempora tempora amet ipsum ut quisquam. Ut ipsum velit dolorem. Dolore ipsum ipsum aliquam non dolorem. Dolorem labore dolorem ut. Dolorem quaerat quisquam ut magnam consectetur velit. Neque porro non est.', 5, 17);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Melissa Mency', 'Dolore sed ipsum labore est quaerat.', 9, 17);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Johnnie Hillsgrove', 'Sed adipisci tempora porro aliquam voluptatem labore labore. Quisquam quaerat non consectetur. Porro porro neque magnam est ipsum dolorem numquam. Aliquam amet voluptatem numquam velit quisquam est. Numquam quisquam quisquam voluptatem adipisci sed eius dolore. Ipsum magnam non amet porro labore modi voluptatem. Non sit ut aliquam etincidunt sit sit. Amet velit ipsum dolorem. Velit tempora ut adipisci numquam.', 4, 6);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lupe Risbeck', 'Numquam neque labore etincidunt ipsum sit non adipisci.', 4, 17);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Larry Smith', 'Est magnam est modi magnam adipisci.', 6, 4);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Betty Harbour', 'Amet amet quaerat est. Dolore non non eius quisquam velit est quaerat. Consectetur quaerat labore adipisci consectetur numquam modi. Numquam neque dolor aliquam quiquia. Neque consectetur ut adipisci eius porro voluptatem. Dolore quiquia quisquam aliquam magnam. Magnam porro etincidunt voluptatem. Quisquam ut voluptatem sit magnam quisquam quiquia dolor. Magnam quaerat magnam non.', 10, 15);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Mary Morales', 'Numquam amet tempora eius quiquia voluptatem porro.', 10, 9);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Terri Gilchrist', 'Non voluptatem modi eius.', 2, 4);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Karen Levy', 'Velit porro neque labore porro velit tempora.', 7, 13);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Darlene Weber', 'Tempora porro dolorem sit dolor.', 10, 6);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('James Bellamy', 'Dolor eius ut dolorem dolorem velit ipsum dolorem.', 10, 19);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('David Hosmer', 'Magnam non aliquam dolor dolorem. Ut amet sed quiquia modi modi voluptatem. Amet est sed adipisci. Quiquia non modi modi. Sed tempora modi porro consectetur. Ipsum dolor quisquam neque etincidunt.', 3, 1);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Ronald Wagner', 'Ipsum etincidunt quaerat quisquam. Aliquam etincidunt sit quiquia eius dolore sed neque. Ipsum neque quisquam quiquia neque quisquam. Est quaerat sit etincidunt. Magnam porro neque labore modi aliquam. Est modi porro labore. Consectetur dolorem voluptatem neque consectetur ipsum. Aliquam sit quiquia ipsum.', 5, 17);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('James Williams', 'Dolor sed etincidunt etincidunt dolorem. Magnam quisquam magnam amet quiquia quaerat. Magnam velit ut consectetur labore non velit. Porro tempora non tempora dolore adipisci labore adipisci. Dolorem porro ipsum voluptatem numquam. Sit dolore tempora tempora neque. Labore non aliquam sed magnam neque dolorem. Non eius labore magnam est aliquam adipisci. Quaerat tempora amet labore eius sit. Ut sit voluptatem eius dolore.', 4, 17);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Kathleen Ellis', 'Numquam ut sit quisquam dolor consectetur quiquia modi.', 8, 14);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Patty Rasco', 'Magnam modi ut amet.', 7, 7);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('James Johnston', 'Eius sit porro voluptatem ut.', 8, 1);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Sherry Moore', 'Dolore neque voluptatem est quisquam.', 1, 2);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Herman Harrison', 'Neque non amet quaerat est modi.', 5, 14);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Melanie Underwood', 'Voluptatem quiquia dolorem labore consectetur ut sit adipisci.', 10, 15);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jerry Lollar', 'Quiquia dolor consectetur voluptatem.', 3, 1);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Ashley Reese', 'Non ut porro aliquam amet. Neque numquam neque neque sed sit quisquam eius. Modi dolorem non est. Ipsum etincidunt modi est magnam. Porro aliquam sit velit etincidunt quaerat ipsum. Non voluptatem ut amet quiquia numquam. Est sed sit porro numquam amet labore.', 3, 11);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Sandra Holloway', 'Ut neque quisquam velit est ipsum dolorem.', 8, 6);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Ann Helm', 'Consectetur quiquia quiquia consectetur consectetur neque.', 2, 18);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Albert Carter', 'Ut eius labore porro tempora. Etincidunt neque magnam quiquia. Eius aliquam numquam porro etincidunt numquam. Etincidunt quiquia sit dolorem dolore quisquam. Tempora amet dolorem velit numquam quisquam dolor. Est porro magnam etincidunt. Tempora ut voluptatem labore. Etincidunt dolor est eius aliquam voluptatem adipisci quaerat. Ipsum magnam voluptatem neque eius labore velit.', 4, 7);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Shawn Skorupa', 'Modi non quaerat ipsum quaerat ipsum.', 7, 15);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('John Kalas', 'Velit modi sed eius quiquia ut quiquia est. Etincidunt non porro quisquam ut. Consectetur modi non labore quaerat amet voluptatem. Amet dolore quaerat modi ut. Amet amet ipsum sed eius non labore. Ipsum quaerat etincidunt eius magnam. Sit quaerat modi quisquam porro ipsum porro eius. Velit tempora magnam numquam. Neque voluptatem quiquia eius numquam.', 4, 8);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Yong Woodruff', 'Velit numquam non numquam amet velit numquam labore. Labore sed voluptatem dolor non voluptatem quiquia non. Labore dolore aliquam neque magnam labore dolore. Etincidunt numquam dolor ut adipisci tempora quaerat amet. Quisquam tempora quiquia quiquia neque numquam. Neque quiquia adipisci porro est etincidunt. Consectetur non porro quiquia etincidunt aliquam.', 5, 21);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('John Ryan', 'Dolor adipisci amet dolore dolor tempora numquam.', 1, 19);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Sara Crouch', 'Modi modi ut etincidunt etincidunt magnam quiquia modi.', 4, 1);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Marcia Gavin', 'Ipsum dolor velit dolor etincidunt dolor consectetur neque.', 3, 1);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Timothy Legions', 'Modi dolor dolore quisquam ut numquam sit dolore. Adipisci eius neque dolore adipisci eius. Labore sit sit neque ipsum dolorem velit. Ipsum voluptatem magnam numquam sed. Labore quisquam quaerat sit. Dolorem dolor dolorem etincidunt tempora. Adipisci consectetur est velit quiquia quaerat magnam ut. Etincidunt amet modi quiquia. Tempora non aliquam sed neque dolore aliquam est. Tempora eius velit ipsum tempora tempora.', 4, 2);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Guadalupe Lewis', 'Quiquia quiquia quaerat sit ut. Quiquia consectetur magnam quaerat neque velit tempora. Porro est consectetur magnam modi dolor ut quisquam. Tempora dolorem neque eius est dolore quisquam aliquam. Sit dolor numquam amet tempora consectetur dolor dolorem. Magnam tempora amet modi est ut porro aliquam.
+
+Quisquam consectetur sed eius. Amet quiquia quiquia modi. Ipsum amet velit voluptatem labore. Numquam porro dolorem etincidunt ut quiquia quiquia amet. Tempora non tempora non eius sed consectetur sed.
+
+Non etincidunt aliquam quiquia dolorem etincidunt. Ipsum etincidunt quaerat non. Quiquia quisquam ut quiquia non neque eius est. Amet dolorem eius etincidunt quisquam. Ut amet quiquia numquam eius velit modi sed. Porro quiquia tempora amet magnam est quaerat quisquam. Sed modi labore adipisci. Adipisci labore non dolorem dolor etincidunt labore. Quaerat quaerat amet dolorem numquam sed. Eius quisquam est neque.
+
+Sed sed sit sed magnam eius consectetur sit. Labore dolorem velit eius sed. Porro dolore magnam sed tempora ut tempora. Modi voluptatem neque tempora sit numquam ipsum ut. Consectetur quisquam neque tempora porro sit. Modi sed amet labore. Numquam sed aliquam consectetur non adipisci adipisci. Magnam adipisci dolor sed. Neque porro neque est modi velit. Adipisci etincidunt numquam non magnam amet voluptatem porro.
+
+Magnam neque labore dolor. Neque quaerat numquam magnam dolor. Dolor sit numquam labore. Tempora sit eius velit. Ut dolor dolor neque est.', 10, 15);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Carol Pacheco', 'Voluptatem consectetur quisquam numquam sed neque labore voluptatem.', 9, 12);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Waldo Rueluas', 'Eius sit dolorem sed velit ipsum consectetur modi.', 1, 5);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('David Lazor', 'Sed aliquam etincidunt quaerat.', 6, 19);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Ernest Calvert', 'Ut sed non est modi tempora porro est.', 10, 21);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Armando Clark', 'Neque adipisci dolor adipisci.', 3, 12);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Joseph Bryant', 'Labore ut aliquam dolorem ipsum numquam quaerat.', 2, 19);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jackie Rase', 'Dolore aliquam eius est quiquia consectetur. Ipsum adipisci adipisci velit aliquam. Etincidunt magnam quisquam ut. Sed etincidunt dolorem eius amet dolor. Consectetur numquam dolore amet etincidunt numquam dolorem eius. Aliquam velit eius modi etincidunt consectetur. Labore aliquam amet labore magnam quisquam.', 10, 15);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jeffrey Mayer', 'Magnam ut porro sit ipsum. Tempora voluptatem labore labore non modi neque quiquia. Ipsum quaerat eius ipsum modi quaerat dolor. Ipsum ipsum adipisci consectetur dolorem quaerat porro dolor. Velit eius sed quaerat consectetur. Adipisci ut amet ipsum dolore velit numquam labore. Neque magnam magnam ipsum. Neque velit velit magnam quaerat quisquam dolore amet. Etincidunt neque tempora neque. Non velit aliquam quisquam amet dolorem velit aliquam.', 4, 20);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Todd Egnew', 'Voluptatem ut sit ut voluptatem quiquia dolore consectetur.', 7, 16);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Herbert Swain', 'Quiquia est tempora consectetur labore quiquia quisquam.', 4, 16);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Ramona Parm', 'Quiquia tempora dolore quisquam dolore est adipisci. Ipsum sed ipsum tempora quaerat quisquam amet. Dolorem non dolorem neque neque. Modi velit ut consectetur quisquam eius numquam. Amet numquam aliquam neque numquam sed dolore non. Porro aliquam porro ipsum adipisci. Dolor ut numquam eius sed tempora sit. Non neque modi aliquam est aliquam dolore etincidunt.', 5, 8);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Susan Lindsey', 'Dolorem tempora voluptatem non quisquam dolor voluptatem. Adipisci etincidunt adipisci numquam dolor quaerat neque non. Aliquam labore quiquia quisquam. Dolor non quisquam numquam dolore velit dolore sed. Velit velit dolore numquam labore. Non voluptatem porro quaerat. Voluptatem ut est quisquam.', 9, 1);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Robert Calzada', 'Aliquam modi numquam labore.', 10, 16);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Charles Soapes', 'Dolor ut amet quisquam etincidunt quiquia labore. Labore est dolorem numquam adipisci. Tempora quisquam magnam labore dolor etincidunt quiquia. Neque sit dolorem neque. Sit magnam sit dolore labore eius consectetur aliquam. Etincidunt amet dolor etincidunt. Ut modi sed est. Dolorem quiquia numquam tempora. Adipisci sed dolore tempora.
+
+Velit numquam sed quisquam amet est neque. Consectetur ut etincidunt amet eius. Voluptatem sed dolor tempora etincidunt. Numquam labore ipsum modi eius. Quaerat est sit dolore magnam dolorem porro. Modi porro dolorem quisquam quisquam eius. Aliquam etincidunt dolorem tempora est tempora numquam. Quaerat porro eius ipsum dolore voluptatem dolor labore. Dolorem eius ut quiquia ut.
+
+Dolore eius porro consectetur. Sit modi adipisci est numquam labore. Aliquam neque sed tempora dolorem modi sit voluptatem. Velit dolor sed consectetur sit adipisci quiquia modi. Aliquam adipisci etincidunt velit numquam dolore. Modi consectetur sed labore velit. Velit non voluptatem modi modi dolor.
+
+Amet dolore amet consectetur dolore amet. Sed dolorem eius ut ipsum. Dolorem adipisci sit aliquam. Labore est aliquam labore non amet non. Aliquam est sed neque consectetur. Eius adipisci dolore adipisci. Quisquam labore sed numquam magnam dolorem. Aliquam sit aliquam etincidunt adipisci velit dolor. Magnam modi amet amet. Est ut quisquam labore etincidunt.
+
+Adipisci porro magnam magnam adipisci non. Amet quisquam quaerat neque modi. Quisquam dolore magnam dolor porro sit neque. Modi neque tempora quisquam consectetur velit quisquam. Tempora ipsum velit quisquam dolor non dolore. Velit ipsum tempora sit quiquia. Tempora numquam labore quaerat. Non dolore adipisci numquam sit labore. Numquam numquam quisquam aliquam voluptatem quaerat.
+
+Etincidunt porro quiquia consectetur magnam sed sit sed. Voluptatem neque velit magnam magnam neque. Numquam est numquam eius ut magnam. Tempora quisquam magnam aliquam. Quiquia dolor est velit neque sit labore eius. Quisquam est eius quisquam etincidunt dolore eius. Consectetur voluptatem quiquia voluptatem magnam adipisci aliquam magnam.', 3, 18);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Rosemary Hicks', 'Neque quisquam velit dolore. Quiquia velit dolorem aliquam ut etincidunt adipisci sit. Adipisci porro eius numquam numquam dolor neque quisquam. Labore magnam ut sit. Quiquia voluptatem neque ut etincidunt.', 8, 20);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Melvin Hendrix', 'Sed etincidunt aliquam modi dolorem sed dolor. Dolorem consectetur dolorem adipisci etincidunt dolore adipisci. Quaerat amet eius quaerat dolore eius. Magnam porro velit est ipsum consectetur. Dolore modi ipsum quaerat. Tempora neque velit non amet dolor magnam adipisci. Porro adipisci numquam neque aliquam magnam. Voluptatem velit numquam etincidunt amet porro aliquam. Porro quaerat sed adipisci. Numquam quaerat adipisci magnam porro ut quiquia.
+
+Quisquam ut velit non dolorem dolor velit non. Quisquam consectetur ipsum quisquam amet. Amet magnam etincidunt est. Etincidunt voluptatem quaerat adipisci consectetur eius sed eius. Non sed porro porro velit. Quiquia amet magnam dolorem quiquia sit voluptatem non. Magnam porro amet amet. Quaerat voluptatem quaerat etincidunt sit numquam consectetur.
+
+Voluptatem dolorem adipisci non tempora dolor voluptatem. Numquam porro neque ipsum dolore eius velit. Consectetur tempora tempora voluptatem. Sit aliquam quaerat amet. Eius voluptatem adipisci consectetur porro consectetur. Tempora dolorem est dolorem eius. Amet quiquia magnam quiquia numquam quiquia dolorem. Non eius dolore non ut sit. Neque quiquia sit eius ipsum.
+
+Quiquia dolore adipisci porro quiquia. Labore dolorem aliquam est etincidunt. Ipsum quiquia dolorem velit. Consectetur sed quiquia voluptatem velit. Aliquam eius consectetur quaerat.
+
+Dolor est ut non. Quiquia dolorem adipisci labore. Quiquia quisquam ipsum quiquia. Sit dolorem sed magnam. Quiquia dolorem sed est numquam. Numquam ut aliquam dolor quisquam sit consectetur dolor. Modi consectetur consectetur porro amet magnam labore eius. Numquam dolor magnam quisquam dolore velit ut modi. Voluptatem numquam magnam tempora non voluptatem.', 4, 6);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Nicholas Shanahan', 'Dolore est est dolorem dolore. Non numquam quaerat eius. Magnam eius voluptatem modi labore. Etincidunt dolorem ut numquam quaerat ipsum quaerat. Eius est quaerat ipsum numquam etincidunt adipisci magnam. Amet labore ut ipsum. Magnam non etincidunt porro est velit amet. Dolorem adipisci etincidunt magnam magnam amet. Etincidunt dolorem ipsum ipsum. Ipsum ut ut quiquia.
+
+Est sit modi etincidunt sit dolor sit ipsum. Velit non non neque consectetur ut dolorem dolorem. Modi labore tempora dolore aliquam ut. Quiquia voluptatem consectetur dolore labore sed amet. Est sed sit ipsum aliquam quisquam. Ipsum porro eius dolore. Amet velit modi consectetur quaerat neque.
+
+Dolore ipsum ipsum ipsum. Aliquam ut ipsum voluptatem est velit. Quaerat eius velit dolore. Dolor aliquam quisquam dolor voluptatem eius porro quaerat. Ipsum quaerat quaerat dolorem est sit non. Sit velit aliquam aliquam modi tempora non amet. Neque est adipisci adipisci. Dolore aliquam magnam tempora aliquam quaerat dolorem. Porro eius dolore voluptatem dolor eius.
+
+Quaerat quiquia neque sed. Adipisci non porro magnam aliquam. Quiquia labore modi porro. Non eius velit amet sed dolor eius dolorem. Adipisci quisquam ipsum dolore quiquia eius porro aliquam. Consectetur dolore quaerat ipsum dolore quisquam.
+
+Sit numquam dolor est aliquam ipsum. Dolorem voluptatem sit eius. Voluptatem est consectetur consectetur. Numquam magnam tempora dolor adipisci eius dolore. Ipsum dolore voluptatem tempora.
+
+Etincidunt amet neque porro dolor est. Consectetur quaerat sed sed sit. Labore ipsum dolore tempora velit velit. Quisquam porro sit magnam labore modi dolore. Sed aliquam magnam etincidunt dolore labore dolor consectetur. Ipsum labore quaerat sed ut. Voluptatem sit amet adipisci est. Tempora est quaerat etincidunt sit etincidunt consectetur ut. Dolore dolore labore quisquam.', 2, 23);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Natalie Titus', 'Aliquam adipisci dolorem dolor tempora.', 7, 16);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('David Arnold', 'Labore sed sit dolore etincidunt. Dolore non quiquia numquam quiquia dolore. Ipsum consectetur quiquia sed non dolore. Numquam magnam dolorem neque dolorem sed consectetur velit. Modi dolorem labore porro ipsum. Sit neque eius velit consectetur.', 10, 1);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Cassandra Ginder', 'Sit ipsum ut velit.', 10, 10);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Robert Sechrist', 'Etincidunt adipisci quaerat ut. Non neque eius eius voluptatem magnam ipsum. Neque amet ut neque. Labore quiquia non neque ipsum porro. Labore numquam etincidunt adipisci quiquia ut quisquam. Voluptatem tempora porro eius. Amet quaerat quiquia neque. Porro ut quiquia quaerat. Sit non tempora non modi. Labore dolor dolorem eius.', 5, 3);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Shelton Jones', 'Velit labore neque sit dolore. Adipisci quiquia non labore quisquam. Dolorem modi quisquam sed. Sed non est sit. Amet velit quaerat ut aliquam sit. Dolore tempora neque consectetur amet dolorem. Sit labore voluptatem tempora modi amet. Quiquia porro dolore consectetur etincidunt voluptatem tempora. Quiquia consectetur voluptatem modi numquam labore eius. Quaerat porro quisquam aliquam ut.', 3, 8);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Florence Debose', 'Dolor neque etincidunt neque labore non aliquam. Porro etincidunt voluptatem velit. Aliquam dolore quisquam neque velit. Amet quaerat eius est sed quiquia. Modi etincidunt modi sit est. Labore adipisci dolore adipisci. Quisquam eius voluptatem quaerat. Dolor non adipisci etincidunt amet. Quaerat dolorem aliquam sed quiquia amet adipisci amet.', 5, 4);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Betty Barfield', 'Numquam dolorem ipsum sed consectetur voluptatem labore magnam. Labore est eius ut quiquia modi tempora. Voluptatem magnam sit tempora quaerat. Sed tempora labore est velit. Amet sed etincidunt numquam sed tempora. Modi porro adipisci quaerat velit est amet modi. Sed labore tempora non velit.', 1, 12);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Frances Alexander', 'Voluptatem ipsum sit quisquam non non quaerat voluptatem. Quisquam porro tempora dolor neque. Eius consectetur dolor etincidunt sit. Ipsum consectetur eius dolorem ipsum. Dolor aliquam dolore ut dolor quiquia etincidunt sed. Etincidunt tempora etincidunt consectetur aliquam etincidunt consectetur velit. Modi amet magnam labore aliquam quiquia. Magnam neque dolor sit ipsum voluptatem.
+
+Ut sed quaerat adipisci magnam sed. Ut ipsum eius neque consectetur numquam. Dolore neque magnam non quaerat quisquam neque est. Dolor ut neque tempora dolore tempora sit ut. Adipisci dolorem numquam quaerat ut labore. Voluptatem porro modi sed sit.
+
+Sit magnam dolorem sed quisquam. Porro neque porro modi dolore tempora non. Ipsum sed neque quiquia consectetur ut dolor. Dolorem sit tempora non. Est non sed amet dolorem etincidunt. Velit porro sit dolore aliquam sed porro aliquam. Quisquam quiquia numquam amet numquam voluptatem etincidunt quiquia. Dolore porro dolore modi. Labore neque etincidunt sit quiquia consectetur non. Dolore consectetur magnam non est.
+
+Modi dolore adipisci quisquam dolore modi sed velit. Velit labore ipsum quiquia neque labore velit. Sed sit tempora labore. Adipisci tempora etincidunt sit est sed. Dolor sed ipsum tempora sit etincidunt dolorem etincidunt. Quaerat velit dolor voluptatem porro.
+
+Labore magnam amet modi. Etincidunt tempora porro quisquam. Sit voluptatem numquam dolorem. Consectetur dolorem amet ut sit eius non aliquam. Magnam voluptatem consectetur modi tempora amet quiquia. Dolore labore labore velit sed est magnam modi. Velit labore porro quisquam aliquam adipisci modi sed.', 9, 22);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Harold Lydick', 'Sed neque ipsum neque eius. Numquam voluptatem eius porro. Labore velit amet consectetur neque. Magnam quaerat porro ipsum aliquam labore voluptatem eius. Ut quisquam quiquia ipsum quisquam est ipsum magnam. Tempora ipsum dolor porro dolor. Etincidunt tempora voluptatem quisquam amet. Sed voluptatem etincidunt tempora. Magnam est adipisci non sit voluptatem.
+
+Dolor modi quiquia dolor labore quiquia. Dolorem etincidunt labore quisquam. Aliquam amet quaerat non. Labore etincidunt magnam tempora consectetur ut. Non voluptatem tempora quaerat.
+
+Ut modi non tempora velit amet ut velit. Velit dolor numquam porro quisquam eius. Tempora sed ut dolorem dolorem quiquia velit. Tempora sed sit etincidunt amet. Magnam ut non ipsum dolor. Sed dolorem labore labore modi neque voluptatem etincidunt. Porro dolore labore non. Aliquam eius ut quaerat quiquia sed voluptatem quiquia. Aliquam ut dolor ipsum sed.
+
+Magnam amet ipsum est voluptatem quiquia. Porro adipisci dolorem eius tempora quisquam. Amet dolor dolore consectetur. Dolore voluptatem ut sit sit ipsum dolor. Consectetur voluptatem dolor non.
+
+Tempora tempora adipisci est quisquam porro. Etincidunt sed numquam modi quaerat ipsum. Tempora quiquia est velit. Adipisci tempora magnam numquam est ut labore. Modi labore modi non quaerat ut.', 5, 13);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Douglas Mckinney', 'Adipisci dolorem quiquia tempora modi. Tempora aliquam ut porro. Dolore non porro dolor. Dolorem neque sed neque. Dolore amet ut adipisci quaerat eius. Magnam magnam amet labore quisquam sed aliquam. Quiquia amet magnam numquam ipsum numquam amet. Quaerat magnam porro dolorem eius est amet etincidunt.
+
+Aliquam quisquam numquam est modi. Dolore velit dolore labore consectetur dolore etincidunt. Aliquam consectetur modi modi eius dolorem. Ipsum amet neque adipisci quisquam porro. Ut velit sed adipisci voluptatem sit sed consectetur. Dolorem magnam porro amet. Voluptatem ipsum dolorem labore tempora quiquia adipisci. Consectetur amet aliquam voluptatem tempora quaerat. Quiquia aliquam adipisci voluptatem adipisci.
+
+Eius consectetur labore labore. Etincidunt dolor quiquia eius amet consectetur. Amet quaerat neque voluptatem velit dolor aliquam. Est velit porro neque sed consectetur ut tempora. Neque magnam sed numquam sed adipisci est sed.
+
+Ipsum aliquam sed voluptatem etincidunt ut neque. Aliquam eius ut neque. Dolor amet ut ut velit etincidunt quaerat. Ut non voluptatem quisquam numquam dolor numquam quiquia. Consectetur adipisci quiquia tempora porro ut est labore. Labore dolor quaerat sed magnam non quaerat sit. Velit dolorem ut porro quisquam adipisci. Etincidunt etincidunt consectetur eius. Ipsum sed aliquam neque.
+
+Ipsum dolore magnam quaerat ut. Sed velit ipsum amet. Voluptatem sed aliquam magnam. Labore magnam velit eius modi ipsum. Sit velit velit modi velit. Adipisci velit quiquia non. Ipsum porro quaerat modi.
+
+Dolore adipisci amet modi. Adipisci consectetur sit porro modi. Porro tempora ut quiquia tempora quisquam. Consectetur magnam velit dolor dolore quisquam est amet. Velit modi modi labore adipisci quisquam. Velit eius ipsum sed amet eius quaerat quisquam. Ut labore numquam voluptatem.', 8, 4);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jeff Mems', 'Neque adipisci non eius amet neque.', 10, 4);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Marilyn Touchstone', 'Velit dolor non labore.', 4, 3);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Carl Knoll', 'Neque ipsum tempora neque. Labore porro consectetur labore modi etincidunt quisquam quisquam. Sit numquam consectetur etincidunt sit. Quiquia adipisci dolor ipsum voluptatem porro dolorem. Eius dolore sit amet porro amet dolor est. Ut tempora tempora est ut sit dolore. Dolore dolor modi dolore.
+
+Quaerat labore consectetur magnam sit voluptatem ipsum dolore. Sed quiquia ipsum neque. Labore magnam aliquam tempora non aliquam magnam. Neque voluptatem modi tempora sit voluptatem voluptatem ut. Quisquam est sed amet ut est. Non tempora numquam numquam dolorem dolorem. Dolor dolor numquam quaerat quaerat ut quaerat. Eius aliquam labore etincidunt amet tempora non. Velit quaerat est amet non.
+
+Dolor quiquia dolorem dolorem etincidunt. Velit non consectetur est. Neque tempora ipsum neque sed. Dolore ipsum eius dolorem labore dolore est non. Quisquam adipisci consectetur dolore quiquia eius. Quaerat quisquam amet numquam amet quaerat. Neque dolor velit dolorem amet porro sed neque. Dolorem sit velit amet. Sed sit quaerat amet numquam neque labore.
+
+Numquam sit velit est velit. Voluptatem velit tempora quiquia neque eius velit. Adipisci eius numquam dolore dolore. Neque quiquia quaerat non aliquam. Aliquam dolor quisquam quisquam eius non sed. Etincidunt etincidunt voluptatem adipisci quiquia sit eius numquam. Quisquam quaerat labore dolorem quisquam ut.', 5, 20);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jim Couto', 'Sed eius adipisci modi neque quaerat eius.', 4, 12);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Dianna Garcia', 'Magnam sit dolore eius adipisci ut consectetur.', 3, 22);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Riva Hunt', 'Quiquia sit ut adipisci. Eius amet numquam ipsum quiquia modi aliquam velit. Quiquia tempora dolor quaerat modi ipsum non sed. Etincidunt ipsum eius ipsum adipisci. Aliquam sed modi dolore. Dolore sit non aliquam eius porro modi quaerat. Adipisci tempora sed consectetur dolore.', 2, 21);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Ruth Hyland', 'Adipisci ut eius porro. Aliquam non voluptatem modi velit sed. Modi neque tempora amet quaerat voluptatem sit modi. Sit dolorem dolorem sed magnam. Magnam sit labore numquam velit.
+
+Labore labore voluptatem neque tempora ut consectetur quisquam. Dolore consectetur sit non aliquam. Etincidunt ut quisquam magnam aliquam quiquia consectetur etincidunt. Eius dolore labore dolorem. Aliquam etincidunt quisquam modi ut etincidunt numquam eius. Dolor amet non non amet sit eius numquam. Modi labore amet dolorem adipisci dolor magnam. Est dolorem labore neque quisquam. Dolor aliquam consectetur consectetur sed sit tempora.
+
+Porro sed ipsum aliquam quaerat labore. Ut eius dolor velit. Magnam neque non amet est ut aliquam. Ipsum quisquam adipisci aliquam modi consectetur. Sed ut consectetur quisquam. Numquam modi neque dolorem neque adipisci dolore labore. Modi sed non velit ipsum. Modi amet adipisci adipisci amet non dolore. Porro eius eius neque consectetur tempora numquam.', 5, 12);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Pedro Crowther', 'Tempora consectetur quisquam porro amet ipsum amet.', 7, 23);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Michael Lung', 'Modi non porro etincidunt etincidunt sit numquam.', 8, 15);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Paul Kent', 'Aliquam aliquam sed labore neque. Ipsum numquam non tempora eius numquam ipsum porro. Modi numquam labore numquam. Dolorem consectetur aliquam adipisci tempora est etincidunt. Quiquia neque velit tempora sit. Ipsum labore ut ipsum aliquam neque. Neque modi aliquam sed modi numquam eius.
+
+Amet est quiquia sit voluptatem est dolore. Quiquia velit etincidunt adipisci eius non sit. Adipisci amet ipsum sed porro adipisci labore. Dolor magnam dolor ut quaerat. Aliquam numquam sed amet consectetur adipisci numquam. Dolore voluptatem magnam porro aliquam etincidunt aliquam. Eius quaerat sit consectetur non tempora consectetur consectetur. Sit magnam quisquam magnam tempora. Tempora voluptatem ipsum sed dolore dolore quiquia dolor.
+
+Velit quiquia non ut quiquia magnam. Neque eius modi quaerat dolorem. Ut sed porro quisquam. Quiquia sit dolore consectetur dolor magnam. Numquam amet velit quisquam est dolor velit. Dolore ipsum aliquam numquam est dolore tempora. Est porro neque ut magnam. Adipisci porro neque quisquam consectetur quiquia. Non porro aliquam quiquia.', 7, 11);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Kay Schlarbaum', 'Neque etincidunt aliquam consectetur neque labore. Ipsum modi voluptatem labore velit. Velit est adipisci sed. Quiquia ut adipisci quiquia voluptatem non dolore. Tempora non amet quiquia. Etincidunt velit quisquam quisquam modi dolore neque porro. Consectetur voluptatem quisquam aliquam velit.', 4, 20);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Robin Jennings', 'Sit consectetur non quisquam.', 2, 6);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Charlene Hudson', 'Numquam dolor tempora tempora.', 3, 17);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Phillip Tsosie', 'Quiquia est modi ipsum. Tempora neque ut ut. Porro labore labore dolorem voluptatem neque. Tempora sed magnam eius quaerat labore velit etincidunt. Porro consectetur ut adipisci labore etincidunt tempora aliquam. Non amet non amet consectetur dolorem. Numquam quiquia adipisci consectetur modi quisquam numquam. Sit aliquam adipisci dolore sit. Labore sit dolor ipsum magnam dolor.
+
+Non neque velit modi non modi consectetur. Consectetur dolore eius labore. Est quaerat velit ipsum. Dolorem labore sit quiquia quisquam. Quaerat modi aliquam est dolore velit numquam. Numquam quiquia sit eius etincidunt modi dolor sit. Ut quiquia tempora aliquam neque dolore. Numquam adipisci labore etincidunt est.
+
+Etincidunt tempora quisquam est numquam. Porro velit quisquam quaerat ut aliquam. Labore etincidunt velit labore dolore dolorem porro eius. Etincidunt ipsum voluptatem ipsum aliquam labore etincidunt. Quiquia amet aliquam dolore adipisci neque voluptatem. Voluptatem velit labore sit quisquam neque ut. Magnam eius velit adipisci dolorem ipsum sed. Numquam dolorem tempora dolore porro sed velit dolore. Etincidunt voluptatem adipisci ipsum non.', 6, 2);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Tony Mcdaniel', 'Est eius consectetur dolore magnam. Voluptatem modi voluptatem neque eius. Magnam porro voluptatem consectetur quaerat. Quiquia etincidunt labore etincidunt tempora. Magnam velit amet labore dolorem eius sit. Aliquam ipsum dolore labore adipisci magnam numquam. Modi aliquam sit quaerat numquam magnam. Sed tempora tempora neque neque tempora numquam est.', 3, 10);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Sue Vandyke', 'Velit quiquia modi eius modi.', 7, 22);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Thomas Walters', 'Est dolore voluptatem quiquia est consectetur quiquia ipsum.', 10, 8);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Esther Dawson', 'Etincidunt porro sed dolore ipsum modi. Tempora quaerat est aliquam adipisci ut quaerat. Modi non dolorem non. Ipsum ut neque consectetur adipisci. Aliquam labore non neque consectetur modi adipisci. Numquam tempora ipsum porro modi modi. Non quiquia ipsum aliquam consectetur neque.', 4, 3);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Charles Peabody', 'Adipisci aliquam quaerat numquam eius.', 6, 7);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Anna Rogers', 'Velit porro numquam quiquia modi sed. Est numquam magnam dolorem. Quaerat sed aliquam neque velit tempora eius. Consectetur consectetur numquam dolorem quaerat neque. Ut ut sed dolorem quaerat quaerat dolor ipsum. Eius sed adipisci quisquam tempora non consectetur quiquia. Adipisci amet ut eius.', 3, 13);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('James Mckinney', 'Quiquia dolore ipsum dolore neque quiquia etincidunt aliquam.', 6, 22);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('John Burgos', 'Modi eius modi voluptatem dolorem porro etincidunt tempora. Voluptatem dolorem neque est dolorem. Non modi ut ut dolor. Numquam dolorem dolor aliquam dolore est. Modi porro etincidunt adipisci neque dolore quiquia etincidunt. Adipisci sed consectetur est ipsum numquam modi dolorem. Eius quiquia etincidunt dolore labore non dolor. Etincidunt non porro dolore. Consectetur est non aliquam.', 10, 9);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Mildred Davis', 'Quaerat magnam dolor adipisci quisquam neque quaerat tempora.', 1, 9);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jerry White', 'Consectetur quiquia amet neque ipsum velit amet. Dolore eius sed numquam quiquia etincidunt modi numquam. Non non labore adipisci amet. Dolor sed consectetur numquam ut sit. Voluptatem tempora quisquam porro est etincidunt est. Porro modi etincidunt etincidunt neque sit amet. Porro ut neque adipisci dolor.
+
+Velit tempora quisquam dolore est neque dolor neque. Neque adipisci sed magnam porro velit. Consectetur ipsum ipsum neque quiquia. Voluptatem ut labore amet labore amet labore. Sit dolore quisquam quisquam. Quaerat amet sed consectetur dolorem sit. Consectetur quisquam non ipsum. Sit sit quisquam quisquam adipisci ipsum quisquam. Tempora modi ipsum consectetur modi numquam. Eius quaerat consectetur quaerat neque numquam.
+
+Dolorem ut non dolor porro labore consectetur. Dolor neque adipisci velit sit magnam. Non porro sed tempora. Porro adipisci amet consectetur consectetur tempora ipsum numquam. Etincidunt labore consectetur neque. Neque est modi voluptatem. Adipisci porro etincidunt adipisci sit. Magnam etincidunt adipisci labore. Dolore eius ut etincidunt. Adipisci numquam consectetur aliquam quiquia.
+
+Velit consectetur sit tempora est amet magnam dolor. Sed sed sit neque quisquam velit. Non quaerat ipsum etincidunt dolore velit neque. Quisquam sed eius adipisci consectetur consectetur velit. Numquam quiquia modi amet consectetur sit neque aliquam. Ipsum velit ut non. Quiquia tempora sed labore quiquia voluptatem. Magnam sed dolore sed quisquam consectetur. Quiquia velit modi numquam amet sit dolore neque. Magnam voluptatem amet etincidunt non voluptatem consectetur.
+
+Eius velit aliquam labore. Magnam porro velit eius labore numquam etincidunt neque. Quisquam ut tempora quisquam magnam etincidunt aliquam. Non quiquia numquam voluptatem neque tempora. Ipsum non numquam est. Adipisci voluptatem eius quaerat. Porro numquam numquam voluptatem. Ipsum labore est velit amet modi magnam quisquam. Ut neque dolor numquam. Labore sed sit tempora numquam voluptatem amet voluptatem.
+
+Dolore ut quiquia porro tempora. Dolorem tempora numquam ipsum dolore voluptatem dolor. Voluptatem quiquia quiquia etincidunt. Labore neque amet quaerat. Sed dolore modi neque. Numquam dolor adipisci porro consectetur numquam.', 5, 10);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Paulette Albanese', 'Sed aliquam dolor numquam labore quaerat tempora.', 4, 9);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Isabelle Weber', 'Magnam consectetur sit quisquam voluptatem eius eius. Sit ut modi ipsum modi. Aliquam sit sit tempora quisquam. Magnam quaerat dolorem aliquam porro. Amet etincidunt velit neque.', 1, 18);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('William Zhao', 'Non labore magnam modi ipsum. Aliquam aliquam dolor sit numquam adipisci amet. Adipisci velit ipsum magnam est ut. Magnam amet tempora non. Voluptatem dolor labore velit. Numquam dolor eius dolor. Amet ipsum ut quiquia eius eius ipsum.
+
+Eius neque numquam tempora quaerat magnam quisquam. Etincidunt numquam est ipsum velit aliquam. Modi consectetur velit sit. Dolor quaerat est ut sed non adipisci numquam. Voluptatem quaerat sit labore eius quaerat porro.
+
+Dolorem velit etincidunt amet. Modi sed dolorem neque voluptatem velit neque dolor. Porro sit sed dolore numquam labore ut numquam. Est aliquam sed dolor tempora amet. Velit dolore magnam non. Numquam quiquia etincidunt tempora. Quiquia eius quisquam consectetur magnam. Labore numquam amet quiquia dolorem. Etincidunt dolor tempora quiquia quisquam quaerat ut.
+
+Amet quisquam modi ipsum modi amet labore. Amet dolore eius quaerat etincidunt. Tempora labore quisquam dolore modi quisquam. Numquam dolore quiquia neque sit ut amet. Dolore adipisci quaerat labore dolore dolor neque sit.
+
+Magnam modi porro ipsum adipisci. Ipsum voluptatem tempora velit amet. Sed sit eius labore. Ut dolorem dolore voluptatem adipisci neque adipisci ut. Voluptatem modi velit modi sed. Est dolor modi amet etincidunt ut dolore. Numquam etincidunt adipisci non consectetur. Velit modi adipisci dolore.', 7, 5);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lester Kilgore', 'Aliquam sit labore sit modi ut non. Non modi dolor velit neque. Velit numquam ipsum quaerat voluptatem. Quiquia ut ut velit magnam dolore quiquia quisquam. Consectetur quisquam voluptatem modi. Sit quiquia ipsum dolor sit. Aliquam est consectetur non labore numquam eius. Adipisci sed amet eius. Ut numquam quaerat quisquam ipsum adipisci voluptatem est.', 7, 22);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Frances Naumann', 'Labore tempora aliquam quiquia non. Consectetur velit sit consectetur numquam neque sit velit. Labore non adipisci tempora modi dolorem dolorem. Ipsum velit adipisci voluptatem ut tempora amet est. Sit consectetur quiquia sit voluptatem dolore.', 2, 2);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Laura Mclaughlin', 'Porro non quiquia aliquam quiquia quiquia dolor. Tempora adipisci porro eius. Neque consectetur quiquia velit. Amet porro etincidunt voluptatem. Etincidunt neque quisquam modi dolorem numquam.', 6, 7);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Robert Huerta', 'Porro sit quaerat aliquam amet neque eius.', 4, 14);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Richard Chester', 'Eius sit aliquam eius velit non sed adipisci.', 3, 2);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Carol Dickerson', 'Est sed sit neque quaerat magnam quisquam. Quiquia non quaerat sit. Aliquam amet sed ut sit. Adipisci velit neque numquam sit labore non. Voluptatem magnam sed voluptatem velit dolorem. Ipsum quisquam quiquia eius dolor quaerat porro numquam. Quaerat aliquam labore numquam est est porro quisquam. Adipisci velit dolorem amet ut ipsum sed. Ut dolor eius dolorem amet ipsum velit.', 8, 19);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Emilio Perkins', 'Dolore eius eius non eius adipisci tempora quaerat.', 7, 9);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Ashley Jones', 'Labore numquam quiquia labore.', 10, 20);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Danny Bozeman', 'Neque adipisci neque etincidunt quaerat ut sed. Sed sit ut non etincidunt non modi modi. Quisquam sit dolore voluptatem adipisci. Est amet modi ut labore aliquam. Labore aliquam quaerat dolore dolor aliquam aliquam. Modi amet ut est. Ut quaerat numquam labore.', 5, 10);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Kerry Laster', 'Quaerat sed est aliquam neque dolorem magnam etincidunt. Numquam est dolore sed numquam labore sed. Sed ut quiquia dolorem quaerat. Modi non numquam eius porro ut amet amet. Voluptatem numquam quisquam sit neque velit adipisci. Est dolore quisquam amet voluptatem labore. Amet adipisci ut amet.', 2, 17);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Junita Comeaux', 'Dolor sed modi tempora aliquam dolorem dolore. Non aliquam dolorem dolor est est velit. Etincidunt dolore sed tempora. Velit velit dolor voluptatem etincidunt. Labore magnam amet dolor dolore. Sit sed numquam etincidunt sed. Porro porro velit ipsum etincidunt porro. Amet dolorem neque eius ipsum non. Ut dolor modi modi ut adipisci dolorem. Sit consectetur quaerat adipisci neque.', 8, 10);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Patricia Smith', 'Ipsum neque quisquam tempora velit dolor.', 7, 13);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Michele Johnson', 'Sed quaerat dolor etincidunt.', 4, 18);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Kyle Williams', 'Quisquam etincidunt magnam ipsum amet est ipsum aliquam. Sit amet non non. Non dolor modi quaerat numquam dolore modi. Dolorem quisquam adipisci dolorem amet quisquam voluptatem. Quaerat porro labore consectetur dolorem voluptatem quisquam. Porro amet numquam est adipisci ipsum dolorem.', 2, 10);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('James Hudgins', 'Porro quisquam ut quisquam consectetur. Dolor ut magnam numquam magnam tempora tempora quaerat. Aliquam eius sed quaerat quiquia non. Aliquam consectetur voluptatem non sed. Etincidunt labore ipsum sed. Quaerat tempora adipisci dolorem dolorem non. Dolorem quaerat neque dolor.
+
+Porro eius dolor sed quiquia. Ipsum voluptatem sit ipsum magnam. Adipisci sed est velit porro velit quaerat. Amet numquam eius etincidunt quiquia non. Sed neque dolore aliquam ipsum modi eius dolor. Dolorem ut non labore. Neque tempora numquam eius est adipisci quiquia.
+
+Etincidunt quaerat tempora consectetur numquam aliquam. Velit adipisci eius ipsum dolor amet magnam. Est dolorem dolore aliquam. Tempora est eius sit ut ipsum ipsum. Tempora ipsum eius etincidunt. Consectetur adipisci adipisci dolor quiquia numquam neque labore. Dolore quaerat quiquia velit quisquam amet velit adipisci.
+
+Dolor sed sit sit ipsum magnam consectetur voluptatem. Eius quaerat aliquam dolor. Ut ut est sed. Quisquam aliquam tempora neque consectetur velit. Est velit ipsum dolore numquam porro. Sit dolor etincidunt modi amet quisquam ut. Eius adipisci est numquam aliquam consectetur modi aliquam. Modi dolore est consectetur aliquam velit quaerat. Non tempora ipsum numquam sed sed dolore etincidunt.
+
+Voluptatem magnam neque velit dolorem quaerat labore est. Magnam voluptatem consectetur dolor tempora. Ipsum dolorem dolore consectetur tempora. Dolorem modi magnam est dolore. Neque modi est velit velit quaerat. Dolor magnam voluptatem dolore dolore. Dolor tempora neque ipsum. Velit voluptatem tempora dolorem dolore. Est dolore est consectetur aliquam consectetur etincidunt.
+
+Quaerat non non dolore consectetur voluptatem quaerat voluptatem. Numquam consectetur sed numquam porro consectetur. Quisquam non velit numquam. Dolore amet sed voluptatem. Neque quisquam ipsum ipsum non. Consectetur dolor aliquam velit etincidunt dolorem. Porro etincidunt dolore aliquam ipsum neque. Sit eius dolore dolorem ipsum. Ut quiquia amet tempora voluptatem.', 7, 13);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Donnie Potter', 'Modi ipsum dolorem sed aliquam amet voluptatem.', 7, 11);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Emilia Bowie', 'Quaerat etincidunt ipsum numquam modi.', 5, 7);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('William Nalevanko', 'Magnam velit etincidunt voluptatem sed velit. Quisquam numquam tempora quisquam quiquia porro. Dolore dolor aliquam voluptatem magnam labore dolorem ipsum. Dolorem etincidunt labore labore adipisci neque. Consectetur etincidunt voluptatem dolor neque. Porro non quaerat dolorem adipisci voluptatem modi adipisci. Consectetur etincidunt labore sit eius.
+
+Eius dolore dolorem est amet non quaerat eius. Non dolor aliquam modi non aliquam. Quaerat magnam neque amet magnam ipsum magnam. Magnam aliquam ipsum consectetur neque. Quiquia non est velit. Dolor quiquia dolore amet est tempora labore. Modi neque magnam non dolorem adipisci quisquam magnam.
+
+Est neque non porro quaerat modi ut sit. Magnam non non adipisci. Quiquia tempora neque velit dolorem velit magnam est. Ipsum dolore labore dolore dolore numquam. Tempora modi neque tempora quaerat dolor quisquam. Ut velit sed labore sed aliquam dolore. Ut voluptatem adipisci neque velit sit dolore sit.
+
+Aliquam non adipisci non adipisci voluptatem. Quaerat amet amet adipisci est dolorem. Dolorem dolor quiquia voluptatem dolorem adipisci porro. Eius dolor amet porro etincidunt. Dolorem quisquam porro est. Quisquam quisquam etincidunt eius. Porro sit tempora consectetur dolor. Sit numquam quisquam porro aliquam. Quisquam ut magnam modi labore dolore porro est. Labore ut tempora velit.', 6, 22);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('David Hatch', 'Quisquam dolore porro porro voluptatem modi.', 3, 9);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Frances Zmolek', 'Etincidunt quaerat est tempora magnam quisquam adipisci.', 5, 10);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Leonard Burrell', 'Non consectetur etincidunt non dolor dolorem dolor velit. Consectetur dolor magnam dolorem labore est. Dolor est non modi sit tempora ipsum. Sit quaerat etincidunt quaerat quisquam dolorem dolore neque. Porro dolore eius quiquia.', 6, 23);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Gertrude Robbins', 'Dolorem ipsum dolorem porro consectetur.', 6, 5);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Derrick Prescott', 'Etincidunt numquam non voluptatem sit. Velit tempora consectetur etincidunt dolor. Tempora sed adipisci ipsum tempora. Magnam dolorem est quiquia ipsum sed quisquam. Ut voluptatem quaerat etincidunt.', 4, 3);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Cynthia Eastman', 'Non voluptatem voluptatem eius est quisquam. Aliquam dolore non porro magnam. Sit amet aliquam aliquam quiquia sit. Consectetur velit dolore magnam ipsum amet est. Ut modi magnam labore. Velit dolor quaerat non modi modi ut. Magnam etincidunt dolore ut est neque. Modi quiquia labore labore.
+
+Tempora quaerat adipisci non voluptatem sed sit. Etincidunt sed consectetur eius amet neque consectetur sed. Dolorem tempora quaerat eius adipisci porro porro aliquam. Adipisci modi consectetur neque consectetur. Porro eius quaerat modi sed dolor neque voluptatem. Sed numquam modi voluptatem tempora. Consectetur porro labore quisquam.
+
+Voluptatem etincidunt velit aliquam amet etincidunt adipisci. Etincidunt ut tempora adipisci tempora porro ipsum. Dolorem ut sit consectetur est. Magnam ipsum dolore quiquia voluptatem tempora magnam. Dolore etincidunt ipsum labore neque ut amet. Sit quisquam eius modi amet modi. Voluptatem ut dolore etincidunt numquam. Voluptatem velit numquam ut neque quaerat. Magnam voluptatem sed dolore tempora adipisci.', 9, 1);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Sheryl Winegar', 'Modi quisquam modi numquam labore quaerat. Quisquam dolorem consectetur amet eius. Non ut voluptatem porro dolore modi. Porro amet sed modi numquam. Sed quiquia aliquam aliquam tempora. Adipisci eius modi neque porro labore sed. Dolore neque non non ut. Etincidunt sit porro ut adipisci consectetur.
+
+Quaerat magnam non dolore ipsum. Numquam sit non quiquia sit quiquia. Modi aliquam consectetur magnam labore velit quiquia aliquam. Dolore modi velit consectetur sit. Tempora est consectetur amet velit quiquia neque ut. Porro dolore dolorem dolore quaerat.
+
+Quiquia neque sed consectetur ut. Dolorem dolorem amet etincidunt porro eius. Sit etincidunt tempora eius neque non. Quaerat dolore ut dolor est velit eius dolore. Etincidunt sit etincidunt sit adipisci quisquam est quiquia. Modi neque voluptatem aliquam velit. Tempora labore sed etincidunt magnam quaerat quisquam modi. Magnam velit sit labore. Sit sed tempora dolor.
+
+Sed ipsum aliquam neque ut numquam modi. Eius velit modi modi quisquam porro. Quaerat porro quiquia sed voluptatem numquam. Quaerat magnam sit voluptatem dolorem est. Neque amet labore magnam eius dolor porro numquam.
+
+Eius dolore etincidunt sit magnam amet porro non. Quisquam etincidunt magnam ut ut modi non eius. Magnam velit ipsum voluptatem consectetur magnam quiquia. Sed eius magnam quisquam voluptatem est. Eius quiquia dolore tempora quiquia modi.', 2, 13);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Patti Burns', 'Dolorem tempora consectetur quaerat. Dolore porro ipsum consectetur sed. Amet quaerat consectetur magnam. Consectetur neque etincidunt adipisci neque velit. Sit quiquia modi quiquia aliquam voluptatem quaerat. Sed velit quaerat ipsum.', 2, 1);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Rodney Portes', 'Adipisci ut voluptatem quiquia labore sit dolore modi. Non amet sit quisquam sed modi. Sit velit modi quaerat. Modi labore tempora amet etincidunt est. Velit est est ut. Non aliquam quiquia modi magnam. Amet quiquia magnam porro consectetur. Magnam dolore sit velit eius est neque.', 3, 2);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Frances Chavez', 'Adipisci neque tempora est ipsum.', 5, 10);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Toni Erikson', 'Ut non sit porro ut. Modi quaerat porro tempora. Numquam eius amet ut. Quiquia ipsum quiquia labore consectetur quiquia numquam porro. Voluptatem dolore est dolorem. Amet dolore adipisci quaerat modi aliquam quaerat. Dolore aliquam dolore sit est etincidunt. Quiquia magnam dolorem eius sit.', 9, 11);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Christopher Gowers', 'Labore dolor magnam dolor quiquia etincidunt porro sit.', 6, 7);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Christine Smith', 'Consectetur dolore numquam tempora tempora eius.', 2, 19);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Debrah Lewis', 'Quisquam ipsum neque est magnam dolor labore. Quiquia modi ipsum consectetur sit magnam. Voluptatem neque dolore neque dolorem dolore. Quiquia non adipisci modi tempora eius. Adipisci amet eius neque sit sed. Numquam dolorem consectetur porro voluptatem. Dolorem velit voluptatem consectetur. Sed quaerat porro tempora sit labore voluptatem tempora. Dolor neque est non adipisci neque quisquam.', 5, 7);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Melvina Guimond', 'Est labore ut ut. Tempora amet quisquam voluptatem sed dolorem. Dolore amet consectetur tempora. Porro neque etincidunt non labore magnam. Dolor consectetur consectetur amet modi neque. Sit ipsum quisquam ut consectetur ipsum dolor numquam. Velit consectetur dolor quiquia.', 1, 11);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Wm Sheriff', 'Aliquam tempora magnam non amet dolor quaerat labore.', 1, 23);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Genevieve Vance', 'Sed dolorem quaerat ipsum dolore.', 4, 14);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Veronica Richardson', 'Sed amet ut sed dolor consectetur eius.', 6, 3);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Patricia Cloutier', 'Sit numquam velit voluptatem neque etincidunt. Magnam labore neque dolor. Amet amet est dolorem eius velit dolore ipsum. Voluptatem adipisci etincidunt non quisquam magnam quaerat. Dolore etincidunt dolore dolor est non quaerat neque. Neque porro aliquam magnam. Sed ut quiquia aliquam.', 1, 5);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Vanessa Wilkins', 'Velit ipsum eius tempora modi est.', 4, 9);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Joel Keenan', 'Sit adipisci porro non eius velit. Porro non dolor adipisci. Dolorem porro ipsum quiquia. Quaerat velit non velit consectetur. Dolor dolore non etincidunt est quisquam voluptatem eius. Neque velit quisquam quaerat neque. Modi est voluptatem quiquia amet. Modi dolore quisquam etincidunt voluptatem sit dolore dolor.', 7, 2);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Sanora Barnett', 'Consectetur magnam voluptatem voluptatem non magnam.', 10, 13);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Charles Ball', 'Ut adipisci dolorem dolore est.', 5, 14);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Marcia Rowe', 'Quiquia quaerat sit adipisci dolore aliquam.', 4, 12);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Daniel Jackson', 'Consectetur etincidunt adipisci quaerat quisquam quisquam amet numquam.', 9, 15);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Herbert Cavalero', 'Sit porro ipsum sed sed amet.', 10, 21);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Alton Reynolds', 'Quiquia numquam ut velit etincidunt adipisci.', 5, 5);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Janet Crosier', 'Est ipsum modi etincidunt adipisci magnam aliquam eius.', 7, 9);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Edward Wingfield', 'Adipisci quaerat magnam dolore velit quaerat labore dolorem. Est numquam voluptatem non numquam. Voluptatem numquam etincidunt quiquia dolore magnam ut est. Quiquia adipisci velit modi dolor modi quiquia. Porro quaerat dolore quiquia ut quisquam. Quiquia ut velit dolor. Dolore neque quiquia dolore velit quaerat quiquia. Dolorem voluptatem porro modi quisquam labore sed. Ut consectetur dolor magnam.
+
+Labore porro voluptatem sed non voluptatem. Voluptatem quiquia magnam consectetur neque adipisci sed consectetur. Dolore adipisci quaerat quiquia sed dolore. Consectetur aliquam amet est ipsum quisquam consectetur. Voluptatem quaerat numquam adipisci. Consectetur labore quisquam numquam quisquam neque velit. Quaerat aliquam etincidunt porro aliquam dolore quisquam voluptatem. Dolor magnam dolorem magnam modi neque dolorem velit. Tempora ut sed adipisci voluptatem modi magnam.
+
+Dolorem sit velit ut aliquam aliquam numquam magnam. Voluptatem neque voluptatem etincidunt labore labore numquam numquam. Etincidunt dolorem amet eius ipsum porro quisquam. Quisquam ipsum modi ipsum. Etincidunt numquam non est ipsum numquam consectetur. Amet ut labore voluptatem dolor aliquam. Dolorem porro quisquam quaerat tempora. Est velit consectetur eius numquam consectetur quaerat sit. Porro amet sit etincidunt dolorem.
+
+Aliquam voluptatem non velit tempora ut etincidunt. Dolore dolore dolorem modi velit. Modi porro quaerat tempora velit quisquam. Ut magnam amet neque eius. Labore sit quiquia modi est quisquam amet ipsum. Quaerat modi ut eius modi.
+
+Ipsum magnam quiquia adipisci porro. Quisquam consectetur consectetur consectetur aliquam dolorem ipsum est. Eius tempora labore labore quiquia porro sit velit. Voluptatem quaerat voluptatem non dolore. Voluptatem labore est dolor. Magnam magnam eius ut quaerat quisquam porro. Ut quaerat eius voluptatem aliquam. Adipisci est aliquam sed. Velit neque modi sit non labore modi.
+
+Voluptatem etincidunt non sed sed. Sit amet ipsum modi. Quaerat magnam dolorem consectetur amet. Non tempora numquam non amet neque. Adipisci quiquia ipsum numquam aliquam neque. Adipisci dolorem sed adipisci velit consectetur non.', 3, 4);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Richard Nolen', 'Sit adipisci sed est eius dolore ipsum consectetur. Quiquia voluptatem magnam est. Magnam porro quisquam numquam. Quaerat modi labore sed adipisci amet ipsum non. Labore sed voluptatem ipsum eius consectetur numquam. Dolorem quisquam etincidunt adipisci. Est consectetur sed tempora. Adipisci numquam labore numquam voluptatem. Ut voluptatem dolor non voluptatem velit.', 7, 9);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Ronald Correa', 'Quiquia quisquam non consectetur.', 9, 18);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Debra Reeks', 'Aliquam voluptatem tempora etincidunt labore adipisci eius porro. Quiquia dolore dolore labore quiquia dolore velit quiquia. Quiquia dolorem ipsum dolore aliquam dolore est ipsum. Quaerat etincidunt quisquam dolore. Sed consectetur quiquia labore.', 7, 23);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Charles Bailey', 'Magnam aliquam tempora est consectetur magnam ipsum.', 9, 4);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Barbara Gann', 'Quiquia quiquia sit numquam porro consectetur. Sed neque adipisci voluptatem dolore magnam. Dolore tempora eius magnam. Labore consectetur quisquam amet adipisci ipsum dolorem quisquam. Ut numquam amet ut aliquam. Aliquam amet adipisci non sed neque dolorem magnam.
+
+Tempora tempora adipisci quiquia ipsum consectetur aliquam est. Est dolore dolor sit dolore consectetur. Amet adipisci dolorem consectetur dolor. Eius dolor voluptatem voluptatem labore dolor. Quisquam amet dolorem ut. Dolorem sed dolorem quaerat. Consectetur adipisci ut quaerat. Dolor dolore quiquia est quiquia etincidunt ipsum.
+
+Dolorem dolor dolor labore quaerat. Dolore magnam consectetur sit modi. Dolorem quaerat numquam ipsum aliquam adipisci ut velit. Quaerat consectetur consectetur magnam labore neque dolore. Eius dolor velit velit ut. Labore dolore ipsum sed neque aliquam. Eius ut quisquam neque dolor numquam ipsum. Voluptatem etincidunt dolor non quiquia labore. Eius ipsum est quiquia sit dolore. Neque numquam voluptatem eius dolore etincidunt.
+
+Ipsum aliquam quisquam numquam sit dolor. Quisquam modi numquam porro labore sit dolor sit. Ut tempora dolorem labore adipisci dolorem. Etincidunt tempora quisquam magnam ut non sed. Est amet sed consectetur dolorem adipisci non. Est quiquia voluptatem neque neque. Neque voluptatem etincidunt porro tempora. Modi amet labore quisquam quisquam etincidunt. Tempora ipsum neque consectetur. Non etincidunt voluptatem amet porro porro.
+
+Est aliquam magnam magnam magnam numquam sit. Aliquam tempora modi non dolorem magnam sed ut. Eius quaerat etincidunt ut quisquam ipsum non. Neque labore etincidunt est porro magnam aliquam quaerat. Ut dolor porro sit velit.
+
+Labore dolore aliquam ut tempora etincidunt. Neque velit velit quiquia modi non. Est magnam ipsum numquam aliquam dolor. Est consectetur quaerat labore velit. Aliquam magnam labore aliquam velit amet. Dolor porro ut sit consectetur voluptatem. Numquam magnam adipisci quiquia quiquia. Consectetur sed sed aliquam.', 7, 20);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Carl Stribling', 'Dolor adipisci adipisci amet voluptatem dolor. Modi eius quiquia non. Amet quisquam ut velit etincidunt. Est velit etincidunt etincidunt dolore ut porro neque. Labore dolor amet quisquam amet voluptatem ut. Tempora tempora aliquam etincidunt dolore sit sed.', 1, 2);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Chad Roberts', 'Aliquam amet est labore labore ipsum tempora.', 4, 14);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lesley Macgregor', 'Quiquia quisquam consectetur ipsum neque est quiquia eius.', 2, 2);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Christy Wood', 'Non modi quiquia quaerat est amet etincidunt.', 8, 14);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lynn Schleppenbach', 'Etincidunt quaerat porro quaerat voluptatem quaerat.', 6, 11);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('David Cruz', 'Sed aliquam modi quaerat amet sit.', 9, 9);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Leta Bernard', 'Quisquam quaerat sit ut neque quisquam dolor. Adipisci eius voluptatem consectetur magnam eius sit quiquia. Non dolore quiquia dolore. Sed velit dolor quaerat numquam etincidunt. Dolore amet ut ut dolore ipsum ipsum porro. Ipsum sit dolor ut dolorem. Eius labore etincidunt quisquam quiquia dolor. Magnam numquam etincidunt sed tempora. Magnam sit quaerat quiquia. Voluptatem adipisci quisquam ut est adipisci non.', 1, 10);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Joan Howard', 'Consectetur eius dolor modi amet porro dolorem porro.', 6, 21);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Kimberly Andrews', 'Dolorem labore dolorem dolore. Eius modi sit dolore. Magnam dolore labore etincidunt dolor amet. Ut etincidunt numquam quiquia amet quisquam magnam. Non aliquam tempora quiquia quaerat magnam adipisci aliquam. Quaerat ut modi magnam tempora.', 2, 8);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jessie Nowakowski', 'Porro dolore non quiquia eius quiquia neque.', 6, 22);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Cynthia Covello', 'Neque quiquia est consectetur.', 6, 10);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Henry Burns', 'Sit quaerat quiquia amet dolor.', 3, 15);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Tracey Thomas', 'Consectetur aliquam amet quaerat. Adipisci dolorem neque porro sed etincidunt. Magnam numquam est sed. Modi etincidunt eius adipisci. Eius eius etincidunt voluptatem dolor aliquam. Dolore modi tempora neque. Aliquam labore adipisci amet dolor dolore adipisci quiquia. Quaerat porro eius aliquam labore adipisci etincidunt.', 5, 11);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Michael Price', 'Dolore amet sed quisquam velit eius consectetur eius.', 3, 5);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Natalie Wagner', 'Velit voluptatem labore est dolor aliquam voluptatem.', 5, 5);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Marjorie Ernst', 'Voluptatem etincidunt etincidunt adipisci porro dolore quisquam numquam. Ut dolorem dolor porro. Quaerat quisquam voluptatem sed dolor. Etincidunt non labore neque numquam neque. Ut porro porro consectetur non aliquam dolore labore. Etincidunt neque dolorem ut voluptatem. Numquam quisquam eius sit ipsum. Neque voluptatem consectetur sit numquam eius quisquam. Tempora voluptatem labore est numquam neque modi sit.', 4, 15);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Connie Arvelo', 'Labore tempora est porro sit ipsum dolorem ut. Dolorem dolor magnam consectetur labore quiquia voluptatem. Ipsum quiquia consectetur aliquam amet sit amet. Ipsum non porro porro consectetur quaerat. Eius dolorem consectetur dolorem.', 1, 16);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Eduardo Mansfield', 'Modi magnam aliquam labore consectetur est.', 4, 17);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Elsie Lundsford', 'Consectetur ipsum porro numquam non.', 4, 2);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Eric Ray', 'Quisquam quiquia ipsum quisquam. Tempora est est aliquam magnam etincidunt quaerat. Numquam consectetur voluptatem neque modi voluptatem dolore porro. Dolor modi magnam porro est quaerat velit ipsum. Tempora sed dolor voluptatem dolorem porro amet ipsum.', 3, 21);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Ramon Terra', 'Velit neque voluptatem aliquam est dolorem.', 2, 9);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Pamela Quesnell', 'Quaerat etincidunt voluptatem amet dolor.', 10, 18);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Nicholas Shepard', 'Sed quiquia adipisci voluptatem quiquia aliquam.', 7, 19);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Charles Goodrum', 'Est est consectetur amet magnam porro quiquia voluptatem. Voluptatem adipisci dolor amet porro sit ut. Aliquam ipsum ut est. Dolor dolore ipsum porro non ipsum. Etincidunt modi numquam velit. Consectetur ut dolore sed quaerat adipisci consectetur. Neque dolor voluptatem modi voluptatem voluptatem. Labore sed neque numquam ut porro.', 9, 6);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Charles Lucas', 'Consectetur ut voluptatem dolore etincidunt dolorem quisquam quisquam.', 2, 1);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Samantha Schlueter', 'Quiquia sit voluptatem modi est est. Neque ut ipsum quisquam consectetur dolore amet etincidunt. Numquam adipisci magnam ipsum labore. Aliquam porro quiquia quisquam dolor dolorem. Porro dolor porro eius eius labore quisquam. Voluptatem dolor porro ipsum consectetur sit. Magnam labore aliquam ut neque velit ut.', 1, 21);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Bennie Sanders', 'Numquam numquam dolore amet non porro etincidunt.', 6, 4);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jon Rudish', 'Velit modi quiquia ipsum sed eius. Adipisci ut non ipsum. Quaerat sit non dolore numquam. Labore voluptatem numquam dolore neque. Neque aliquam non tempora sit porro dolorem. Magnam ipsum dolore non neque.
+
+Neque non etincidunt numquam. Aliquam ipsum tempora aliquam. Quiquia voluptatem quisquam magnam. Voluptatem labore neque porro. Dolorem neque quisquam aliquam etincidunt aliquam quaerat quisquam.
+
+Modi sed adipisci non tempora quaerat. Adipisci modi sed quaerat. Quaerat ut magnam sed dolore amet amet ut. Etincidunt numquam ipsum adipisci labore. Est etincidunt dolore consectetur. Quiquia neque velit quisquam quaerat eius. Tempora magnam velit etincidunt amet amet sed. Etincidunt porro etincidunt est. Modi eius dolore adipisci consectetur labore sed velit.
+
+Quisquam quiquia voluptatem non etincidunt velit non. Consectetur aliquam labore ut labore est porro. Amet consectetur est amet est ipsum. Dolore sit porro quiquia labore ipsum sit. Sit porro quisquam sit ut consectetur quiquia labore. Porro numquam sit modi neque non sed quaerat. Est velit adipisci non quisquam modi sit.', 7, 11);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Freddie Jordan', 'Sit non non quiquia etincidunt ut numquam est. Eius ipsum dolor dolor dolore. Quaerat adipisci amet quiquia velit quiquia velit. Labore numquam dolor quiquia etincidunt porro non sed. Amet modi numquam est quaerat ut dolore. Ipsum numquam labore eius tempora dolore dolor.', 8, 11);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Joseph Yoxall', 'Neque sit aliquam labore velit voluptatem etincidunt quiquia.', 4, 13);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Dorothy Wagner', 'Porro labore etincidunt dolorem neque quiquia quiquia voluptatem.', 7, 19);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Mark Hearn', 'Magnam dolor velit neque ipsum. Sed neque est ipsum magnam amet quiquia tempora. Sed etincidunt voluptatem sit. Numquam tempora velit tempora ut etincidunt. Neque est velit porro amet. Modi dolore etincidunt numquam ipsum est.', 4, 20);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Eve Nelson', 'Amet consectetur ipsum sed ut.', 8, 15);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Patrick Barnard', 'Tempora velit eius amet numquam.', 2, 1);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('John Burroughs', 'Etincidunt non adipisci adipisci consectetur eius neque est.', 8, 3);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Luis Justice', 'Non porro non consectetur sed porro tempora.', 4, 2);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Franklin Dunaway', 'Dolore quiquia quiquia ut modi sed.', 10, 12);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Milton Hunter', 'Sed tempora adipisci dolore velit porro. Ut ut sit non quaerat numquam. Consectetur est magnam non dolorem labore velit porro. Magnam magnam non adipisci neque. Consectetur dolore modi sed sit. Dolorem consectetur consectetur magnam consectetur non est neque. Porro dolor consectetur non.', 1, 10);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Donna Holliday', 'Eius neque modi dolore dolore.', 9, 14);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Mark Jones', 'Eius numquam sit neque. Aliquam quiquia velit sit non velit magnam. Quisquam dolor ipsum amet. Dolorem labore voluptatem numquam quaerat. Dolore voluptatem magnam sit. Eius sed ut amet velit. Sed sed sit aliquam.', 4, 23);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Nancy Jeanbaptiste', 'Eius ut sit modi quaerat porro quiquia.', 1, 17);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Thomas Morris', 'Quiquia sit quiquia consectetur sit tempora quiquia eius.', 8, 13);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Derek Burns', 'Amet est dolor consectetur dolor dolorem sit. Dolorem sed consectetur ut consectetur aliquam. Porro dolor dolor non tempora. Consectetur porro sit etincidunt. Adipisci ut eius labore magnam amet ipsum. Numquam sed velit consectetur neque non voluptatem. Modi quaerat est sed. Consectetur tempora quaerat tempora magnam voluptatem magnam tempora. Numquam quiquia amet neque.', 2, 4);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lona Saville', 'Quaerat numquam consectetur ut. Labore quisquam adipisci dolorem non quisquam neque consectetur. Eius eius velit dolore. Modi ipsum quisquam ut est modi dolore adipisci. Tempora ut non adipisci amet quaerat consectetur est.
+
+Quisquam modi quaerat porro quisquam dolore ut quisquam. Quiquia consectetur porro porro velit velit. Voluptatem neque modi est modi tempora labore modi. Numquam ipsum eius tempora dolor dolor. Dolor neque etincidunt velit eius magnam voluptatem adipisci. Consectetur velit labore eius ut.
+
+Est dolore amet eius tempora est dolor numquam. Magnam etincidunt ipsum quiquia dolor est modi. Dolor quisquam sed velit labore. Labore est non quiquia dolorem quaerat amet labore. Amet quiquia etincidunt adipisci numquam. Non adipisci voluptatem non sed porro. Sed etincidunt quiquia non.', 4, 15);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Yvonne Mcduffie', 'Sed dolorem ipsum magnam numquam dolorem etincidunt velit. Etincidunt tempora numquam consectetur sed ut dolore. Ut adipisci neque dolorem magnam modi. Eius tempora modi adipisci. Ipsum quiquia velit dolorem modi. Aliquam ut quisquam aliquam tempora amet quiquia velit. Ut consectetur non eius velit adipisci. Sed aliquam tempora numquam quisquam dolor. Non neque ut ipsum ipsum ipsum sed. Dolore consectetur numquam voluptatem quiquia dolor.', 9, 2);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Juan Francis', 'Sed voluptatem numquam etincidunt.', 10, 14);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Erica Kerns', 'Modi ut quaerat adipisci.', 3, 14);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Dawn Baird', 'Sed adipisci dolorem consectetur aliquam sed. Velit magnam amet etincidunt neque voluptatem. Non adipisci magnam amet dolorem. Tempora dolore voluptatem ipsum est. Ipsum amet consectetur tempora. Consectetur magnam eius adipisci non sed quiquia modi. Consectetur sit sed dolorem tempora adipisci ipsum dolor. Consectetur quisquam consectetur modi tempora eius.', 7, 13);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Mary Morris', 'Dolor labore sit etincidunt neque.', 6, 16);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Tasha Minor', 'Velit est magnam voluptatem voluptatem velit voluptatem dolorem.', 7, 5);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Olive Aranda', 'Voluptatem quiquia amet velit est magnam ut ipsum. Sit adipisci adipisci consectetur magnam. Modi quisquam ipsum sed etincidunt ut labore. Ipsum porro tempora ut. Quaerat dolorem dolor neque dolore labore quiquia. Eius magnam sit porro. Quisquam dolor non voluptatem ut. Sit ipsum numquam etincidunt sed neque labore. Quiquia magnam dolor dolore ut.', 6, 15);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Gary Woods', 'Neque adipisci labore etincidunt. Aliquam dolor porro labore neque. Porro velit tempora dolore quiquia neque magnam. Labore modi voluptatem dolor. Labore neque dolore modi amet dolor est non. Dolore amet non non adipisci voluptatem eius numquam. Ut numquam adipisci dolore aliquam. Est eius quisquam sit modi. Velit quaerat numquam sit labore amet.', 4, 20);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Steven Rodriguez', 'Velit non dolorem est quisquam voluptatem quaerat voluptatem. Est quisquam dolorem aliquam. Dolor quiquia sit ut numquam quaerat etincidunt ut. Magnam sit eius non aliquam aliquam dolorem. Dolor tempora tempora voluptatem numquam labore ut.
+
+Dolorem voluptatem voluptatem quiquia numquam labore. Sit magnam numquam consectetur ut est est. Sed neque quaerat voluptatem numquam. Magnam ipsum est labore numquam porro velit. Ut adipisci tempora non porro dolorem quaerat tempora. Dolor aliquam quaerat sit ut eius. Magnam adipisci dolore neque etincidunt porro numquam aliquam. Adipisci quiquia amet quiquia dolore amet numquam. Porro sit voluptatem adipisci aliquam quaerat. Eius neque amet etincidunt ipsum.
+
+Tempora ut etincidunt etincidunt. Amet amet quisquam etincidunt. Quisquam non etincidunt tempora. Numquam voluptatem quiquia modi quaerat porro amet consectetur. Quisquam dolorem sed aliquam quiquia tempora ipsum consectetur. Modi dolor velit consectetur velit numquam.
+
+Ut tempora consectetur labore adipisci modi dolore. Sed etincidunt neque modi aliquam modi. Est consectetur velit modi sit dolore velit. Numquam porro neque non. Numquam est neque aliquam non sit labore.
+
+Ipsum adipisci quisquam neque dolore consectetur dolorem tempora. Labore consectetur quisquam tempora numquam quisquam. Labore numquam quaerat quiquia aliquam. Quiquia etincidunt porro dolore etincidunt. Amet labore dolorem porro sit modi consectetur consectetur. Quiquia voluptatem porro quisquam est porro non. Ut dolor numquam consectetur eius quisquam quisquam velit. Dolor non est aliquam quisquam sed. Magnam porro consectetur consectetur tempora etincidunt porro. Neque sed tempora velit quaerat dolor numquam.', 2, 10);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Rhonda Griffin', 'Porro magnam quaerat dolore quiquia etincidunt. Velit sit quiquia sed. Modi etincidunt dolor neque neque amet tempora. Labore aliquam amet voluptatem quiquia consectetur etincidunt. Dolor numquam tempora magnam.', 2, 16);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Peggy Bay', 'Dolor voluptatem tempora etincidunt. Labore aliquam quaerat modi labore. Quiquia dolor sed consectetur sit. Voluptatem tempora sed dolore quiquia adipisci sed tempora. Neque ipsum numquam amet. Tempora porro modi eius etincidunt. Amet modi non amet adipisci porro aliquam aliquam. Voluptatem velit consectetur amet.', 6, 23);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Amanda Deal', 'Quiquia sed tempora eius dolore. Neque dolore numquam sed quisquam porro sed dolore. Etincidunt dolore velit non. Labore ipsum consectetur adipisci dolore sed. Eius dolorem tempora porro dolorem numquam est. Magnam tempora adipisci ut aliquam numquam dolor dolorem. Porro dolore labore neque tempora labore ut tempora.', 4, 2);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Tanya Gilbert', 'Amet quisquam voluptatem quisquam velit numquam.', 8, 13);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Patricia Johnson', 'Eius aliquam ut numquam ut consectetur.', 1, 4);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Michael Malina', 'Adipisci sed porro adipisci neque.', 6, 5);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Mary Hewitt', 'Quisquam numquam quaerat aliquam ut quiquia numquam sed. Etincidunt adipisci aliquam quaerat eius labore. Ipsum tempora voluptatem est tempora tempora labore. Consectetur dolore tempora magnam. Ut dolorem velit etincidunt dolorem adipisci numquam. Aliquam neque quaerat dolorem labore. Eius porro tempora velit amet sit porro amet. Porro amet aliquam ipsum non eius porro. Ut est neque voluptatem dolore quaerat. Sit porro est porro quiquia tempora.', 8, 6);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Esteban Kahl', 'Eius dolore sed magnam. Quisquam dolor tempora est consectetur porro aliquam labore. Quiquia aliquam dolore labore dolor velit quisquam dolorem. Magnam sed magnam non consectetur. Adipisci sed ipsum non dolor ut quaerat. Porro ipsum dolorem ipsum ut ipsum. Sit neque amet velit. Dolor amet consectetur voluptatem. Magnam neque dolore quiquia. Aliquam voluptatem neque consectetur dolorem.', 4, 4);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('John Speer', 'Numquam amet neque dolor eius sit.', 8, 9);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Joseph Caron', 'Neque neque ipsum dolorem modi etincidunt neque.', 7, 15);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Edna Perez', 'Quisquam eius tempora eius dolor velit dolorem.', 1, 18);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Carol Elliott', 'Quiquia consectetur porro labore ipsum labore aliquam sed.', 5, 23);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Clara Milliken', 'Aliquam ipsum neque non est.', 5, 21);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Mark Lewis', 'Etincidunt consectetur etincidunt quaerat tempora.', 10, 12);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Francisco Bungard', 'Velit dolor dolorem etincidunt ut. Quaerat quiquia numquam porro quaerat etincidunt. Tempora eius aliquam voluptatem ipsum consectetur modi quiquia. Modi sit dolore adipisci. Dolorem consectetur numquam quiquia eius porro. Quiquia magnam modi dolore porro. Numquam quiquia sit etincidunt. Etincidunt magnam modi quiquia consectetur voluptatem.', 4, 17);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('David Gregory', 'Etincidunt etincidunt ut est dolor dolore.', 5, 20);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lauren Silva', 'Velit quiquia eius adipisci neque sed non consectetur. Quisquam neque modi eius dolore sed quiquia neque. Quaerat eius amet magnam eius consectetur aliquam. Quaerat numquam amet dolor. Velit non ipsum quisquam.', 8, 19);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Michael Buzzell', 'Consectetur consectetur ut tempora aliquam.', 4, 14);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Johnathan Frazier', 'Dolor tempora quaerat aliquam est labore quiquia.', 2, 12);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Carl Souza', 'Labore est ipsum quaerat aliquam sit dolor velit. Quaerat sed voluptatem adipisci adipisci numquam sed quaerat. Dolor voluptatem porro amet. Aliquam consectetur est velit sed tempora. Adipisci est tempora ut tempora aliquam modi.', 3, 22);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('David Schultz', 'Porro est ipsum aliquam.', 3, 18);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jose Kirklin', 'Non consectetur quisquam porro. Porro magnam amet amet amet porro amet dolorem. Ut aliquam sed consectetur labore. Est adipisci dolor ipsum aliquam consectetur sit. Consectetur amet etincidunt ut neque modi. Tempora neque eius consectetur quaerat velit sed eius. Dolor velit sed adipisci quiquia.', 4, 9);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Chung Brown', 'Magnam amet porro dolore magnam ut neque.', 3, 13);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Harriet Courtney', 'Dolore numquam adipisci tempora labore. Amet modi numquam labore tempora tempora etincidunt. Quiquia ipsum modi dolor adipisci adipisci porro magnam. Adipisci est est etincidunt non tempora amet. Tempora sed numquam tempora aliquam quiquia adipisci. Quiquia modi tempora dolorem labore non magnam. Numquam velit ipsum modi. Non tempora amet non. Dolorem neque non dolorem neque eius amet consectetur. Modi ipsum porro dolor.
+
+Quisquam voluptatem sit dolore dolor modi neque. Consectetur est aliquam dolore consectetur est sed. Non ipsum ipsum sit voluptatem. Magnam dolor etincidunt velit ipsum aliquam sit est. Ipsum modi eius ipsum velit sit voluptatem labore. Ut non dolorem dolore consectetur. Sed quaerat dolor quiquia. Non sit modi dolore ut eius sed ut. Dolorem ut magnam aliquam dolorem aliquam tempora velit. Porro etincidunt dolorem velit.
+
+Porro magnam porro magnam labore adipisci modi magnam. Voluptatem etincidunt eius ipsum adipisci tempora. Magnam voluptatem consectetur dolore quiquia tempora dolor sed. Porro sit dolor tempora. Numquam neque numquam non sed amet voluptatem modi. Est sit consectetur sed amet labore magnam. Adipisci dolore est eius adipisci modi sit.
+
+Tempora non modi dolor porro. Velit etincidunt dolorem labore numquam quisquam quiquia. Neque dolore voluptatem numquam non magnam. Porro magnam dolore quisquam aliquam. Dolor quaerat quiquia numquam est aliquam numquam voluptatem.
+
+Non porro porro sit dolorem eius. Sed ut est etincidunt sed ipsum etincidunt quisquam. Dolor dolor quaerat magnam dolore numquam labore amet. Adipisci sed sed est labore velit numquam sed. Dolore sit dolor consectetur. Consectetur magnam quisquam est non etincidunt. Quisquam dolor est numquam. Aliquam ipsum quisquam labore porro labore dolor. Etincidunt aliquam dolorem quiquia. Tempora tempora dolor amet.
+
+Ipsum magnam porro non. Non sed eius dolore est ipsum adipisci. Magnam dolore etincidunt quisquam quisquam. Porro neque quaerat consectetur non. Etincidunt tempora quisquam dolorem amet etincidunt. Modi consectetur tempora sit etincidunt adipisci magnam. Numquam aliquam tempora labore.', 3, 2);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Richard Flipp', 'Amet ipsum adipisci sed labore est ipsum est.', 2, 3);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Christopher Vaden', 'Porro eius aliquam amet quaerat voluptatem quisquam.', 8, 13);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Dolly Sasahara', 'Neque etincidunt ut ipsum. Consectetur tempora neque numquam quiquia magnam dolorem. Labore labore amet non eius. Velit sit dolor velit dolorem adipisci consectetur dolorem. Sed adipisci modi tempora ut tempora. Ipsum etincidunt magnam non.', 4, 23);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('James Maurer', 'Dolor tempora quiquia consectetur dolore quaerat numquam.', 1, 4);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Susan Dietz', 'Dolor sit voluptatem quaerat modi est est quisquam.', 6, 7);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Mary Smith', 'Velit amet velit labore tempora.', 9, 6);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Craig Andres', 'Etincidunt magnam neque aliquam. Eius modi porro quaerat. Eius ut velit neque quaerat. Magnam ut voluptatem dolor modi. Est modi est sed voluptatem sit sit quaerat. Etincidunt est sit numquam sit est dolore. Velit etincidunt est est numquam sit quiquia. Magnam consectetur tempora tempora.
+
+Non quiquia aliquam adipisci modi. Etincidunt sit magnam ipsum non adipisci magnam voluptatem. Modi dolorem modi magnam tempora numquam ut labore. Etincidunt sed velit numquam dolore etincidunt. Magnam dolor tempora ut consectetur magnam.
+
+Est etincidunt numquam etincidunt etincidunt numquam velit velit. Dolorem labore quaerat numquam consectetur modi sit sit. Quaerat numquam voluptatem amet aliquam. Dolorem voluptatem numquam tempora. Adipisci numquam dolorem sed aliquam dolore non. Eius tempora dolore labore numquam velit. Voluptatem aliquam labore etincidunt quisquam. Dolor ipsum labore numquam non. Voluptatem neque tempora quiquia dolorem.
+
+Velit dolore dolorem amet dolor labore. Dolor ipsum neque consectetur magnam sed. Adipisci eius sed quiquia quiquia adipisci quaerat quaerat. Numquam sit quiquia neque sit. Etincidunt quaerat labore ipsum ipsum ut ipsum. Numquam velit quisquam dolorem voluptatem labore.
+
+Dolorem quisquam aliquam modi ipsum. Consectetur adipisci aliquam velit dolor ut. Tempora ipsum quiquia sit sit aliquam. Sit est est quiquia magnam quiquia consectetur non. Labore neque numquam ipsum amet ipsum etincidunt sit.', 4, 10);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Robert Koetje', 'Labore sit neque non voluptatem velit magnam dolorem.', 10, 6);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Kristi Bailly', 'Sit ut eius dolorem est adipisci. Sit etincidunt numquam dolor sit dolor consectetur quaerat. Neque non non dolore quaerat amet. Quaerat labore consectetur numquam. Eius est quaerat magnam ipsum voluptatem sit.
+
+Labore dolorem magnam sed. Modi labore numquam dolore sit ipsum modi. Consectetur ipsum sed etincidunt neque. Amet sed magnam velit sed. Quisquam porro neque velit numquam magnam adipisci quiquia.
+
+Dolorem eius tempora etincidunt magnam magnam numquam. Aliquam ipsum quiquia dolorem modi sit sit. Ipsum quisquam est est numquam numquam tempora numquam. Quaerat consectetur quaerat quaerat voluptatem sit aliquam. Adipisci quisquam dolor dolor modi non dolorem est. Non sit magnam sit modi ipsum. Sit amet dolor est sed dolor quiquia dolore.
+
+Dolorem neque porro eius non modi ut eius. Dolor neque est magnam etincidunt. Sit sit modi ut consectetur. Eius est amet dolor. Velit labore ut amet. Sit consectetur porro quisquam. Est dolorem aliquam sit est non labore aliquam. Numquam quaerat tempora dolore eius.', 4, 4);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Brandi Crisp', 'Quaerat numquam neque magnam consectetur porro. Non ipsum ipsum ut quisquam. Quisquam non quiquia dolorem dolore voluptatem quisquam quisquam. Aliquam etincidunt sed magnam. Eius sed tempora adipisci voluptatem adipisci consectetur. Quaerat labore ipsum aliquam adipisci est sed. Quiquia quaerat non numquam.
+
+Quiquia porro eius porro voluptatem. Dolor numquam adipisci ipsum quiquia magnam. Non sed dolore est eius est tempora porro. Sed velit dolore adipisci voluptatem modi quisquam. Adipisci ipsum voluptatem ipsum sed dolorem adipisci etincidunt.
+
+Tempora porro tempora ut labore velit. Non sed neque ut non. Quaerat modi sed dolore. Dolor neque non amet ut ipsum non. Adipisci velit adipisci voluptatem. Ut ipsum consectetur est numquam dolore sit. Est sit est quaerat velit sed. Non consectetur dolore ut. Consectetur labore aliquam dolore velit aliquam etincidunt sed.
+
+Est tempora ipsum sit. Eius voluptatem quaerat porro modi etincidunt modi. Magnam adipisci ut dolorem. Quisquam quaerat quisquam sit dolore consectetur. Adipisci aliquam ipsum amet tempora neque. Velit sed consectetur dolorem dolore dolore amet porro. Dolore consectetur quaerat tempora eius modi consectetur sit. Quaerat sed eius amet tempora magnam modi adipisci.', 8, 23);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('June Kuebler', 'Quisquam non etincidunt labore non adipisci. Aliquam neque etincidunt voluptatem porro. Magnam dolor quiquia dolor quiquia ipsum dolorem dolor. Sit aliquam dolorem consectetur non quaerat est sit. Eius sed consectetur sed dolore eius voluptatem dolore. Porro eius quaerat est amet eius quisquam eius. Ipsum neque ipsum est quiquia aliquam quaerat non.', 6, 14);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('May Dean', 'Labore voluptatem adipisci sit tempora.', 7, 10);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Brian Standifer', 'Dolorem sed sit ipsum aliquam adipisci neque modi.', 5, 10);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lucy Braswell', 'Dolorem adipisci tempora dolore labore est.', 2, 10);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jeanne Hefty', 'Ipsum magnam numquam eius consectetur non sed est. Non etincidunt dolore aliquam dolore neque numquam. Labore tempora sit neque est velit eius. Aliquam neque est ut velit non. Labore non etincidunt velit non numquam. Modi sed labore amet neque. Neque est dolor labore.
+
+Amet ut dolorem velit quiquia aliquam. Neque sed numquam est porro. Labore quaerat tempora porro etincidunt. Non velit porro modi neque adipisci dolore. Quaerat amet numquam est numquam porro quisquam dolor. Ut adipisci consectetur voluptatem magnam ut tempora. Voluptatem est consectetur eius. Quaerat ut ut dolorem labore.
+
+Labore velit sit sed. Quisquam voluptatem neque neque etincidunt etincidunt velit adipisci. Sed modi numquam neque velit neque adipisci quiquia. Dolor quaerat eius non. Ipsum consectetur tempora sed sit quiquia.
+
+Magnam modi dolore non sit velit numquam. Dolor neque voluptatem dolore. Labore ipsum consectetur magnam labore ipsum. Eius velit amet labore ipsum labore. Quiquia magnam quisquam dolorem dolore sed dolore non. Adipisci velit ut aliquam quiquia non velit. Porro adipisci velit neque modi aliquam adipisci. Ipsum adipisci sit est dolorem adipisci sed.
+
+Neque numquam non numquam etincidunt magnam consectetur sed. Adipisci voluptatem quaerat est. Quisquam consectetur sit ipsum dolor. Adipisci voluptatem labore eius voluptatem sed. Dolor dolore non dolorem. Est ut dolore sed est quiquia eius est. Eius dolore ipsum quiquia consectetur modi consectetur. Eius ipsum magnam est eius amet voluptatem.', 2, 13);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Mike Donaldson', 'Ipsum labore ipsum numquam aliquam voluptatem.', 7, 10);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Laura Doering', 'Labore quisquam sed ut consectetur tempora. Ipsum etincidunt adipisci quaerat amet. Etincidunt est sit neque eius porro sed. Aliquam dolorem labore neque dolorem tempora. Tempora sed voluptatem porro consectetur eius velit.', 8, 23);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Robert Brown', 'Dolorem modi est sit eius magnam quaerat eius.', 8, 23);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Bryon Crosno', 'Neque eius quaerat dolorem velit neque velit.', 4, 4);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Keith Alt', 'Quiquia neque ut etincidunt. Eius eius velit aliquam dolor non velit. Dolor magnam non adipisci quiquia aliquam amet. Ut magnam porro dolor neque velit. Magnam velit modi est etincidunt velit adipisci etincidunt. Consectetur eius amet neque consectetur quaerat quaerat. Tempora non porro voluptatem velit quisquam quaerat voluptatem. Porro etincidunt ut aliquam. Tempora sed porro quaerat.', 1, 8);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Frank Mattson', 'Amet amet ut quaerat modi.', 8, 13);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Ralph Simon', 'Eius velit quisquam ut est. Aliquam neque non modi ut tempora ut quaerat. Ipsum tempora labore voluptatem adipisci etincidunt ut. Aliquam tempora sed eius tempora dolore. Sit voluptatem etincidunt labore modi dolorem. Sit quiquia consectetur ut ut non aliquam. Magnam modi dolorem non consectetur porro quiquia.', 10, 15);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Carolyn Mccullen', 'Consectetur labore est quaerat quisquam dolor dolore.', 4, 8);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Don Villarreal', 'Velit quaerat quaerat adipisci etincidunt. Porro eius non aliquam. Eius modi modi velit magnam quisquam dolorem porro. Quiquia velit numquam amet. Non sed aliquam sed modi ipsum quiquia quisquam. Quiquia amet sit quiquia aliquam voluptatem. Velit sed sed non numquam quisquam voluptatem dolore. Magnam voluptatem tempora eius neque adipisci. Amet neque dolorem sed adipisci est voluptatem. Numquam consectetur ipsum etincidunt dolor etincidunt.', 7, 19);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Ralph Kleckner', 'Ipsum sit consectetur eius amet non numquam.', 1, 17);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Peggy Levingston', 'Quaerat velit modi sit quaerat non consectetur.', 3, 12);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Peggy Harper', 'Quaerat quiquia eius etincidunt quaerat porro.', 2, 5);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Glenn Reuter', 'Sit tempora adipisci modi. Numquam eius non ut quiquia. Labore quisquam dolor voluptatem dolor dolorem sed ut. Quisquam non eius dolorem labore amet. Velit tempora non porro. Velit ut quaerat consectetur numquam ipsum. Est quaerat ipsum magnam amet dolore quisquam tempora. Ut ut sit non modi sit voluptatem adipisci. Amet ipsum eius dolor ut dolore non dolorem.', 4, 23);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Marta Groves', 'Quiquia sed amet amet voluptatem aliquam est modi.', 10, 23);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Wanda George', 'Magnam neque voluptatem labore adipisci.', 5, 23);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Carl Newman', 'Modi ut quiquia quiquia. Etincidunt consectetur labore velit magnam voluptatem. Etincidunt porro ut sit. Numquam etincidunt sit consectetur. Non dolore quisquam modi. Dolore labore etincidunt ipsum quaerat quaerat. Neque etincidunt labore quaerat amet ipsum. Neque dolore magnam quisquam ipsum dolor voluptatem. Magnam magnam tempora porro sit aliquam. Sed velit numquam velit velit ipsum.', 9, 11);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Luke Redmond', 'Porro neque quisquam neque.', 5, 10);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Marilyn Corlew', 'Est adipisci tempora porro dolore.', 9, 11);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Alishia Sharp', 'Consectetur non labore neque etincidunt sed.', 8, 15);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jewel Lucas', 'Magnam sed numquam aliquam modi eius eius dolor. Dolor eius quaerat neque aliquam dolor. Labore voluptatem quisquam velit ut neque neque. Eius eius sed est aliquam non dolore. Sit sit quiquia quisquam. Consectetur magnam neque neque est. Dolorem est ut quiquia ut.', 5, 21);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Eldridge Shreve', 'Numquam quisquam dolorem aliquam sed velit.', 4, 20);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('John Adams', 'Ipsum tempora sit quisquam velit neque neque. Quisquam quisquam quaerat sit. Aliquam ut dolor ut modi dolorem. Quiquia tempora porro numquam dolor eius porro. Porro modi magnam porro. Tempora magnam neque eius sit ipsum ut quisquam. Ut etincidunt neque sit labore consectetur sed. Dolorem labore porro modi est. Adipisci numquam amet sit magnam. Amet magnam labore aliquam modi.', 1, 22);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('David Sampson', 'Modi est dolore modi quiquia dolor dolor.', 4, 5);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lupita Torres', 'Amet consectetur quisquam quisquam aliquam est quiquia ut. Magnam tempora dolore aliquam numquam consectetur. Quiquia sit amet dolorem tempora dolorem. Velit tempora sit modi. Adipisci numquam sit neque dolore dolor.
+
+Neque aliquam velit numquam. Amet eius porro sit velit neque. Etincidunt tempora porro sit est est quaerat ipsum. Quaerat amet porro sit eius. Voluptatem neque non tempora adipisci neque non dolorem. Ut amet magnam dolore sit quisquam. Aliquam modi est labore. Adipisci tempora etincidunt sit velit est adipisci porro. Velit dolor numquam quiquia quaerat modi. Ipsum neque etincidunt aliquam modi quisquam.
+
+Dolore eius sed aliquam dolore ut. Modi quisquam non quiquia. Consectetur aliquam quaerat dolore numquam sit dolore. Ut velit neque consectetur sit amet velit quiquia. Modi quiquia adipisci sed. Magnam amet modi quiquia etincidunt sed quiquia. Quisquam dolor sed dolor quisquam est. Tempora quisquam tempora etincidunt dolorem dolorem neque adipisci. Non quisquam quaerat ut quaerat modi porro. Quiquia non eius eius eius ipsum.
+
+Magnam adipisci voluptatem aliquam dolorem velit est. Numquam est non voluptatem voluptatem. Non quiquia amet sit. Labore labore eius etincidunt modi. Dolore ut eius dolorem etincidunt ut. Magnam quisquam velit sit aliquam dolore consectetur numquam. Quisquam ipsum quiquia porro ipsum velit quiquia sed. Porro quaerat velit voluptatem. Porro modi neque porro ut. Dolorem labore sit labore.
+
+Dolor numquam eius adipisci quaerat. Sit non porro ut est quiquia quiquia consectetur. Ut consectetur adipisci velit labore sit quiquia. Modi quaerat sit aliquam numquam quisquam. Numquam dolorem ipsum non consectetur modi. Ipsum aliquam quaerat modi amet quisquam aliquam.
+
+Amet eius amet adipisci numquam. Aliquam dolor magnam magnam labore dolore. Eius quaerat dolorem magnam voluptatem aliquam. Porro quaerat quaerat consectetur. Consectetur amet velit ut quisquam. Etincidunt quaerat tempora neque neque.', 7, 8);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Scott Binder', 'Quisquam tempora sit ut voluptatem sed amet. Est quaerat voluptatem aliquam quaerat sit neque eius. Labore ut est modi velit non dolorem amet. Est dolorem porro magnam est sed. Porro est adipisci ut etincidunt est. Adipisci velit tempora non est numquam quaerat magnam. Neque non amet neque quiquia. Est modi non eius quisquam dolorem porro ipsum.', 1, 22);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Anna Campbell', 'Velit adipisci neque tempora.', 9, 9);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Brandon Jackson', 'Sit ut magnam adipisci ipsum. Velit velit tempora aliquam magnam labore. Dolor labore dolore non etincidunt etincidunt adipisci ut. Porro sed quisquam velit neque. Neque etincidunt labore numquam quiquia neque dolorem.', 2, 12);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Bruce Brunswick', 'Sed neque porro dolorem amet porro. Adipisci non aliquam dolor eius quisquam eius. Porro neque consectetur dolorem modi consectetur. Ut ut sit etincidunt quaerat aliquam numquam. Dolor non neque non est. Sed porro labore quisquam voluptatem. Quisquam non neque sit magnam. Neque quiquia amet eius voluptatem. Quisquam ipsum tempora est.
+
+Dolor neque est porro etincidunt amet non numquam. Magnam porro numquam dolor etincidunt. Modi sit sit consectetur sed quaerat. Dolore magnam velit aliquam ipsum numquam non. Dolore velit voluptatem ut.
+
+Aliquam est voluptatem dolore neque. Consectetur ipsum sit dolorem. Amet est quisquam etincidunt numquam consectetur ipsum. Quaerat dolore sit dolore. Ipsum non quisquam magnam numquam sed. Amet amet quiquia adipisci porro. Dolor porro modi non est amet labore. Sed voluptatem adipisci ipsum modi ut magnam. Ut numquam labore ipsum voluptatem velit sed quaerat. Dolor amet quaerat voluptatem labore quisquam modi.
+
+Ut etincidunt dolor tempora etincidunt dolore quisquam porro. Tempora modi sed tempora dolor etincidunt dolore. Aliquam porro sed sit labore labore numquam quiquia. Labore consectetur tempora amet ipsum dolore. Sit numquam eius sit adipisci. Voluptatem ut velit neque non porro.', 1, 17);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Scott Lochrico', 'Tempora quiquia ipsum ut amet amet ipsum amet.', 4, 4);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Claude Duran', 'Sed quaerat magnam ut neque. Aliquam modi eius voluptatem porro ut ut. Quiquia sit est amet neque porro ipsum neque. Labore voluptatem velit modi adipisci consectetur dolore quisquam. Dolor etincidunt adipisci est adipisci etincidunt adipisci amet. Amet quiquia consectetur amet adipisci ipsum. Sed adipisci quaerat non porro adipisci ut.', 1, 3);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lula Arevalo', 'Tempora eius porro dolor ut numquam consectetur amet. Sit dolor etincidunt tempora etincidunt sed. Magnam velit non eius. Labore est quiquia ipsum neque ut. Eius voluptatem dolor aliquam velit quaerat voluptatem. Aliquam quisquam velit quaerat. Etincidunt eius numquam sed dolore.', 5, 23);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Andres Carlos', 'Adipisci modi voluptatem modi.', 4, 3);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Hilary Debnam', 'Dolore aliquam est amet ut aliquam. Amet aliquam ut dolorem. Labore aliquam tempora tempora numquam sed ipsum dolor. Voluptatem amet dolorem amet sed neque aliquam ipsum. Numquam aliquam ut ipsum. Consectetur porro dolore quaerat dolore ipsum quisquam. Etincidunt ipsum est sed est quiquia velit. Velit sit consectetur dolore dolorem quisquam adipisci modi. Eius quiquia sed numquam ipsum labore consectetur quisquam. Aliquam sit eius modi numquam quiquia magnam.', 1, 3);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Julie Caldwell', 'Etincidunt etincidunt amet tempora consectetur sit quiquia. Tempora quisquam dolorem ipsum dolore quisquam modi. Sit quisquam tempora sit. Amet etincidunt amet est. Eius non dolorem consectetur neque etincidunt magnam non. Voluptatem aliquam modi dolore. Dolore magnam porro tempora ut etincidunt eius ipsum. Aliquam dolor neque dolore labore eius. Velit non sed dolore neque numquam tempora adipisci.
+
+Magnam etincidunt dolore ut etincidunt eius. Ut est ipsum dolorem consectetur. Est modi quaerat quiquia est quaerat. Modi etincidunt aliquam adipisci ipsum neque. Aliquam consectetur dolorem amet ipsum ut. Porro quiquia ipsum amet ipsum etincidunt.
+
+Quiquia ut consectetur quiquia sed eius. Tempora adipisci est quisquam aliquam magnam voluptatem. Tempora velit ut ipsum adipisci aliquam. Adipisci magnam sit modi etincidunt. Etincidunt modi quaerat numquam modi velit dolore aliquam. Modi tempora est quiquia velit sit neque. Eius aliquam dolorem dolorem. Consectetur amet non amet sit consectetur.
+
+Dolore numquam aliquam ut quaerat aliquam. Ipsum neque ipsum sit adipisci labore dolore. Velit neque quisquam consectetur adipisci labore. Est amet quiquia magnam. Quiquia est labore quaerat sed consectetur. Neque tempora ut ut quiquia etincidunt sit voluptatem.', 8, 17);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Dolores Mays', 'Est eius eius neque.', 2, 4);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Hazel Leggett', 'Adipisci numquam ipsum numquam ipsum eius consectetur.', 7, 17);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Tina Anderson', 'Tempora quisquam ut quaerat labore velit eius.', 4, 23);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Seth Chao', 'Magnam voluptatem porro quiquia quaerat. Velit quisquam velit amet amet. Quiquia magnam etincidunt dolor est numquam modi. Eius quisquam dolore eius. Quaerat voluptatem numquam quiquia.', 4, 18);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Kerry Roth', 'Sit aliquam sit neque ut dolore.', 6, 12);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jean Holder', 'Non quiquia ipsum non magnam sed. Velit dolore sit ut consectetur magnam aliquam. Dolore aliquam tempora eius modi velit neque dolor. Neque ut dolore adipisci est non dolor. Dolore consectetur sit consectetur neque. Eius velit quiquia porro. Dolor voluptatem labore est. Velit quaerat porro tempora porro. Est etincidunt numquam non sed numquam amet. Labore numquam porro neque.
+
+Adipisci dolor dolor porro. Dolor ipsum sit ipsum consectetur voluptatem. Dolorem porro ipsum consectetur amet aliquam sed. Quaerat magnam quisquam amet est neque dolorem. Sit sit etincidunt velit quiquia porro eius velit. Consectetur ipsum sit velit porro ut quiquia quaerat. Dolore quaerat voluptatem dolorem numquam non quisquam. Consectetur magnam porro sit. Magnam adipisci dolorem velit quiquia dolorem magnam.
+
+Adipisci ut sed numquam ut etincidunt. Quiquia ut modi dolor non modi. Ut dolor quaerat modi quiquia. Aliquam sed tempora eius velit voluptatem. Non numquam tempora numquam dolore eius dolor neque. Dolor porro modi dolorem tempora. Labore magnam eius non voluptatem. Etincidunt voluptatem magnam labore est. Ut sed dolore tempora numquam. Amet quiquia dolore quaerat tempora quaerat ut quisquam.', 9, 22);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Gerald Mankins', 'Neque sed modi adipisci quiquia dolore quisquam.', 2, 16);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jose Nies', 'Etincidunt amet etincidunt sed voluptatem amet.', 10, 12);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Ronald Bushby', 'Voluptatem consectetur dolore dolor est eius quisquam quaerat.', 8, 21);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Robert Soria', 'Sit porro velit sit quiquia adipisci. Quiquia eius dolor magnam ipsum. Porro consectetur sed amet dolorem velit aliquam consectetur. Est etincidunt numquam dolor quaerat. Amet adipisci voluptatem quiquia ut quiquia.', 9, 17);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lorenzo Wilson', 'Etincidunt sed est aliquam est etincidunt. Porro non magnam etincidunt. Voluptatem amet dolore tempora sed dolorem labore. Non est labore sit adipisci quisquam. Non neque quisquam sed quiquia numquam aliquam sit. Dolore velit dolor neque labore. Tempora tempora sed etincidunt non quisquam. Etincidunt porro non tempora non. Dolor neque tempora porro velit labore quaerat. Neque ut amet tempora.', 6, 9);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Etta Boland', 'Sit consectetur non sit voluptatem. Quisquam ipsum eius etincidunt numquam porro sed. Numquam dolorem magnam sit. Neque est sit porro aliquam velit amet. Adipisci ipsum dolore ipsum etincidunt quiquia. Non tempora porro consectetur quiquia etincidunt. Neque etincidunt neque ut.', 6, 2);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Robert Waage', 'Aliquam consectetur eius ut labore dolore dolor.', 5, 8);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Janet Dickman', 'Eius consectetur sed magnam. Labore amet porro porro labore. Voluptatem eius neque aliquam ipsum ipsum eius sit. Est dolor dolorem amet etincidunt dolore sed amet. Numquam magnam magnam velit labore. Non numquam numquam quisquam ut magnam sit. Velit non ut quaerat adipisci porro tempora tempora. Adipisci labore dolore aliquam aliquam porro numquam consectetur. Quiquia sit est porro neque porro.', 1, 4);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('John Wu', 'Est etincidunt dolorem quisquam amet non. Dolorem aliquam dolore magnam quisquam amet. Quiquia velit non ut consectetur quaerat tempora. Ut dolorem tempora modi. Sit neque dolorem neque labore. Dolor consectetur sed voluptatem ipsum. Adipisci voluptatem magnam ipsum. Dolor sit sed quisquam dolore velit magnam neque. Voluptatem ipsum amet aliquam sit quiquia. Adipisci velit sed consectetur neque neque eius sed.', 8, 18);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Janice Tufte', 'Quiquia neque porro aliquam velit sed.', 7, 3);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Linda Cambre', 'Neque ipsum sit ipsum magnam dolore modi.', 3, 5);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Charles Tompkins', 'Non eius quiquia quisquam consectetur.', 8, 3);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Dennis Schiavo', 'Magnam dolorem voluptatem labore velit.', 8, 8);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Shawn Gratz', 'Ut modi magnam voluptatem sed ut dolore.', 9, 12);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Harrison Turner', 'Non quiquia voluptatem dolorem est amet sit. Modi sed quaerat aliquam velit. Est amet dolore velit quiquia modi amet. Modi adipisci etincidunt sit eius dolorem est amet. Neque velit sit adipisci. Quaerat eius ipsum amet consectetur est quisquam.', 5, 21);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Fannie Sadberry', 'Quiquia consectetur non quaerat tempora porro. Quisquam non etincidunt consectetur etincidunt numquam eius. Ipsum etincidunt sit aliquam modi amet. Neque dolor tempora non labore. Non sit ipsum tempora quaerat eius. Dolor etincidunt dolore numquam etincidunt labore dolorem amet. Modi dolore sed amet quisquam eius etincidunt quisquam.', 5, 19);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('April Schaming', 'Tempora non ut est dolor.', 7, 4);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Sylvia Smith', 'Non non amet ipsum sit consectetur quisquam quisquam.', 1, 13);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Melva Hughey', 'Voluptatem aliquam quiquia amet.', 1, 12);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lawrence Ross', 'Tempora dolorem eius etincidunt quisquam sed adipisci.', 6, 21);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Robert Mills', 'Dolore dolor sit quiquia tempora ut voluptatem. Numquam etincidunt aliquam sed aliquam consectetur velit labore. Etincidunt aliquam neque eius numquam. Eius modi sed ipsum labore neque. Numquam quiquia est amet dolore tempora quaerat velit.
+
+Dolor etincidunt dolore ut quisquam etincidunt. Adipisci labore consectetur quiquia porro non amet voluptatem. Est amet dolor adipisci dolorem quiquia ut quaerat. Est dolor quaerat ipsum. Tempora dolor voluptatem dolor quiquia. Porro quiquia adipisci dolor ut tempora dolor magnam. Adipisci aliquam aliquam quaerat consectetur. Quiquia modi magnam consectetur sed eius quisquam. Dolore amet non ipsum numquam magnam. Porro ipsum neque dolor quiquia velit.
+
+Voluptatem quaerat non sed adipisci. Velit adipisci quiquia magnam quiquia modi quiquia quiquia. Sit etincidunt labore dolorem amet dolore aliquam. Quisquam voluptatem aliquam adipisci dolor porro aliquam etincidunt. Quaerat tempora tempora amet etincidunt. Eius sit dolorem tempora modi.
+
+Numquam magnam etincidunt magnam dolore. Sit ut est ut dolore. Neque numquam numquam quaerat velit consectetur. Modi amet eius quisquam ipsum neque magnam ipsum. Aliquam eius quiquia etincidunt numquam est eius modi.', 1, 14);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Shante Frautschi', 'Quisquam neque sit modi. Etincidunt sed magnam quiquia velit. Quiquia aliquam dolor modi. Amet consectetur magnam voluptatem quisquam consectetur. Adipisci etincidunt porro quisquam sit tempora.', 9, 11);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Justin Durfee', 'Numquam aliquam aliquam tempora dolore quiquia porro.', 5, 16);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Herbert Loucks', 'Amet porro sit est magnam velit quiquia ut.', 10, 10);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Randee Pegues', 'Eius sed etincidunt labore non numquam modi.', 10, 15);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('David Stark', 'Ut aliquam neque neque non quisquam porro. Ipsum porro etincidunt neque magnam. Quisquam quaerat modi quisquam labore quisquam eius. Porro amet consectetur sit dolore dolor voluptatem. Quaerat aliquam ipsum magnam ipsum dolorem adipisci non. Consectetur labore adipisci consectetur dolorem quisquam quisquam. Porro consectetur sed dolore eius. Adipisci sit labore sit numquam voluptatem. Neque aliquam eius consectetur sed voluptatem sed. Ipsum consectetur labore quiquia.
+
+Quisquam non dolorem est etincidunt. Etincidunt quiquia ipsum quiquia. Quisquam modi adipisci quisquam dolore eius. Adipisci consectetur non dolor dolore quaerat ipsum. Amet non voluptatem ut modi. Quisquam quisquam modi ut dolor sed voluptatem amet. Quaerat quaerat ut ipsum. Dolore dolor est adipisci tempora consectetur etincidunt dolore. Modi non dolore labore modi neque velit. Velit neque etincidunt amet consectetur adipisci.
+
+Labore etincidunt modi ipsum aliquam adipisci. Voluptatem consectetur non consectetur porro etincidunt quisquam. Consectetur tempora amet magnam. Voluptatem etincidunt est quisquam dolore ipsum. Sed sed eius aliquam labore velit amet sit. Eius magnam quisquam quaerat. Neque voluptatem est sed quiquia dolore consectetur.', 2, 13);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jorge Anderson', 'Magnam neque etincidunt porro numquam dolorem quiquia aliquam. Quisquam sed labore consectetur porro voluptatem numquam. Est quaerat dolor sed quaerat velit dolore ipsum. Voluptatem adipisci quaerat sed consectetur dolorem. Ut dolore sed quisquam non dolor eius adipisci. Magnam magnam non velit dolore dolor. Labore non modi quaerat dolor labore modi neque.', 5, 15);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Christel Casavant', 'Ut adipisci dolorem consectetur non. Porro neque dolore dolore. Etincidunt amet est modi. Eius tempora ipsum modi eius. Sit quiquia amet sit neque porro. Etincidunt numquam modi est. Numquam dolore dolore dolore velit. Tempora tempora neque aliquam dolorem non dolor etincidunt.
+
+Consectetur sit ipsum quisquam quisquam neque dolorem magnam. Ut etincidunt porro consectetur magnam consectetur. Numquam adipisci eius non dolorem etincidunt quaerat. Labore est numquam ipsum velit quisquam. Est adipisci magnam etincidunt. Dolorem non labore ipsum dolorem neque dolor velit.
+
+Neque numquam velit velit dolore labore sed. Aliquam etincidunt tempora dolorem. Magnam consectetur modi eius ipsum dolore eius. Ipsum non ipsum ipsum porro numquam dolor. Ipsum voluptatem sed quisquam dolore porro quiquia est. Sit consectetur labore dolor amet velit eius. Consectetur sit adipisci magnam ipsum consectetur voluptatem. Neque ipsum quaerat sed quaerat eius tempora. Dolorem quiquia tempora quisquam. Est numquam velit modi labore sed.', 2, 16);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Leo Rouse', 'Aliquam est aliquam est. Tempora voluptatem eius eius voluptatem. Tempora eius etincidunt adipisci labore eius. Aliquam quaerat dolorem ipsum sit quisquam numquam. Velit velit quiquia ipsum modi numquam aliquam amet. Consectetur magnam dolore velit amet. Consectetur quisquam etincidunt sed. Dolorem quiquia etincidunt modi ut sit. Dolorem dolore ut quiquia.', 9, 15);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Richard Powell', 'Quisquam eius tempora modi quisquam.', 5, 17);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Christopher Howard', 'Magnam labore tempora etincidunt sed numquam. Numquam adipisci tempora amet amet labore ipsum. Porro aliquam eius labore. Aliquam modi magnam labore labore est porro. Non velit eius ut amet non. Etincidunt dolore porro dolor porro. Eius ipsum numquam quisquam numquam dolore sit quiquia. Dolorem eius etincidunt tempora ipsum numquam.', 6, 16);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('George Harbaugh', 'Voluptatem ut aliquam ipsum etincidunt dolorem.', 10, 8);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Virginia Goodner', 'Magnam sed dolorem velit tempora eius. Est ut voluptatem labore velit quiquia dolor consectetur. Numquam numquam voluptatem amet dolor consectetur non quisquam. Modi etincidunt labore porro numquam quaerat. Dolor sit sit adipisci ut voluptatem numquam non. Modi ut sit quaerat. Ut modi neque adipisci eius modi. Quaerat quiquia sit numquam.
+
+Porro labore non sit non. Magnam magnam etincidunt neque amet tempora dolorem quiquia. Magnam dolorem ut ipsum sit labore numquam ut. Ut tempora modi quisquam voluptatem labore velit voluptatem. Ipsum modi tempora consectetur quaerat consectetur etincidunt. Non neque quiquia est adipisci.
+
+Ut etincidunt tempora dolor ipsum porro. Quaerat neque numquam consectetur dolor. Porro sed amet amet. Voluptatem magnam aliquam amet labore quisquam non amet. Sed porro quaerat magnam quisquam etincidunt numquam aliquam.', 4, 18);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Christopher Mckeel', 'Tempora dolorem dolorem magnam.', 5, 8);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Gary Warner', 'Dolor dolore velit eius aliquam.', 7, 7);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Irene Aponte', 'Etincidunt labore sed velit dolorem est.', 1, 2);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Tina Upshaw', 'Ut eius eius dolor quiquia sit non porro.', 4, 11);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Hazel Balch', 'Ipsum dolore numquam adipisci sed. Voluptatem sit quaerat porro dolore neque. Dolorem dolor porro non quaerat eius magnam sit. Quaerat eius neque sit tempora adipisci adipisci. Voluptatem labore numquam ipsum dolor etincidunt quisquam. Voluptatem voluptatem velit consectetur voluptatem est.', 7, 11);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Guadalupe Godfrey', 'Sed dolore dolor sed labore.', 5, 19);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Justin Phillips', 'Quisquam consectetur ut magnam quaerat quisquam eius magnam. Tempora consectetur amet voluptatem labore quiquia etincidunt. Velit neque neque quiquia tempora. Eius dolore adipisci numquam neque. Quisquam non consectetur est. Modi numquam dolore non porro labore magnam. Non eius consectetur ut magnam aliquam. Sed modi magnam consectetur. Est numquam quisquam neque dolorem tempora.
+
+Dolor numquam modi amet dolor. Dolore velit labore est magnam. Ipsum aliquam dolor numquam voluptatem neque eius. Sed consectetur aliquam tempora ut. Quisquam numquam ut etincidunt consectetur sed quiquia. Dolor sit dolor amet sit.
+
+Quaerat sed neque neque. Consectetur aliquam est voluptatem eius modi adipisci. Quaerat dolorem ipsum numquam tempora ipsum quaerat porro. Velit magnam quisquam quisquam dolor labore magnam. Dolor quaerat consectetur non modi etincidunt voluptatem. Adipisci neque consectetur labore ipsum. Eius etincidunt etincidunt non tempora consectetur quiquia. Non dolor sit numquam voluptatem consectetur dolor velit. Labore quiquia quisquam voluptatem.
+
+Etincidunt quaerat dolore dolorem ut amet numquam. Non adipisci consectetur numquam dolor dolor. Sed sit velit porro quiquia. Modi voluptatem porro eius non voluptatem. Quisquam ipsum adipisci eius quisquam magnam est.
+
+Sit est labore aliquam ipsum amet modi. Aliquam sed neque adipisci modi aliquam sed. Amet dolore labore eius est adipisci eius. Porro ipsum etincidunt magnam ut porro non. Adipisci magnam labore numquam numquam adipisci. Quisquam etincidunt sit dolore dolore. Quiquia adipisci est non quaerat eius amet. Porro adipisci sed etincidunt neque neque. Sed non dolorem porro est modi. Ipsum neque est dolore dolore.', 10, 17);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('James Franklin', 'Etincidunt sed sed dolor quaerat velit.', 3, 20);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Dale Denton', 'Magnam magnam labore adipisci est quaerat labore adipisci.', 5, 22);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Patricia Payne', 'Dolor voluptatem porro dolore labore est voluptatem quisquam. Eius eius dolorem numquam voluptatem aliquam numquam. Etincidunt numquam est etincidunt ipsum neque ipsum non. Etincidunt porro sit neque adipisci. Adipisci porro quaerat ipsum est est. Ipsum quisquam porro dolor magnam velit tempora neque. Numquam quisquam dolorem amet dolor dolor quisquam labore.', 10, 21);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Nicolas Staats', 'Adipisci amet modi aliquam velit quaerat consectetur.', 9, 17);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Wilfred Phan', 'Quaerat ut amet velit dolor.', 1, 12);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Eve Cook', 'Quisquam quaerat tempora est numquam.', 7, 9);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Fred Keller', 'Labore aliquam est magnam.', 1, 23);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Terry Brown', 'Ipsum ut consectetur dolor dolore voluptatem velit consectetur.', 6, 23);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Michael King', 'Ipsum neque modi consectetur.', 7, 2);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Henry Bruce', 'Non aliquam eius dolor.', 7, 5);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Albert Kelly', 'Dolore voluptatem est amet neque ipsum amet.', 9, 4);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Lisa Walker', 'Magnam labore sed est ipsum modi. Aliquam quisquam ipsum magnam quiquia numquam ut. Aliquam ipsum magnam dolorem. Consectetur non sed adipisci. Sed modi eius quiquia. Eius dolor porro sed ut modi quiquia etincidunt. Modi dolor quiquia ut. Adipisci adipisci ipsum ipsum etincidunt. Ipsum aliquam neque quiquia adipisci dolorem velit tempora.', 3, 8);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Dennis Miner', 'Tempora sed neque amet dolore modi. Velit neque porro voluptatem ipsum. Consectetur tempora etincidunt adipisci numquam ipsum. Dolor est labore eius porro ut. Non velit porro modi. Voluptatem eius amet porro tempora. Dolorem magnam sit quisquam porro neque dolore.', 4, 12);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Jimmy Malley', 'Neque ipsum sed modi neque velit dolor.', 4, 18);
+INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Juanita Pinson', 'Voluptatem sed etincidunt aliquam porro quaerat. Quaerat numquam ipsum porro ut sed velit quiquia. Amet dolore amet est porro consectetur dolore amet. Amet ut quisquam est dolorem tempora. Velit non non dolor labore quiquia eius adipisci. Sit adipisci neque aliquam ipsum sed. Neque quiquia dolor non. Est dolorem magnam aliquam quisquam porro.', 10, 15);
