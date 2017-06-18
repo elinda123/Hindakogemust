@@ -19,6 +19,21 @@ Run the following commands in two separate terminals to create a blissful develo
 auto-refreshes when files change on your hard drive.
 
     ./mvnw
+    
+## Generate random feedbacks (Python 3)
+
+```python
+import names, lorem
+from random import randint
+
+for i in range(500):
+    #INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('Elinda Tragel', 'Lorem Ipsum 1', 9, 1);
+    print("INSERT INTO feedback (name, jhi_comment, rating, place_id) VALUES ('" +
+          names.get_full_name() + "', '" +
+          lorem.sentence() + "', " +
+          str(randint(1, 10)) + ", " +
+          str(randint(1, 23)) + ");")
+```
 
 ## Building for production
 
