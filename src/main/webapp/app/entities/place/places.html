@@ -15,15 +15,10 @@
             <div class="col-xs-4 no-padding-right">
                 <form name="searchForm" class="form-inline">
                     <div class="input-group pull-right" >
-                        <input type="text" class="form-control" ng-model="vm.searchQuery" id="searchQuery" placeholder="{{ 'hindakogemustApp.place.home.search' | translate }}">
+                        <input type="text" class="form-control" ng-change="vm.loadAll()" ng-model="vm.searchQuery" id="searchQuery" placeholder="{{ 'hindakogemustApp.place.home.search' | translate }}">
                         <span  class="input-group-btn width-min" >
-                            <button class="btn btn-info" ng-click="vm.search(vm.searchQuery)">
+                            <button class="btn btn-info">
                                 <span class="glyphicon glyphicon-search"></span>
-                            </button>
-                        </span>
-                        <span class="input-group-btn width-min" ng-if="vm.currentSearch">
-                            <button class="btn btn-info" ng-click="vm.clear()">
-                                <span class="glyphicon glyphicon-trash"></span>
                             </button>
                         </span>
                     </div>
@@ -70,7 +65,7 @@
         </table>
     </div>
     <div class="text-center">
-        <jhi-item-count page="vm.page" total="vm.queryCount" items-per-page="vm.itemsPerPage"></jhi-item-count>
+        <jhi-item-count ng-if="vm.places.length" page="vm.page" total="vm.queryCount" items-per-page="vm.itemsPerPage"></jhi-item-count>
         <uib-pagination
             first-text="<<"
             previous-text="{{ 'hindakogemustApp.place.previousText' | translate }}"

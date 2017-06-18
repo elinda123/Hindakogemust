@@ -105,9 +105,9 @@ public class PlaceResource {
      */
     @GetMapping("/places")
     @Timed
-    public ResponseEntity<List<Place>> getAllPlaces(@ApiParam Pageable pageable) {
+    public ResponseEntity<List<Place>> getAllPlaces(@RequestParam(value="searchQuery", required = false) String query, @ApiParam Pageable pageable) {
         log.debug("REST request to get a page of Places");
-        Page<Place> page = placeRepository.findAll(pageable);
+        Page<Place> page = query == null ? placeRepository.findAll(pageable) : placeRepository.findAllBySearchTerm(query, pageable);
         HttpHeaders headers = PaginationUtil.generatePaginationHttpHeaders(page, "/api/places");
         return new ResponseEntity<>(page.getContent(), headers, HttpStatus.OK);
     }

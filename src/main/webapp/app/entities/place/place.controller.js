@@ -25,16 +25,16 @@
 
         loadAll();
 
-        function loadAll () {
+        function loadAll() {
             if (pagingParams.search) {
                 PlaceSearch.query({
-                    query: pagingParams.search,
                     page: pagingParams.page - 1,
                     size: vm.itemsPerPage,
                     sort: sort()
                 }, onSuccess, onError);
             } else {
                 Place.query({
+                    searchQuery: !!vm.searchQuery ? vm.searchQuery : null,
                     page: pagingParams.page - 1,
                     size: vm.itemsPerPage,
                     sort: sort()
@@ -55,7 +55,7 @@
                 vm.page = pagingParams.page;
             }
             function onError(error) {
-                AlertService.error(error.data.message);
+                //AlertService.error(error.data.message);
             }
         }
 

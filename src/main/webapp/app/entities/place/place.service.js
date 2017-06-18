@@ -6,11 +6,11 @@
 
     Place.$inject = ['$resource'];
 
-    function Place ($resource) {
+    function Place ($resource, searchQuery) {
         var resourceUrl =  'api/places/:id';
 
-        return $resource(resourceUrl, {}, {
-            'query': { method: 'GET', isArray: true},
+        return $resource(resourceUrl, searchQuery, {
+            'query': { method: 'GET', params: searchQuery, isArray: true},
             'get': {
                 method: 'GET',
                 transformResponse: function (data) {
