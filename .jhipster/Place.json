@@ -26,8 +26,8 @@
         }
     ],
     "changelogDate": "20170616143217",
-    "dto": "mapstruct",
-    "service": "serviceClass",
+    "dto": "no",
+    "service": "no",
     "entityTableName": "place",
     "pagination": "pagination"
 }
