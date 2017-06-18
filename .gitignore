@@ -6,7 +6,7 @@
 /target/www/**
 /src/test/javascript/coverage/
 /src/test/javascript/PhantomJS*/
-
+yarn.lock
 ######################
 # Node
 ######################
