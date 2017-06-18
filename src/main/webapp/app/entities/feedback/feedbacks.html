@@ -3,15 +3,7 @@
     <jhi-alert></jhi-alert>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-4 no-padding-left">
-                <button class="btn btn-primary" ui-sref="feedback.new" >
-                    <span class="glyphicon glyphicon-plus"></span>
-                    <span class="hidden-xs-down"  data-translate="hindakogemustApp.feedback.home.createLabel">
-                        Create new Feedback
-                    </span>
-                </button>
-            </div>
-            <div class="col-xs-8 no-padding-right">
+            <div class="no-padding-right">
                 <form name="searchForm" class="form-inline">
                     <div class="input-group pull-right" >
                         <input type="text" class="form-control" ng-model="vm.searchQuery" id="searchQuery" placeholder="{{ 'hindakogemustApp.feedback.home.search' | translate }}">
