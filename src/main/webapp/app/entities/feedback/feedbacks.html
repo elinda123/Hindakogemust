@@ -1,28 +1,6 @@
 <div>
     <h2 data-translate="hindakogemustApp.feedback.home.title">Feedbacks</h2>
     <jhi-alert></jhi-alert>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="no-padding-right">
-                <form name="searchForm" class="form-inline">
-                    <div class="input-group pull-right" >
-                        <input type="text" class="form-control" ng-model="vm.searchQuery" id="searchQuery" placeholder="{{ 'hindakogemustApp.feedback.home.search' | translate }}">
-                        <span  class="input-group-btn width-min" >
-                            <button class="btn btn-info" ng-click="vm.search(vm.searchQuery)">
-                                <span class="glyphicon glyphicon-search"></span>
-                            </button>
-                        </span>
-                        <span class="input-group-btn width-min" ng-if="vm.currentSearch">
-                            <button class="btn btn-info" ng-click="vm.clear()">
-                                <span class="glyphicon glyphicon-trash"></span>
-                            </button>
-                        </span>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-    <br/>
     <div class="table-responsive">
         <table class="jh-table table table-striped">
             <thead>
@@ -69,5 +47,6 @@
                 </tr>
             </tbody>
         </table>
+        <div ng-hide="vm.feedbacks.length" class="loader"></div>
     </div>
 </div>
