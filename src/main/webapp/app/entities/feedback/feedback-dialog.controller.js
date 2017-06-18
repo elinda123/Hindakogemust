@@ -5,11 +5,11 @@
         .module('hindakogemustApp')
         .controller('FeedbackDialogController', FeedbackDialogController);
 
-    FeedbackDialogController.$inject = ['$timeout', '$scope', '$stateParams', '$uibModalInstance', 'DataUtils',
-        'entity', 'Feedback', 'Place', 'FeedbackByPlace'];
+    FeedbackDialogController.$inject = ['$timeout', '$scope', '$uibModalInstance', 'DataUtils', 'entity', 'Feedback',
+        'Place', 'FeedbackByPlace', 'Principal'];
 
-    function FeedbackDialogController ($timeout, $scope, $stateParams, $uibModalInstance, DataUtils, entity, Feedback,
-                                       Place, FeedbackByPlace) {
+    function FeedbackDialogController ($timeout, $scope, $uibModalInstance, DataUtils, entity, Feedback, Place,
+                                       FeedbackByPlace, Principal) {
         var vm = this;
 
         vm.feedback = entity;
@@ -19,8 +19,9 @@
         vm.save = save;
         vm.places = Place.query();
         vm.place = Place.get({id : entity.place.id});
-
         vm.feedbacks = FeedbackByPlace.get({id : entity.place.id});
+        vm.deleteFeedback = deleteFeedback;
+        vm.isAuthenticated = Principal.isAuthenticated;
 
         $timeout(function (){
             angular.element('.form-group:eq(1)>input').focus();
@@ -49,6 +50,11 @@
             vm.isSaving = false;
         }
 
+        function deleteFeedback(id) {
+            Feedback.delete({id: id}, function () {
+                vm.feedbacks = FeedbackByPlace.get({id : entity.place.id});
+            });
+        }
 
     }
 })();

@@ -11,7 +11,7 @@
             "updated": "Hinnang on muudetud",
             "deleted": "Hinnang on kustutatud",
             "delete": {
-                "question": "Kas olete kindel, et soovite kustutada Feedback {{ id }}?"
+                "question": "Kas olete kindel, et soovite kustutada?"
             },
             "detail": {
                 "title": "Hinnang"

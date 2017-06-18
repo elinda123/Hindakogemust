@@ -8,7 +8,7 @@
             }} > {{vm.place.name}}</h4>
     </div>
     <div class="modal-body">
-        <jhi-alert-error></jhi-alert-error>
+        <jhi-alert></jhi-alert>
         <div class="form-group" ng-show="vm.feedback.id">
             <label for="id" data-translate="global.field.id">ID</label>
             <input type="text" class="form-control" id="id" name="id"
@@ -64,14 +64,24 @@
                 class="btn btn-primary">
             <span class="glyphicon glyphicon-send"></span>&nbsp;<span data-translate="entity.action.send">Send</span>
         </button>
-    </div>
-    <div class="modal-body">
-        <h3><strong>Teiste hinnangud</strong></h3><br/>
-        <div ng-repeat="feedback in vm.feedbacks">
-            <p><strong>{{feedback.name}} ({{feedback.rating}}/10)</strong><br/>
-                {{feedback.comment}}
-            </p>
-            <br/>
+        <h3 class="text-left" ng-if="vm.feedbacks.length"><strong>Teiste hinnangud</strong></h3><br/>
+        <div class="text-left" ng-repeat="feedback in vm.feedbacks">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <div class="panel-title pull-left">
+                        <strong>{{feedback.name}} ({{feedback.rating}}/10)</strong>
+                    </div>
+                    <div class="panel-title pull-right">
+                        <button ng-if="vm.isAuthenticated()" ng-click="vm.deleteFeedback(feedback.id)" class="btn btn-danger btn-xs">
+                            <span class="glyphicon glyphicon-remove"></span>
+                        </button>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="panel-body">
+                    {{feedback.comment}}
+                </div>
+            </div>
         </div>
     </div>
 </form>
