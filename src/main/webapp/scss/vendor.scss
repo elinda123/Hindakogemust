@@ -12,7 +12,7 @@ tbody tr:hover {
 }
 
 form div.modal-body ul li i {
-   outline: none;
+    outline: none;
 }
 
 .loader {
@@ -25,6 +25,24 @@ form div.modal-body ul li i {
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media (min-width: 768px) {
+    .modal-dialog {
+        width: 450px;
+        margin: 30px auto;
+    }
+    .modal-content {
+        -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    }
+    .modal-sm {
+        width: 300px;
+    }
 }

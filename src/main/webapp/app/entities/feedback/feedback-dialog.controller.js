@@ -5,9 +5,11 @@
         .module('hindakogemustApp')
         .controller('FeedbackDialogController', FeedbackDialogController);
 
-    FeedbackDialogController.$inject = ['$timeout', '$scope', '$stateParams', '$uibModalInstance', 'DataUtils', 'entity', 'Feedback', 'Place'];
+    FeedbackDialogController.$inject = ['$timeout', '$scope', '$stateParams', '$uibModalInstance', 'DataUtils',
+        'entity', 'Feedback', 'Place', 'FeedbackByPlace'];
 
-    function FeedbackDialogController ($timeout, $scope, $stateParams, $uibModalInstance, DataUtils, entity, Feedback, Place) {
+    function FeedbackDialogController ($timeout, $scope, $stateParams, $uibModalInstance, DataUtils, entity, Feedback,
+                                       Place, FeedbackByPlace) {
         var vm = this;
 
         vm.feedback = entity;
@@ -16,7 +18,9 @@
         vm.openFile = DataUtils.openFile;
         vm.save = save;
         vm.places = Place.query();
-        vm.place =  Place.get({id : entity.place.id});
+        vm.place = Place.get({id : entity.place.id});
+
+        vm.feedbacks = FeedbackByPlace.get({id : entity.place.id});
 
         $timeout(function (){
             angular.element('.form-group:eq(1)>input').focus();

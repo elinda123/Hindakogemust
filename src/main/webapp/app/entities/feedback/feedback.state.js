@@ -129,7 +129,7 @@
                     templateUrl: 'app/entities/feedback/feedback-dialog.html',
                     controller: 'FeedbackDialogController',
                     controllerAs: 'vm',
-                    backdrop: 'static',
+                    windowClass: 'modal-window',
                     size: 'lg',
                     resolve: {
                         entity: function () {

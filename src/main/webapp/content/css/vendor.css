@@ -5832,10 +5832,20 @@ form div.modal-body ul li i {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  animation: spin 1.4s linear infinite; }
+  animation: spin 0.9s ease-in-out infinite; }
 
 @keyframes spin {
   0% {
     transform: rotate(0deg); }
   100% {
     transform: rotate(360deg); } }
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 450px;
+    margin: 30px auto; }
+  .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); }
+  .modal-sm {
+    width: 300px; } }

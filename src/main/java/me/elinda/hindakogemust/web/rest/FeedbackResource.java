@@ -148,4 +148,11 @@ public class FeedbackResource {
             .collect(Collectors.toList());
     }
 
+    @GetMapping("/place/{id}/feedback")
+    @Timed
+    public List<Feedback> getAllFeedbackByPlaceId(@PathVariable Long id) {
+        log.debug("REST request to get all feedback by place id : {}", id);
+        return feedbackRepository.findAllByPlaceId(id);
+    }
+
 }
