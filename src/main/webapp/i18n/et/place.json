@@ -11,7 +11,7 @@
             "updated": "Asutus on muudetud",
             "deleted": "Asutus '{{ param }}' on kustutatud",
             "delete": {
-                "question": "Kas olete kindel, et soovite kustutada asutust '{{ name }}'?"
+                "question": "Kas olete kindel, et soovite kustutada asutust \"{{ name }}\"?"
             },
             "detail": {
                 "title": "Asutus"
