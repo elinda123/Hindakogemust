@@ -95,7 +95,7 @@
             vm.transition();
         }
 
-       $scope.on('feedbackDeleted', function () {
+       $scope.$on('feedbackDeleted', function () {
            loadAll();
        })
     }
