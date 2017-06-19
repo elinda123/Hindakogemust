@@ -3,7 +3,9 @@ package me.elinda.hindakogemust.web.rest;
 import me.elinda.hindakogemust.HindakogemustApp;
 
 import me.elinda.hindakogemust.domain.Place;
+import me.elinda.hindakogemust.repository.FeedbackRepository;
 import me.elinda.hindakogemust.repository.PlaceRepository;
+import me.elinda.hindakogemust.repository.search.FeedbackSearchRepository;
 import me.elinda.hindakogemust.repository.search.PlaceSearchRepository;
 import me.elinda.hindakogemust.web.rest.errors.ExceptionTranslator;
 
@@ -76,10 +78,16 @@ public class PlaceResourceIntTest {
 
     private Place place;
 
+    @Autowired
+    FeedbackRepository feedbackRepository;
+
+    @Autowired
+    FeedbackSearchRepository feedbackSearchRepository;
+
     @Before
     public void setup() {
         MockitoAnnotations.initMocks(this);
-        PlaceResource placeResource = new PlaceResource(placeRepository, placeSearchRepository);
+        PlaceResource placeResource = new PlaceResource(placeRepository, placeSearchRepository, feedbackRepository, feedbackSearchRepository);
         this.restPlaceMockMvc = MockMvcBuilders.standaloneSetup(placeResource)
             .setCustomArgumentResolvers(pageableArgumentResolver)
             .setControllerAdvice(exceptionTranslator)

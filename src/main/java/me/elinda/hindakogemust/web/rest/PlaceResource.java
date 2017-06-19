@@ -3,7 +3,9 @@ package me.elinda.hindakogemust.web.rest;
 import com.codahale.metrics.annotation.Timed;
 import me.elinda.hindakogemust.domain.Place;
 
+import me.elinda.hindakogemust.repository.FeedbackRepository;
 import me.elinda.hindakogemust.repository.PlaceRepository;
+import me.elinda.hindakogemust.repository.search.FeedbackSearchRepository;
 import me.elinda.hindakogemust.repository.search.PlaceSearchRepository;
 import me.elinda.hindakogemust.security.AuthoritiesConstants;
 import me.elinda.hindakogemust.web.rest.util.HeaderUtil;
@@ -26,8 +28,6 @@ import java.net.URISyntaxException;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
-import java.util.stream.StreamSupport;
 
 import static org.elasticsearch.index.query.QueryBuilders.*;
 
@@ -46,9 +46,15 @@ public class PlaceResource {
 
     private final PlaceSearchRepository placeSearchRepository;
 
-    public PlaceResource(PlaceRepository placeRepository, PlaceSearchRepository placeSearchRepository) {
+    private FeedbackRepository feedbackRepository;
+
+    private FeedbackSearchRepository feedbackSearchRepository;
+
+    public PlaceResource(PlaceRepository placeRepository, PlaceSearchRepository placeSearchRepository, FeedbackRepository feedbackRepository, FeedbackSearchRepository feedbackSearchRepository) {
         this.placeRepository = placeRepository;
         this.placeSearchRepository = placeSearchRepository;
+        this.feedbackRepository = feedbackRepository;
+        this.feedbackSearchRepository = feedbackSearchRepository;
     }
 
     /**
@@ -137,6 +143,10 @@ public class PlaceResource {
     @Secured({AuthoritiesConstants.USER, AuthoritiesConstants.ADMIN})
     public ResponseEntity<Void> deletePlace(@PathVariable Long id) {
         log.debug("REST request to delete Place : {}", id);
+        feedbackRepository.findAllByPlaceId(id).forEach(f -> {
+            feedbackRepository.delete(f.getId());
+            feedbackSearchRepository.delete(f.getId());
+        });
         placeRepository.delete(id);
         placeSearchRepository.delete(id);
         return ResponseEntity.ok().headers(HeaderUtil.createEntityDeletionAlert(ENTITY_NAME, id.toString())).build();
