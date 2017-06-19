@@ -6,10 +6,10 @@
         .controller('FeedbackDialogController', FeedbackDialogController);
 
     FeedbackDialogController.$inject = ['$timeout', '$scope', '$uibModalInstance', 'DataUtils', 'entity', 'Feedback',
-        'Place', 'FeedbackByPlace', 'Principal'];
+        'Place', 'FeedbackByPlace', 'Principal', '$rootScope'];
 
     function FeedbackDialogController ($timeout, $scope, $uibModalInstance, DataUtils, entity, Feedback, Place,
-                                       FeedbackByPlace, Principal) {
+                                       FeedbackByPlace, Principal, $rootScope) {
         var vm = this;
 
         vm.feedback = entity;
@@ -53,6 +53,7 @@
         function deleteFeedback(id) {
             Feedback.delete({id: id}, function () {
                 vm.feedbacks = FeedbackByPlace.get({id : entity.place.id});
+                $rootScope.$broadcast('feedbackDeleted');
             });
         }
 

@@ -5,9 +5,11 @@
         .module('hindakogemustApp')
         .controller('PlaceController', PlaceController);
 
-    PlaceController.$inject = ['$state', 'Place', 'PlaceSearch', 'ParseLinks', 'AlertService', 'paginationConstants', 'pagingParams', 'Principal'];
+    PlaceController.$inject = ['$state', 'Place', 'PlaceSearch', 'ParseLinks', 'AlertService', 'paginationConstants',
+        'pagingParams', 'Principal', '$scope'];
 
-    function PlaceController($state, Place, PlaceSearch, ParseLinks, AlertService, paginationConstants, pagingParams, Principal) {
+    function PlaceController($state, Place, PlaceSearch, ParseLinks, AlertService, paginationConstants, pagingParams,
+                             Principal, $scope) {
 
         var vm = this;
 
@@ -92,5 +94,9 @@
             vm.currentSearch = null;
             vm.transition();
         }
+
+       $scope.on('feedbackDeleted', function () {
+           loadAll();
+       })
     }
 })();
