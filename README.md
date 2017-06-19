@@ -39,10 +39,22 @@ for i in range(500):
           str(randint(1, 10)) + ", " +
           str(randint(1, 23)) + ");")
 ```
+## Building for development
+
+To optimize the `Hindakogemust` application for production, run:
+
+    mvn package
+
+This will concatenate and minify the client CSS and JavaScript files. It will also modify `index.html` so it references these new files.
+To ensure everything worked, run:
+
+    java -jar target/*.war
+
+Then navigate to [http://localhost](http://localhost) in your browser.
 
 ## Building for production
 
-To optimize the Hindakogemust application for production, run:
+To optimize the `Hindakogemust` application for production, run:
 
     ./mvnw -Pprod clean package
 
