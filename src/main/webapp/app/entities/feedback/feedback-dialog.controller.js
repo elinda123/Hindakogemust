@@ -51,7 +51,7 @@
         }
 
         function deleteFeedback(id) {
-            Feedback.delete({id: id}, function () {
+            Feedback.delete({id: id}).$promise.then(function () {
                 vm.feedbacks = FeedbackByPlace.get({id : entity.place.id});
                 $rootScope.$broadcast('feedbackDeleted');
             });
