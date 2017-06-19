@@ -143,13 +143,14 @@ public class PlaceResource {
     @Secured({AuthoritiesConstants.USER, AuthoritiesConstants.ADMIN})
     public ResponseEntity<Void> deletePlace(@PathVariable Long id) {
         log.debug("REST request to delete Place : {}", id);
+        Place place = placeRepository.findOne(id);
         feedbackRepository.findAllByPlaceId(id).forEach(f -> {
             feedbackRepository.delete(f.getId());
             feedbackSearchRepository.delete(f.getId());
         });
         placeRepository.delete(id);
         placeSearchRepository.delete(id);
-        return ResponseEntity.ok().headers(HeaderUtil.createEntityDeletionAlert(ENTITY_NAME, id.toString())).build();
+        return ResponseEntity.ok().headers(HeaderUtil.createEntityDeletionAlert(ENTITY_NAME, place.getName())).build();
     }
 
     /**
